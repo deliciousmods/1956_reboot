@@ -1,0 +1,16 @@
+#####-----------------------------------------------------------> Mod by Sig "Greatexperiment" Altre
+
+technology_categories = {
+	maritime
+	cvl_tech
+	fighter_bomber
+	asw_tech
+	torpedo_equipment
+}
+
+technology_folders = {
+	etat_folder
+	etax_folder
+}
+
+#####-----------------------------------------------------------> End
