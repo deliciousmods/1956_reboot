@@ -1,7 +1,9 @@
-#####-----------------------------------------------------------> Mod by Sig "Greatexperiment" Altre
+#####-----> Infantry Techs by Greatexperiment <><> <><> <><> <><> <><>
 
 technologies = {
-	
+
+###---> Date Positioning - look into if this can be put in a script instead <><> <><> <><>
+
 	@1918 = 0
 	@1936 = 2
 	@1938 = 4
@@ -22,102 +24,77 @@ technologies = {
 	@1953 = 34
 	@1954 = 36
 	@1955 = 38
-
+	@1956 = 40
+	@1957 = 42
+	@1958 = 44
+	@1959 = 46
+	@1960 = 48
 	
-	##tibetan blood 
-	TIB_mountainous_people_tech = {
-	##add idea to make it visible??
-		research_cost = 1
+###---> Infantry <><> <><> <><>
 
-		# only from starting techs!!! #####
-		allow = {
-			always = no
+#-> 1918 Root Infantry <><>
+	r56_tech_infantry_weapons_0 = {
+	
+		start_year = 1918
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1918 }
 		}
-
-
-		#If you change these
-		#Change the custom tooltip too: TIB_montainous_people_effect
-		infantry = {
-			mountain = {
-				attack = 0.02
-				movement = 0.10
-			}
+		
+		path = {
+			leads_to_tech = r56_equip_infantry_weapons_1
+			research_cost_coeff = 1
+		}		
+		
+		categories = {
+			infantry_weapons
 		}
-	}	
-	infantry_weapons = {
 
 		enable_equipments = {
-			infantry_equipment_0
+			r56_equip_infantry_weapons_0
 		}
 		
 		enable_subunits = {
 			infantry
 		}
 		
-		path = {
-			leads_to_tech = infantry_weapons1
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = -1 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
-	infantry_weapons1 = {
 
-		enable_equipments = {
-			infantry_equipment_1
-		}
-				
-		path = {
-			leads_to_tech = infantry_weapons2
-			research_cost_coeff = 1
-		}		
+#-> 1936 Infantry Equipment <><>
+	r56_equip_infantry_weapons_1 = {
 
-		research_cost = 1.5
 		start_year = 1936
+		research_cost = 1.5
+		
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1936 }
 		}
 		
+		path = {
+			leads_to_tech = r56_equip_infantry_weapons_2
+			research_cost_coeff = 1
+		}		
+		
 		categories = {
 			infantry_weapons
+		}
+
+		enable_equipments = {
+			r56_equip_infantry_weapons_1
 		}
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 10
-				tag = CHI
-				
-				OR = {
-					date > "1937.1.1"
-					JAP = { is_ai = no }
-				}
-			}
-			
-			modifier = {
-				factor = 10
-				date > "1936.1.3"
-			}
 		}
 	}	
 	
-	infantry_weapons2 = {
+	infantry_weapons_2 = {
 
 		category_light_infantry = {
 			soft_attack = 0.05
