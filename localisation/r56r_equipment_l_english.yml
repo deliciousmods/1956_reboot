@@ -1,0 +1,38 @@
+﻿#####-----> Equipment Localization by Greatexperiment <><> <><> <><> <><> <><>
+
+l_english:
+ 
+###---> Infantry Techs <><> <><> <><>
+ r56_local_techtext_infantry_equip_group: "Collapse Me"
+
+#-> Infantry Guns <><>
+  r56_equip_infantry_guns_00: "1918 Infantry Guns Name"
+  r56_equip_infantry_guns_00_desc: "1918 Infantry Guns Desc"
+  
+   r56_equip_infantry_guns_01: "1936 Infantry Guns Name"
+   r56_equip_infantry_guns_01_desc: "1936 Infantry Guns Desc"
+   
+   r56_equip_infantry_guns_02: "1939 Infantry Guns Name"
+   r56_equip_infantry_guns_02_desc: "1939 Infantry Guns Desc"
+   
+   r56_equip_infantry_guns_03: "1942 Infantry Guns Name"
+   r56_equip_infantry_guns_03_desc: "1942 Infantry Guns Desc"
+   
+   r56_equip_infantry_guns_04: "1945 Infantry Guns Name"
+   r56_equip_infantry_guns_04_desc: "1945 Infantry Guns Desc"
+   
+   r56_equip_infantry_guns_05: "1948 Infantry Guns Name"
+   r56_equip_infantry_guns_05_desc: "1948 Infantry Guns Desc"
+   
+   r56_equip_infantry_guns_06: "1951 Infantry Guns Name"
+   r56_equip_infantry_guns_06_desc: "1951 Infantry Guns Desc"
+   
+   r56_equip_infantry_guns_07: "1954 Infantry Guns Name"
+   r56_equip_infantry_guns_07_desc: "1954 Infantry Guns Desc"
+   
+   r56_equip_infantry_guns_08: "1957 Infantry Guns Name"
+   r56_equip_infantry_guns_08_desc: "1957 Infantry Guns Desc"
+ 
+ 
+#####-----> End of File <><> <><> <><> <><> <><>
+

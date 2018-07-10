@@ -1,4 +1,5 @@
 #####-----> Infantry Techs by Greatexperiment <><> <><> <><> <><> <><>
+#####-----> Guide File - This is intended to be a reference for files of this type <><> <><> <><> <><> <><>
 
 technologies = {
 
@@ -6,34 +7,35 @@ technologies = {
 
 	@1918 = 0
 	@1936 = 2
+	@1937 = 3
 	@1938 = 4
 	@1939 = 6
-	@1940 = 8
-	@1941 = 10
-	@1942 = 12
-	@1943 = 14
-	@1944 = 16
-	@1945 = 18
-	@1946 = 20
-	@1947 = 22
-	@1948 = 24
-	@1949 = 26
-	@1950 = 28
-	@1951 = 30
-	@1952 = 32
-	@1953 = 34
-	@1954 = 36
-	@1955 = 38
-	@1956 = 40
-	@1957 = 42
-	@1958 = 44
-	@1959 = 46
-	@1960 = 48
+	@1940 = 7
+	@1941 = 8
+	@1942 = 10
+	@1943 = 11
+	@1944 = 12
+	@1945 = 14
+	@1946 = 22
+	@1947 = 24
+	@1948 = 26
+	@1949 = 28
+	@1950 = 30
+	@1951 = 32
+	@1952 = 34
+	@1953 = 36
+	@1954 = 38
+	@1955 = 40
+	@1956 = 42
+	@1957 = 44
+	@1958 = 46
+	@1959 = 48
+	@1960 = 50
 	
-###---> Infantry <><> <><> <><>
+###---> Infantry Guns <><> <><> <><>
 
-#-> 1918 Root Infantry <><>
-	r56_tech_infantry_weapons_0 = {
+#-> 1918 Root Infantry Guns <><>
+	r56_tech_infantry_guns_00 = {
 	
 		start_year = 1918
 		research_cost = 1.5
@@ -44,7 +46,12 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = r56_equip_infantry_weapons_1
+			leads_to_tech = r56_tech_infantry_experiments_01
+			research_cost_coeff = 1
+		}	
+
+		path = {
+			leads_to_tech = r56_tech_infantry_specialforces_01
 			research_cost_coeff = 1
 		}		
 		
@@ -53,7 +60,7 @@ technologies = {
 		}
 
 		enable_equipments = {
-			r56_equip_infantry_weapons_0
+			r56_equip_infantry_guns_00
 		}
 		
 		enable_subunits = {
@@ -65,19 +72,87 @@ technologies = {
 		}
 	}
 
-#-> 1936 Infantry Equipment <><>
-	r56_equip_infantry_weapons_1 = {
+#-> 1936 Infantry Guns <><>
+	r56_tech_infantry_guns_01 = {
 
 		start_year = 1936
 		research_cost = 1.5
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1936 }
+			position = { x = -3 y = @1936 }
 		}
 		
 		path = {
-			leads_to_tech = r56_equip_infantry_weapons_2
+			leads_to_tech = r56_tech_infantry_guns_02
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_marines_01
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_paratrooper_01
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_mountain_01
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_urban_01
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+
+		enable_equipments = {
+			r56_equip_infantry_guns_01
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	r56_tech_infantry_guns_02 = {
+
+		start_year = 1939
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -3 y = @1939 }
+		}
+
+		path = {
+			leads_to_tech = r56_tech_infantry_guns_03
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_marines_02
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_paratrooper_02
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_mountain_02
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_urban_02
 			research_cost_coeff = 1
 		}		
 		
@@ -86,15 +161,594 @@ technologies = {
 		}
 
 		enable_equipments = {
-			r56_equip_infantry_weapons_1
+			r56_equip_infantry_guns_02
 		}
 		
 		ai_will_do = {
 			factor = 1
 		}
+	}
+	
+###---> Infantry Experiments <><> <><> <><>
+	
+#-> 1936 Infantry Experiments <><>
+	r56_tech_infantry_experiments_01 = {
+
+		start_year = 1936
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -6 y = @1936 }
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_guns_01
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_experiments_02
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_machinegun_01
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_antitank_01
+			research_cost_coeff = 1
+		}		
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+#-> 1939 Infantry Experiments <><>
+	r56_tech_infantry_experiments_02 = {
+
+		start_year = 1939
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -6 y = @1939 }
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_guns_02
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_machinegun_02
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_antitank_02
+			research_cost_coeff = 1
+		}	
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+###---> Infantry Machine Guns <><> <><> <><>
+	
+#-> 1936 Machine Gun <><>
+	r56_tech_infantry_machinegun_01 = {
+
+		start_year = 1936
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -9 y = @1936 }
+		}		
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+#-> 1936 Machine Gun <><>
+	r56_tech_infantry_machinegun_02 = {
+
+		start_year = 1939
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -9 y = @1939 }
+		}	
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+###---> Infantry Anti-Tank <><> <><> <><>
+	
+#-> 1938 Anti-Tank <><>
+	r56_tech_infantry_antitank_01 = {
+
+		start_year = 1938
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -9 y = @1938 }
+		}	
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+#-> 1941 Anti-Tank <><>
+	r56_tech_infantry_antitank_02 = {
+
+		start_year = 1941
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -9 y = @1941 }
+		}		
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+###---> Infantry Special Forces <><> <><> <><>
+	
+#-> 1936 Special Forces <><>
+	r56_tech_infantry_specialforces_01 = {
+
+		start_year = 1936
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1936 }
+		}	
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_gearadapt_01
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+#-> 1939 Special Forces <><>
+	r56_tech_infantry_specialforces_02 = {
+
+		start_year = 1939
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1939 }
+		}	
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_gearadapt_02
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+###---> Infantry Special Forces Gear Adaptations <><> <><> <><>
+	
+#-> 1936 Special Forces <><>
+	r56_tech_infantry_gearadapt_01 = {
+
+		start_year = 1936
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = @1936 }
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_marines_01
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_paratrooper_01
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_mountain_01
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_urban_01
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+#-> 1939 Special Forces <><>
+	r56_tech_infantry_gearadapt_02 = {
+
+		start_year = 1939
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = @1939 }
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_marines_02
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_paratrooper_02
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_mountain_02
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_urban_02
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+###---> Infantry - Marine Specialization <><> <><> <><>
+	
+#-> 1938 Marine Infantry <><>
+	r56_tech_infantry_marines_01 = {
+
+		start_year = 1938
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1938 }
+		}
+
+		path = {
+			leads_to_tech = r56_tech_infantry_specialforces_02
+			research_cost_coeff = 1
+		}		
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+#-> 1931 Marine Infantry <><>
+	r56_tech_infantry_marines_02 = {
+
+		start_year = 1931
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1941 }
+		}
+
+		path = {
+			leads_to_tech = r56_tech_infantry_specialforces_03
+			research_cost_coeff = 1
+		}		
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+###---> Infantry - Paratrooper Specialization <><> <><> <><>
+	
+#-> 1938 Paratrooper Infantry <><>
+	r56_tech_infantry_paratrooper_01 = {
+
+		start_year = 1938
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = @1938 }
+		}	
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_specialforces_02
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#-> 1941 Paratrooper Infantry <><>
+	r56_tech_infantry_paratrooper_02 = {
+
+		start_year = 1941
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = @1941 }
+		}	
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_specialforces_03
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+###---> Infantry - Mountain Specialization <><> <><> <><>
+	
+#-> 1938 Mountain Infantry <><>
+	r56_tech_infantry_mountain_01 = {
+
+		start_year = 1938
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = @1938 }
+		}	
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_specialforces_02
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+#-> 1941 Mountain Infantry <><>
+	r56_tech_infantry_mountain_02 = {
+
+		start_year = 1941
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = @1941 }
+		}	
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_specialforces_03
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+###---> Infantry - Urban Specialization <><> <><> <><>
+	
+#-> 1938 Urban Infantry <><>
+	r56_tech_infantry_urban_01 = {
+
+		start_year = 1938
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = @1938 }
+		}	
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_specialforces_02
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+#-> 1941 Urban Infantry <><>
+	r56_tech_infantry_urban_02 = {
+
+		start_year = 1941
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = @1941 }
+		}	
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_specialforces_03
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+###------> Old Stuff to Prevent Crashes and errors - remove later <><> <><> <><> <><> <><>
+
+	infantry_weapons = {
+
+		enable_equipments = {
+			infantry_equipment_0
+		}
+		
+		enable_subunits = {
+			infantry
+		}
+		
+		path = {
+			leads_to_tech = infantry_weapons1
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = -1 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	infantry_weapons1 = {
+
+		enable_equipments = {
+			infantry_equipment_1
+		}
+				
+		path = {
+			leads_to_tech = infantry_weapons2
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1936 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 10
+				tag = CHI
+				
+				OR = {
+					date > "1937.1.1"
+					JAP = { is_ai = no }
+				}
+			}
+			
+			modifier = {
+				factor = 10
+				date > "1936.1.3"
+			}
+		}
 	}	
 	
-	infantry_weapons_2 = {
+	infantry_weapons2 = {
 
 		category_light_infantry = {
 			soft_attack = 0.05
@@ -3200,9 +3854,6 @@ jaegers = {
 			bicycle_battalion
 		}		
 	}
-	
-###------> X   <><> <><> <><> <><> <><>
 
-}
 
-#####-----------------------------------------------------------> End
+#####-----> End of File <><> <><> <><> <><> <><>

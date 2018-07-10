@@ -1,0 +1,155 @@
+#####-----> Infantry Equipment by Greatexperiment <><> <><> <><> <><> <><>
+#####-----> Guide File - This is intended to be a reference for files of this type <><> <><> <><> <><> <><>
+
+equipments = {
+
+	r56_equip_infantry_guns_00 = {
+		year = 1918
+		
+		type = infantry
+		
+		is_buildable = yes
+		is_archetype = yes
+		active = yes
+		
+		group_by = archetype	
+		interface_category = interface_category_land
+		
+		priority = 10
+		visual_level = 0
+		
+		upgrades = {
+		}
+	}
+
+	r56_equip_infantry_guns_01 = {
+		year = 1936 
+		
+		archetype = r56_equip_infantry_guns_00
+		parent = r56_equip_infantry_guns_00
+		
+		priority = 10
+		visual_level = 1
+		
+		is_convertable = yes
+		
+		can_convert_from = {
+			r56_equip_infantry_guns_00
+		}
+	}
+	
+	r56_equip_infantry_guns_02 = {
+		year = 1939 
+		
+		archetype = r56_equip_infantry_guns_00
+		parent = r56_equip_infantry_guns_01
+		
+		priority = 10
+		visual_level = 2
+		
+		is_convertable = yes
+		
+		can_convert_from = {
+			r56_equip_infantry_weapons_01
+		}
+	}
+	
+	r56_equip_infantry_guns_03 = {
+		year = 1942 
+		
+		archetype = r56_equip_infantry_guns_00
+		parent = r56_equip_infantry_guns_02
+		
+		priority = 10
+		visual_level = 3
+		
+		is_convertable = yes
+		
+		can_convert_from = {
+			r56_equip_infantry_weapons_02
+		}
+	}
+	
+	r56_equip_infantry_guns_04 = {
+		year = 1945 
+		
+		archetype = r56_equip_infantry_guns_00
+		parent = r56_equip_infantry_guns_03
+		
+		priority = 10
+		visual_level = 4
+		
+		is_convertable = yes
+		
+		can_convert_from = {
+			r56_equip_infantry_weapons_03
+		}
+	}
+	
+	r56_equip_infantry_guns_05 = {
+		year = 1948
+		
+		archetype = r56_equip_infantry_guns_00
+		parent = r56_equip_infantry_guns_04
+		
+		priority = 10
+		visual_level = 5
+		
+		is_convertable = yes
+		
+		can_convert_from = {
+			r56_equip_infantry_weapons_04
+		}
+	}
+	
+	r56_equip_infantry_guns_06 = {
+		year = 1951 
+		
+		archetype = r56_equip_infantry_guns_00
+		parent = r56_equip_infantry_guns_05
+		
+		priority = 10
+		visual_level = 6
+		
+		is_convertable = yes
+		
+		can_convert_from = {
+			r56_equip_infantry_weapons_05
+		}
+	}
+	
+	r56_equip_infantry_guns_07 = {
+		year = 1954 
+		
+		archetype = r56_equip_infantry_guns_00
+		parent = r56_equip_infantry_guns_06
+		
+		priority = 10
+		visual_level = 7
+		
+		is_convertable = yes
+		
+		can_convert_from = {
+			r56_equip_infantry_weapons_06
+		}
+	}
+	
+	r56_equip_infantry_guns_08 = {
+		year = 1957 
+		
+		archetype = r56_equip_infantry_guns_00
+		parent = r56_equip_infantry_guns_07
+		
+		priority = 10
+		visual_level = 8
+		
+		is_convertable = yes
+		
+		can_convert_from = {
+			r56_equip_infantry_weapons_07
+		}
+	}
+}
+
+
+#####-----> End of File <><> <><> <><> <><> <><>

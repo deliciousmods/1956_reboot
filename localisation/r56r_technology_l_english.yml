@@ -1,0 +1,14 @@
+﻿#####-----> Technology Localization by Greatexperiment <><> <><> <><> <><> <><>
+#####-----> Guide File - This is intended to be a reference for files of this type <><> <><> <><> <><> <><>
+
+l_english:
+ 
+###---> Infantry Techs <><> <><> <><>
+ r56_local_techtext_infantry_tech_group: "Collapse Me"
+   
+###---> Technology Tree Labels <><> <><> <><>
+ r56_techtreetext_subtitle_infantry_guns: "Infantry Weapons"
+ 
+ 
+#####-----> End of File <><> <><> <><> <><> <><>
+

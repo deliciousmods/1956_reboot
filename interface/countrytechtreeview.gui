@@ -1,4 +1,5 @@
 #####-----> Country Tech Tree View UI by Greatexperiment <><> <><> <><> <><> <><>
+#####-----> Guide File - This is intended to be a reference for files of this type <><> <><> <><> <><> <><>
 
 guiTypes = {
 
@@ -134,7 +135,7 @@ guiTypes = {
 #-> Year Text for Infantry Techs <><>
 			
 			instantTextBoxType = {
-				name = "r56_tabtext_infantry_year_0"
+				name = "r56_datetext_left_infantry_year_0"
 					
 				position = {
 					x = 25
@@ -147,7 +148,7 @@ guiTypes = {
 			}	
 			
 			instantTextBoxType = {
-				name = "r56_tabtext_infantry_year_1"
+				name = "r56_datetext_left_infantry_year_1"
 					
 				position = {
 					x = 25
@@ -158,25 +159,194 @@ guiTypes = {
 				text = "1936"
 				format = left
 			}
-
-#-> Label Text for Infantry Weapons <><>
+			
 			instantTextBoxType = {
-				name = "r56_techtitle_infantry_weapons"
+				name = "r56_datetext_left_infantry_year_2"
 					
 				position = {
-					x = 750
+					x = 25
+					y = 260
+				}
+					
+				font = "hoi_36header"
+				text = "1936"
+				format = left
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_left_infantry_year_3"
+					
+				position = {
+					x = 25
+					y = 410
+				}
+					
+				font = "hoi_36header"
+				text = "1938"
+				format = left
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_left_infantry_year_4"
+					
+				position = {
+					x = 25
+					y = 560
+				}
+					
+				font = "hoi_36header"
+				text = "1940"
+				format = left
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_left_infantry_year_5"
+					
+				position = {
+					x = 25
+					y = 710
+				}
+					
+				font = "hoi_36header"
+				text = "1942"
+				format = left
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_left_infantry_year_6"
+					
+				position = {
+					x = 25
+					y = 860
+				}
+					
+				font = "hoi_36header"
+				text = "1944"
+				format = left
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_left_infantry_year_7"
+					
+				position = {
+					x = 25
+					y = 1010
+				}
+					
+				font = "hoi_36header"
+				text = "1946"
+				format = left
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_left_infantry_year_8"
+					
+				position = {
+					x = 25
+					y = 1160
+				}
+					
+				font = "hoi_36header"
+				text = "1948"
+				format = left
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_left_infantry_year_9"
+					
+				position = {
+					x = 25
+					y = 1310
+				}
+					
+				font = "hoi_36header"
+				text = "1950"
+				format = left
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_left_infantry_year_10"
+					
+				position = {
+					x = 25
+					y = 1460
+				}
+					
+				font = "hoi_36header"
+				text = "1952"
+				format = left
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_left_infantry_year_11"
+					
+				position = {
+					x = 25
+					y = 1610
+				}
+					
+				font = "hoi_36header"
+				text = "1954"
+				format = left
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_left_infantry_year_12"
+					
+				position = {
+					x = 25
+					y = 1760
+				}
+					
+				font = "hoi_36header"
+				text = "1956"
+				format = left
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_left_infantry_year_13"
+					
+				position = {
+					x = 25
+					y = 1910
+				}
+					
+				font = "hoi_36header"
+				text = "1958"
+				format = left
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_left_infantry_year_14"
+					
+				position = {
+					x = 25
+					y = 2060
+				}
+					
+				font = "hoi_36header"
+				text = "1960"
+				format = left
+			}
+
+#-> Label Text for Infantry Guns <><>
+			instantTextBoxType = {
+				name = "r56_techtreetext_infantry_guns"
+					
+				position = {
+					x = 835
 					y = 25
 				}
 				
 				font = "hoi_33"
-				text = "r56_subtitle_infantry_weapons"
+				text = "r56_techtreetext_subtitle_infantry_guns"
 				maxWidth = 500
 				format = left
 			}
 
 #-> Infantry Tech Root Placement <><>
 			gridboxtype = {
-				name = "r56_tech_infantry_weapons_0_tree"
+				name = "r56_tech_infantry_guns_00_tree"
 				
 				position = {
 					x = 950
