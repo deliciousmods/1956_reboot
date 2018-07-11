@@ -4,7 +4,7 @@
 equipments = {
 
 	r56_equip_infantry_guns_00 = {
-		year = 1918
+		year = 1910
 		
 		type = infantry
 		
@@ -23,7 +23,7 @@ equipments = {
 	}
 
 	r56_equip_infantry_guns_01 = {
-		year = 1936 
+		year = 1918 
 		
 		archetype = r56_equip_infantry_guns_00
 		parent = r56_equip_infantry_guns_00
@@ -39,7 +39,7 @@ equipments = {
 	}
 	
 	r56_equip_infantry_guns_02 = {
-		year = 1939 
+		year = 1936 
 		
 		archetype = r56_equip_infantry_guns_00
 		parent = r56_equip_infantry_guns_01
@@ -55,7 +55,7 @@ equipments = {
 	}
 	
 	r56_equip_infantry_guns_03 = {
-		year = 1942 
+		year = 1939 
 		
 		archetype = r56_equip_infantry_guns_00
 		parent = r56_equip_infantry_guns_02
@@ -71,7 +71,7 @@ equipments = {
 	}
 	
 	r56_equip_infantry_guns_04 = {
-		year = 1945 
+		year = 1942
 		
 		archetype = r56_equip_infantry_guns_00
 		parent = r56_equip_infantry_guns_03
@@ -87,7 +87,7 @@ equipments = {
 	}
 	
 	r56_equip_infantry_guns_05 = {
-		year = 1948
+		year = 1945
 		
 		archetype = r56_equip_infantry_guns_00
 		parent = r56_equip_infantry_guns_04
@@ -103,7 +103,7 @@ equipments = {
 	}
 	
 	r56_equip_infantry_guns_06 = {
-		year = 1951 
+		year = 1948 
 		
 		archetype = r56_equip_infantry_guns_00
 		parent = r56_equip_infantry_guns_05
@@ -119,7 +119,7 @@ equipments = {
 	}
 	
 	r56_equip_infantry_guns_07 = {
-		year = 1954 
+		year = 1951 
 		
 		archetype = r56_equip_infantry_guns_00
 		parent = r56_equip_infantry_guns_06
@@ -135,7 +135,7 @@ equipments = {
 	}
 	
 	r56_equip_infantry_guns_08 = {
-		year = 1957 
+		year = 1944 
 		
 		archetype = r56_equip_infantry_guns_00
 		parent = r56_equip_infantry_guns_07
@@ -147,6 +147,22 @@ equipments = {
 		
 		can_convert_from = {
 			r56_equip_infantry_weapons_07
+		}
+	}
+	
+	r56_equip_infantry_guns_09 = {
+		year = 1957 
+		
+		archetype = r56_equip_infantry_guns_00
+		parent = r56_equip_infantry_guns_08
+		
+		priority = 10
+		visual_level = 9
+		
+		is_convertable = yes
+		
+		can_convert_from = {
+			r56_equip_infantry_weapons_08
 		}
 	}
 }

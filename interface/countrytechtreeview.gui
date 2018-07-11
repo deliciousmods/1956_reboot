@@ -165,11 +165,11 @@ guiTypes = {
 					
 				position = {
 					x = 25
-					y = 260
+					y = 400
 				}
 					
 				font = "hoi_36header"
-				text = "1936"
+				text = "1937"
 				format = left
 			}
 			
@@ -178,7 +178,7 @@ guiTypes = {
 					
 				position = {
 					x = 25
-					y = 410
+					y = 540
 				}
 					
 				font = "hoi_36header"
@@ -191,11 +191,11 @@ guiTypes = {
 					
 				position = {
 					x = 25
-					y = 560
+					y = 680
 				}
 					
 				font = "hoi_36header"
-				text = "1940"
+				text = "1939"
 				format = left
 			}
 			
@@ -204,11 +204,11 @@ guiTypes = {
 					
 				position = {
 					x = 25
-					y = 710
+					y = 820
 				}
 					
 				font = "hoi_36header"
-				text = "1942"
+				text = "1940"
 				format = left
 			}
 			
@@ -217,11 +217,11 @@ guiTypes = {
 					
 				position = {
 					x = 25
-					y = 860
+					y = 960
 				}
 					
 				font = "hoi_36header"
-				text = "1944"
+				text = "1941"
 				format = left
 			}
 			
@@ -230,11 +230,11 @@ guiTypes = {
 					
 				position = {
 					x = 25
-					y = 1010
+					y = 1100
 				}
 					
 				font = "hoi_36header"
-				text = "1946"
+				text = "1942"
 				format = left
 			}
 			
@@ -243,11 +243,11 @@ guiTypes = {
 					
 				position = {
 					x = 25
-					y = 1160
+					y = 1240
 				}
 					
 				font = "hoi_36header"
-				text = "1948"
+				text = "1943"
 				format = left
 			}
 			
@@ -256,11 +256,11 @@ guiTypes = {
 					
 				position = {
 					x = 25
-					y = 1310
+					y = 1380
 				}
 					
 				font = "hoi_36header"
-				text = "1950"
+				text = "1944"
 				format = left
 			}
 			
@@ -269,11 +269,11 @@ guiTypes = {
 					
 				position = {
 					x = 25
-					y = 1460
+					y = 1520
 				}
 					
 				font = "hoi_36header"
-				text = "1952"
+				text = "1945"
 				format = left
 			}
 			
@@ -282,11 +282,11 @@ guiTypes = {
 					
 				position = {
 					x = 25
-					y = 1610
+					y = 1660
 				}
 					
 				font = "hoi_36header"
-				text = "1954"
+				text = "1946"
 				format = left
 			}
 			
@@ -295,11 +295,11 @@ guiTypes = {
 					
 				position = {
 					x = 25
-					y = 1760
+					y = 1800
 				}
 					
 				font = "hoi_36header"
-				text = "1956"
+				text = "1947"
 				format = left
 			}
 			
@@ -308,11 +308,11 @@ guiTypes = {
 					
 				position = {
 					x = 25
-					y = 1910
+					y = 1940
 				}
 					
 				font = "hoi_36header"
-				text = "1958"
+				text = "1949"
 				format = left
 			}
 			
@@ -321,11 +321,11 @@ guiTypes = {
 					
 				position = {
 					x = 25
-					y = 2060
+					y = 2080
 				}
 					
 				font = "hoi_36header"
-				text = "1960"
+				text = "1950"
 				format = left
 			}
 
@@ -334,7 +334,7 @@ guiTypes = {
 				name = "r56_techtreetext_infantry_guns"
 					
 				position = {
-					x = 835
+					x = 770
 					y = 25
 				}
 				
@@ -346,7 +346,7 @@ guiTypes = {
 
 #-> Infantry Tech Root Placement <><>
 			gridboxtype = {
-				name = "r56_tech_infantry_guns_00_tree"
+				name = "r56_tech_infantry_guns_root_tree"
 				
 				position = {
 					x = 950

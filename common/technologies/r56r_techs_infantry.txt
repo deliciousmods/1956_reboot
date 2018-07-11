@@ -3,46 +3,48 @@
 
 technologies = {
 
-###---> Date Positioning - look into if this can be put in a script instead <><> <><> <><>
+###---> Date Positioning - Remove when old code is tossed <><> <><> <><>
 
 	@1918 = 0
-	@1936 = 2
-	@1937 = 3
-	@1938 = 4
-	@1939 = 6
-	@1940 = 7
-	@1941 = 8
+	@1921 = 1
+	@1927 = 2
+	@1936 = 3
+	@1937 = 4
+	@1938 = 5
+	@1939 = 7
+	@1940 = 8
+	@1941 = 9
 	@1942 = 10
 	@1943 = 11
 	@1944 = 12
-	@1945 = 14
-	@1946 = 22
-	@1947 = 24
-	@1948 = 26
-	@1949 = 28
-	@1950 = 30
-	@1951 = 32
-	@1952 = 34
-	@1953 = 36
-	@1954 = 38
-	@1955 = 40
-	@1956 = 42
-	@1957 = 44
-	@1958 = 46
-	@1959 = 48
-	@1960 = 50
+	@1945 = 13
+	@1946 = 14
+	@1947 = 15
+	@1948 = 16
+	@1949 = 17
+	@1950 = 18
+	@1951 = 19
+	@1952 = 20
+	@1953 = 21
+	@1954 = 22
+	@1955 = 23
+	@1956 = 24
+	@1957 = 25
+	@1958 = 26
+	@1959 = 27
+	@1960 = 28
 	
 ###---> Infantry Guns <><> <><> <><>
 
 #-> 1918 Root Infantry Guns <><>
-	r56_tech_infantry_guns_00 = {
+	r56_tech_infantry_guns_root = {
 	
 		start_year = 1918
 		research_cost = 1.5
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1918 }
+			position = { x = -1 y = 0 }
 		}
 		
 		path = {
@@ -60,7 +62,7 @@ technologies = {
 		}
 
 		enable_equipments = {
-			r56_equip_infantry_guns_00
+			r56_equip_infantry_guns_01
 		}
 		
 		enable_subunits = {
@@ -80,12 +82,12 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -3 y = @1936 }
+			position = { x = -1 y = 3 }
 		}
 		
-		path = {
-			leads_to_tech = r56_tech_infantry_guns_02
-			research_cost_coeff = 1
+		dependencies = {
+			r56_tech_infantry_guns_root = 1
+
 		}
 		
 		path = {
@@ -121,6 +123,8 @@ technologies = {
 		}
 	}
 	
+
+#-> 1939 Infantry Guns <><>
 	r56_tech_infantry_guns_02 = {
 
 		start_year = 1939
@@ -128,12 +132,11 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -3 y = @1939 }
+			position = { x = -1 y = 7 }
 		}
-
-		path = {
-			leads_to_tech = r56_tech_infantry_guns_03
-			research_cost_coeff = 1
+		
+		dependencies = {
+			r56_tech_infantry_guns_01 = 1
 		}
 		
 		path = {
@@ -171,15 +174,15 @@ technologies = {
 	
 ###---> Infantry Experiments <><> <><> <><>
 	
-#-> 1936 Infantry Experiments <><>
+#-> 1935 Infantry Experiments <><>
 	r56_tech_infantry_experiments_01 = {
 
-		start_year = 1936
+		start_year = 1935
 		research_cost = 1.5
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -6 y = @1936 }
+			position = { x = -8 y = 2 }
 		}
 		
 		path = {
@@ -211,19 +214,24 @@ technologies = {
 		}
 	}
 	
-#-> 1939 Infantry Experiments <><>
+#-> 1938 Infantry Experiments <><>
 	r56_tech_infantry_experiments_02 = {
 
-		start_year = 1939
+		start_year = 1938
 		research_cost = 1.5
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -6 y = @1939 }
+			position = { x = -8 y = 6 }
 		}
 		
 		path = {
 			leads_to_tech = r56_tech_infantry_guns_02
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_experiments_03
 			research_cost_coeff = 1
 		}
 		
@@ -248,15 +256,15 @@ technologies = {
 	
 ###---> Infantry Machine Guns <><> <><> <><>
 	
-#-> 1936 Machine Gun <><>
+#-> 1937 Machine Gun <><>
 	r56_tech_infantry_machinegun_01 = {
 
-		start_year = 1936
+		start_year = 1937
 		research_cost = 1.5
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -9 y = @1936 }
+			position = { x = -6 y = 4 }
 		}		
 		
 		categories = {
@@ -268,15 +276,15 @@ technologies = {
 		}
 	}
 	
-#-> 1936 Machine Gun <><>
+#-> 1940 Machine Gun <><>
 	r56_tech_infantry_machinegun_02 = {
 
-		start_year = 1939
+		start_year = 1940
 		research_cost = 1.5
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -9 y = @1939 }
+			position = { x = -6 y = 8 }
 		}	
 		
 		categories = {
@@ -290,15 +298,15 @@ technologies = {
 	
 ###---> Infantry Anti-Tank <><> <><> <><>
 	
-#-> 1938 Anti-Tank <><>
+#-> 1937 Anti-Tank <><>
 	r56_tech_infantry_antitank_01 = {
 
-		start_year = 1938
+		start_year = 1937
 		research_cost = 1.5
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -9 y = @1938 }
+			position = { x = -4 y = 4 }
 		}	
 		
 		categories = {
@@ -311,15 +319,15 @@ technologies = {
 	}
 	
 	
-#-> 1941 Anti-Tank <><>
+#-> 1940 Anti-Tank <><>
 	r56_tech_infantry_antitank_02 = {
 
-		start_year = 1941
+		start_year = 1940
 		research_cost = 1.5
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -9 y = @1941 }
+			position = { x = -4 y = 8 }
 		}		
 		
 		categories = {
@@ -341,7 +349,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1936 }
+			position = { x = 3 y = 3 }
 		}	
 		
 		path = {
@@ -366,7 +374,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1939 }
+			position = { x = 3 y = 7 }
 		}	
 		
 		path = {
@@ -393,7 +401,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = @1936 }
+			position = { x = 6 y = 3 }
 		}
 		
 		path = {
@@ -433,7 +441,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = @1939 }
+			position = { x = 6 y = 7 }
 		}
 		
 		path = {
@@ -475,7 +483,12 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1938 }
+			position = { x = 3 y = 5 }
+		}
+		
+		dependencies = {
+			r56_tech_infantry_guns_root = 1
+			r56_tech_infantry_gearadapt_01 = 1
 		}
 
 		path = {
@@ -492,15 +505,20 @@ technologies = {
 		}
 	}
 	
-#-> 1931 Marine Infantry <><>
+#-> 1941 Marine Infantry <><>
 	r56_tech_infantry_marines_02 = {
 
-		start_year = 1931
+		start_year = 1941
 		research_cost = 1.5
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1941 }
+			position = { x = 3 y = 9 }
+		}
+		
+		dependencies = {
+			r56_tech_infantry_guns_01 = 1
+			r56_tech_infantry_gearadapt_02 = 1
 		}
 
 		path = {
@@ -527,8 +545,13 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1938 }
+			position = { x = 5 y = 5 }
 		}	
+
+		dependencies = {
+			r56_tech_infantry_guns_root = 1
+			r56_tech_infantry_gearadapt_01 = 1
+		}
 		
 		path = {
 			leads_to_tech = r56_tech_infantry_specialforces_02
@@ -552,8 +575,13 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1941 }
+			position = { x = 5 y = 9 }
 		}	
+		
+		dependencies = {
+			r56_tech_infantry_guns_01 = 1
+			r56_tech_infantry_gearadapt_02 = 1
+		}
 		
 		path = {
 			leads_to_tech = r56_tech_infantry_specialforces_03
@@ -579,8 +607,13 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 6 y = @1938 }
+			position = { x = 7 y = 5 }
 		}	
+		
+		dependencies = {
+			r56_tech_infantry_guns_root = 1
+			r56_tech_infantry_gearadapt_01 = 1
+		}
 		
 		path = {
 			leads_to_tech = r56_tech_infantry_specialforces_02
@@ -604,12 +637,17 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 6 y = @1941 }
+			position = { x = 7 y = 9 }
 		}	
 		
 		path = {
 			leads_to_tech = r56_tech_infantry_specialforces_03
 			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			r56_tech_infantry_guns_01 = 1
+			r56_tech_infantry_gearadapt_02 = 1
 		}
 		
 		categories = {
@@ -631,8 +669,13 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = @1938 }
+			position = { x = 9 y = 5 }
 		}	
+		
+		dependencies = {
+			r56_tech_infantry_guns_root = 1
+			r56_tech_infantry_gearadapt_01 = 1
+		}
 		
 		path = {
 			leads_to_tech = r56_tech_infantry_specialforces_02
@@ -656,8 +699,13 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = @1941 }
+			position = { x = 9 y = 9 }
 		}	
+		
+		dependencies = {
+			r56_tech_infantry_guns_01 = 1
+			r56_tech_infantry_gearadapt_02 = 1
+		}
 		
 		path = {
 			leads_to_tech = r56_tech_infantry_specialforces_03
@@ -3854,6 +3902,7 @@ jaegers = {
 			bicycle_battalion
 		}		
 	}
+}
 
 
 #####-----> End of File <><> <><> <><> <><> <><>
