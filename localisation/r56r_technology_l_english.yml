@@ -31,30 +31,30 @@ l_english:
    r56_tech_infantry_experiments_08: "1956 Infantry Experiments"
    r56_tech_infantry_experiments_08_desc: "1956 Infantry Experiments Desc"
    
-#-> Infantry Machine Guns <><>
-  r56_tech_infantry_machinegun_01: "1937 Infantry Machine Gun Name"
-  r56_tech_infantry_machinegun_01_desc: "1937 Infantry Machine Gun Desc"
+#-> Infantry Support Weapons <><>
+  r56_tech_infantry_machinegun_01: "1937 Infantry Support Weapons Name"
+  r56_tech_infantry_machinegun_01_desc: "1937 Infantry Support Weapons Desc"
   
-   r56_tech_infantry_machinegun_02: "1940 Infantry Machine Gun"
-   r56_tech_infantry_machinegun_02_desc: "1940 Infantry Machine Gun Desc"
+   r56_tech_infantry_machinegun_02: "1940 Infantry Support Weapons"
+   r56_tech_infantry_machinegun_02_desc: "1940 Infantry Support Weapons Desc"
 
-   r56_tech_infantry_machinegun_03: "1943 Infantry Machine Gun"
-   r56_tech_infantry_machinegun_03_desc: "1943 Infantry Machine Gun Desc"
+   r56_tech_infantry_machinegun_03: "1943 Infantry Support Weapons"
+   r56_tech_infantry_machinegun_03_desc: "1943 Infantry Support Weapons Desc"
    
-   r56_tech_infantry_machinegun_04: "1946 Infantry Machine Gun"
-   r56_tech_infantry_machinegun_04_desc: "1946 Infantry Machine Gun Desc"
+   r56_tech_infantry_machinegun_04: "1946 Infantry Support Weapons"
+   r56_tech_infantry_machinegun_04_desc: "1946 Infantry Support Weapons Desc"
    
-   r56_tech_infantry_machinegun_05: "1949 Infantry Machine Gun"
-   r56_tech_infantry_machinegun_05_desc: "1949 Infantry Machine Gun Desc"
+   r56_tech_infantry_machinegun_05: "1949 Infantry Support Weapons"
+   r56_tech_infantry_machinegun_05_desc: "1949 Infantry Support Weapons Desc"
    
-   r56_tech_infantry_machinegun_06: "1952 Infantry Machine Gun"
-   r56_tech_infantry_machinegun_06_desc: "1952 Infantry Machine Gun Desc"
+   r56_tech_infantry_machinegun_06: "1952 Infantry Support Weapons"
+   r56_tech_infantry_machinegun_06_desc: "1952 Infantry Support Weapons Desc"
    
-   r56_tech_infantry_machinegun_07: "1955 Infantry Machine Gun"
-   r56_tech_infantry_machinegun_07_desc: "1955 Infantry Machine Gun Desc"
+   r56_tech_infantry_machinegun_07: "1955 Infantry Support Weapons"
+   r56_tech_infantry_machinegun_07_desc: "1955 Infantry Support Weapons Desc"
    
-   r56_tech_infantry_machinegun_08: "1958 Infantry Machine Gun"
-   r56_tech_infantry_machinegun_08_desc: "1958 Infantry Machine Gun Desc"
+   r56_tech_infantry_machinegun_08: "1958 Infantry Support Weapons"
+   r56_tech_infantry_machinegun_08_desc: "1958 Infantry Support Weapons Desc"
    
 #-> Infantry Anti-Tank <><>
   r56_tech_infantry_antitank_01: "1937 Infantry Anti-Tank Name"
@@ -80,6 +80,31 @@ l_english:
    
    r56_tech_infantry_antitank_08: "1958 Infantry Anti-Tank"
    r56_tech_infantry_antitank_08_desc: "1958 Infantry Anti-Tank Desc"
+   
+ #-> Infantry Night Visions <><>
+  r56_tech_infantry_nightvision_01: "1937 Infantry Night Vision Name"
+  r56_tech_infantry_nightvision_01_desc: "1937 Infantry Night Vision Desc"
+  
+   r56_tech_infantry_nightvision_02: "1940 Infantry Night Vision"
+   r56_tech_infantry_nightvision_02_desc: "1940 Infantry Night Vision Desc"
+
+   r56_tech_infantry_nightvision_03: "1943 Infantry Night Vision"
+   r56_tech_infantry_nightvision_03_desc: "1943 Infantry Night Vision Desc"
+   
+   r56_tech_infantry_nightvision_04: "1946 Infantry Night Vision"
+   r56_tech_infantry_nightvision_04_desc: "1946 Infantry Night Vision Desc"
+   
+   r56_tech_infantry_nightvision_05: "1949 Infantry Night Vision"
+   r56_tech_infantry_nightvision_05_desc: "1949 Infantry Night Vision Desc"
+   
+   r56_tech_infantry_nightvision_06: "1952 Infantry Night Vision"
+   r56_tech_infantry_nightvision_06_desc: "1952 Infantry Night Vision Desc"
+   
+   r56_tech_infantry_nightvision_07: "1955 Infantry Night Vision"
+   r56_tech_infantry_nightvision_07_desc: "1955 Infantry Night Vision Desc"
+   
+   r56_tech_infantry_nightvision_08: "1958 Infantry Night Vision"
+   r56_tech_infantry_nightvision_08_desc: "1958 Infantry Night Vision Desc"
    
 #-> Infantry Special Forces <><>
   r56_tech_infantry_specialforces_01: "1936 Infantry Special Forces Name"

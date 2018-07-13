@@ -72,6 +72,13 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
 	}
 
 #-> 1936 Infantry Guns <><>
@@ -120,6 +127,13 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
 		}
 	}
 	
@@ -170,6 +184,13 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
 	}
 	
 ###---> Infantry Experiments <><> <><> <><>
@@ -196,12 +217,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = r56_tech_infantry_machinegun_01
-			research_cost_coeff = 1
-		}
-		
-		path = {
-			leads_to_tech = r56_tech_infantry_antitank_01
+			leads_to_tech = r56_tech_infantry_supportwp_01
 			research_cost_coeff = 1
 		}		
 		
@@ -211,6 +227,29 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+		}
+		
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		cavalry = {
+			soft_attack = 0.1
+		}		
+
+		motorized = {
+			soft_attack = 0.1
+		}
+		
+		mechanized = {
+			soft_attack = 0.1
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
 		}
 	}
 	
@@ -236,12 +275,12 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = r56_tech_infantry_machinegun_02
+			leads_to_tech = r56_tech_infantry_supportwp_02
 			research_cost_coeff = 1
 		}
 		
 		path = {
-			leads_to_tech = r56_tech_infantry_antitank_02
+			leads_to_tech = r56_tech_infantry_antitank_01
 			research_cost_coeff = 1
 		}	
 		
@@ -252,19 +291,42 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		cavalry = {
+			soft_attack = 0.1
+		}		
+
+		motorized = {
+			soft_attack = 0.1
+		}
+		
+		mechanized = {
+			soft_attack = 0.1
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
 	}
 	
-###---> Infantry Machine Guns <><> <><> <><>
+###---> Infantry Support Weapons <><> <><> <><>
 	
-#-> 1937 Machine Gun <><>
-	r56_tech_infantry_machinegun_01 = {
+#-> 1937 Support Weapons <><>
+	r56_tech_infantry_supportwp_01 = {
 
 		start_year = 1937
 		research_cost = 1.5
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -6 y = 4 }
+			position = { x = -5 y = 4 }
 		}		
 		
 		categories = {
@@ -274,10 +336,42 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+		infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}	
+		
+		mountaineers = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+		paratrooper = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+
+		shocktroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
 	}
 	
-#-> 1940 Machine Gun <><>
-	r56_tech_infantry_machinegun_02 = {
+#-> 1940 Support Weapons <><>
+	r56_tech_infantry_supportwp_02 = {
 
 		start_year = 1940
 		research_cost = 1.5
@@ -294,6 +388,38 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+		infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}	
+		
+		mountaineers = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+		paratrooper = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+
+		shocktroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
 	}
 	
 ###---> Infantry Anti-Tank <><> <><> <><>
@@ -301,12 +427,12 @@ technologies = {
 #-> 1937 Anti-Tank <><>
 	r56_tech_infantry_antitank_01 = {
 
-		start_year = 1937
+		start_year = 1940
 		research_cost = 1.5
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -4 y = 4 }
+			position = { x = -4 y = 8 }
 		}	
 		
 		categories = {
@@ -316,18 +442,30 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+		category_all_infantry = {
+			hard_attack = 0.25
+			ap_attack = 1
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
 	}
 	
 	
 #-> 1940 Anti-Tank <><>
 	r56_tech_infantry_antitank_02 = {
 
-		start_year = 1940
+		start_year = 1943
 		research_cost = 1.5
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -4 y = 8 }
+			position = { x = -4 y = 6 }
 		}		
 		
 		categories = {
@@ -336,6 +474,18 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+		}
+		
+		category_all_infantry = {
+			hard_attack = 0.25
+			ap_attack = 1
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
 		}
 	}
 	
@@ -364,6 +514,19 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+		category_special_forces = {
+			max_organisation = 5
+			defense = 0.05
+			soft_attack = 0.03
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
 	}
 	
 #-> 1939 Special Forces <><>
@@ -388,6 +551,17 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+		}
+		
+		special_forces_training_time_factor = 0.1
+		special_forces_cap = 0.05
+		special_forces_no_supply_grace = 24
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
 		}
 	}
 	
@@ -428,8 +602,21 @@ technologies = {
 			infantry_weapons
 		}
 		
+		category_light_infantry = {
+			acclimatization_cold_climate_gain_factor = 0.05
+			acclimatization_hot_climate_gain_factor = 0.05
+			default_morale = 0.1
+		}
+		
 		ai_will_do = {
 			factor = 1
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
 		}
 	}
 	
@@ -471,6 +658,19 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+		category_light_infantry = {
+			acclimatization_cold_climate_gain_factor = 0.05
+			acclimatization_hot_climate_gain_factor = 0.05
+			default_morale = 0.1
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
 	}
 	
 ###---> Infantry - Marine Specialization <><> <><> <><>
@@ -503,6 +703,29 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+		enable_subunits = {
+			marine
+		}
+		
+		on_research_complete = {
+			limit = {
+				NOT = {
+					has_template_containing_unit = marine
+				}
+			}
+			hidden_effect = {
+				load_oob = "unlock_marines"
+			}			
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
 	}
 	
 #-> 1941 Marine Infantry <><>
@@ -532,6 +755,18 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+		}
+		
+		marine = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
 		}
 	}
 	
@@ -565,6 +800,29 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+
+		enable_subunits = {
+			paratrooper
+		}
+		
+		on_research_complete = {
+			limit = {
+				NOT = {
+					has_template_containing_unit = paratrooper
+				}
+			}
+			hidden_effect = {
+				load_oob = "unlock_paratroopers"
+			}
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
 	}
 
 #-> 1941 Paratrooper Infantry <><>
@@ -594,6 +852,18 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+		}
+		
+		paratrooper = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
 		}
 	}
 	
@@ -627,6 +897,29 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+		enable_subunits = {
+			mountaineers
+		}
+
+		on_research_complete = {
+			limit = {
+				NOT = {
+					has_template_containing_unit = mountaineers
+				}
+			}
+			hidden_effect = {
+				load_oob = "unlock_mountaineers"
+			}
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
 	}
 	
 #-> 1941 Mountain Infantry <><>
@@ -656,6 +949,18 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+		}
+		
+		mountaineers = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
 		}
 	}
 	
@@ -689,6 +994,29 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+	
+		enable_subunits = {
+			shocktroop
+		}
+		
+		on_research_complete = {
+			limit = {
+				NOT = {
+					has_template_containing_unit = shocktroop
+				}
+			}
+			hidden_effect = {
+				load_oob = "unlock_urbantroop"
+			}			
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
 	}
 	
 #-> 1941 Urban Infantry <><>
@@ -718,6 +1046,18 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+		}
+		
+		shocktroop = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
 		}
 	}
 	
