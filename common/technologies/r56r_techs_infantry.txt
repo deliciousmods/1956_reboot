@@ -112,11 +112,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		path = {
-			leads_to_tech = r56_tech_infantry_urban_01
-			research_cost_coeff = 1
-		}
-		
 		categories = {
 			infantry_weapons
 		}
@@ -169,7 +164,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = r56_tech_infantry_urban_02
+			leads_to_tech = r56_tech_infantry_urban_01
 			research_cost_coeff = 1
 		}		
 		
@@ -179,6 +174,116 @@ technologies = {
 
 		enable_equipments = {
 			r56_equip_infantry_guns_02
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1942 Infantry Guns <><>
+	r56_tech_infantry_guns_03 = {
+
+		start_year = 1942
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = 11 }
+		}
+		
+		dependencies = {
+			r56_tech_infantry_guns_02 = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_marines_03
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_paratrooper_03
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_mountain_03
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_urban_02
+			research_cost_coeff = 1
+		}		
+		
+		categories = {
+			infantry_weapons
+		}
+
+		enable_equipments = {
+			r56_equip_infantry_guns_03
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1945 Infantry Guns <><>
+	r56_tech_infantry_guns_04 = {
+
+		start_year = 1945
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = 15 }
+		}
+		
+		dependencies = {
+			r56_tech_infantry_guns_03 = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_marines_04
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_paratrooper_04
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_mountain_04
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_urban_03
+			research_cost_coeff = 1
+		}		
+		
+		categories = {
+			infantry_weapons
+		}
+
+		enable_equipments = {
+			r56_equip_infantry_guns_04
 		}
 		
 		ai_will_do = {
@@ -283,6 +388,205 @@ technologies = {
 			leads_to_tech = r56_tech_infantry_antitank_01
 			research_cost_coeff = 1
 		}	
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		cavalry = {
+			soft_attack = 0.1
+		}		
+
+		motorized = {
+			soft_attack = 0.1
+		}
+		
+		mechanized = {
+			soft_attack = 0.1
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1941 Infantry Experiments <><>
+	r56_tech_infantry_experiments_03 = {
+
+		start_year = 1941
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -8 y = 10 }
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_guns_03
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_experiments_04
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_supportwp_03
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_antitank_02
+			research_cost_coeff = 1
+		}	
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		cavalry = {
+			soft_attack = 0.1
+		}		
+
+		motorized = {
+			soft_attack = 0.1
+		}
+		
+		mechanized = {
+			soft_attack = 0.1
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1944 Infantry Experiments <><>
+	r56_tech_infantry_experiments_04 = {
+
+		start_year = 1944
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -8 y = 14 }
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_guns_04
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_experiments_05
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_supportwp_04
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_antitank_03
+			research_cost_coeff = 1
+		}	
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_nightvision_01
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		cavalry = {
+			soft_attack = 0.1
+		}		
+
+		motorized = {
+			soft_attack = 0.1
+		}
+		
+		mechanized = {
+			soft_attack = 0.1
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1947 Infantry Experiments <><>
+	r56_tech_infantry_experiments_05 = {
+
+		start_year = 1947
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -8 y = 18 }
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_guns_05
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_experiments_06
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_supportwp_05
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_antitank_04
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = r56_tech_infantry_nightvision_02
+			research_cost_coeff = 1
+		}		
 		
 		categories = {
 			infantry_weapons
@@ -422,9 +726,113 @@ technologies = {
 		}
 	}
 	
+#-> 1943 Support Weapons <><>
+	r56_tech_infantry_supportwp_03 = {
+
+		start_year = 1943
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -6 y = 12 }
+		}	
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}	
+		
+		mountaineers = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+		paratrooper = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+
+		shocktroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1946 Support Weapons <><>
+	r56_tech_infantry_supportwp_04 = {
+
+		start_year = 1946
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -6 y = 16 }
+		}	
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}	
+		
+		mountaineers = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+		paratrooper = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+		marine = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+
+		shocktroop = {
+			defense = 0.03
+			breakthrough = 0.03
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
 ###---> Infantry Anti-Tank <><> <><> <><>
 	
-#-> 1937 Anti-Tank <><>
+#-> 1940 Anti-Tank <><>
 	r56_tech_infantry_antitank_01 = {
 
 		start_year = 1940
@@ -456,7 +864,6 @@ technologies = {
 		}
 	}
 	
-	
 #-> 1940 Anti-Tank <><>
 	r56_tech_infantry_antitank_02 = {
 
@@ -465,7 +872,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -4 y = 6 }
+			position = { x = -4 y = 12 }
 		}		
 		
 		categories = {
@@ -489,6 +896,108 @@ technologies = {
 		}
 	}
 	
+#-> 1943 Anti-Tank <><>
+	r56_tech_infantry_antitank_03 = {
+
+		start_year = 1943
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -4 y = 16 }
+		}	
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		category_all_infantry = {
+			hard_attack = 0.25
+			ap_attack = 1
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+###---> Infantry Nightvision <><> <><> <><>
+
+#-> 1944 Night Vision <><>
+	r56_tech_infantry_nightvision_01 = {
+
+		start_year = 1944
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -5 y = 14 }
+		}	
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		category_all_infantry = {
+			hard_attack = 0.25
+			ap_attack = 1
+		}
+		
+		land_night_attack = 0.1
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1947 Night Vision <><>
+	r56_tech_infantry_nightvision_02 = {
+
+		start_year = 1947
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -5 y = 18 }
+		}	
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		category_all_infantry = {
+			hard_attack = 0.25
+			ap_attack = 1
+		}
+		
+		land_night_attack = 0.1
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
 ###---> Infantry Special Forces <><> <><> <><>
 	
 #-> 1936 Special Forces <><>
@@ -499,11 +1008,21 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = 3 }
+			position = { x = 6 y = 3 }
 		}	
 		
 		path = {
-			leads_to_tech = r56_tech_infantry_gearadapt_01
+			leads_to_tech = r56_tech_infantry_marines_01
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_paratrooper_01
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_mountain_01
 			research_cost_coeff = 1
 		}
 		
@@ -537,11 +1056,11 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = 7 }
+			position = { x = 5 y = 7 }
 		}	
 		
 		path = {
-			leads_to_tech = r56_tech_infantry_gearadapt_02
+			leads_to_tech = r56_tech_infantry_gearadapt_01
 			research_cost_coeff = 1
 		}
 		
@@ -565,36 +1084,19 @@ technologies = {
 		}
 	}
 	
-###---> Infantry Special Forces Gear Adaptations <><> <><> <><>
-	
-#-> 1936 Special Forces <><>
-	r56_tech_infantry_gearadapt_01 = {
+#-> 1942 Special Forces <><>
+	r56_tech_infantry_specialforces_03 = {
 
-		start_year = 1936
+		start_year = 1942
 		research_cost = 1.5
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 6 y = 3 }
-		}
+			position = { x = 4 y = 11 }
+		}	
 		
 		path = {
-			leads_to_tech = r56_tech_infantry_marines_01
-			research_cost_coeff = 1
-		}
-		
-		path = {
-			leads_to_tech = r56_tech_infantry_paratrooper_01
-			research_cost_coeff = 1
-		}
-		
-		path = {
-			leads_to_tech = r56_tech_infantry_mountain_01
-			research_cost_coeff = 1
-		}
-		
-		path = {
-			leads_to_tech = r56_tech_infantry_urban_01
+			leads_to_tech = r56_tech_infantry_gearadapt_02
 			research_cost_coeff = 1
 		}
 		
@@ -602,14 +1104,14 @@ technologies = {
 			infantry_weapons
 		}
 		
-		category_light_infantry = {
-			acclimatization_cold_climate_gain_factor = 0.05
-			acclimatization_hot_climate_gain_factor = 0.05
-			default_morale = 0.1
-		}
-		
 		ai_will_do = {
 			factor = 1
+		}
+		
+		category_special_forces = {
+			max_organisation = 5
+			defense = 0.05
+			soft_attack = 0.03
 		}
 		
 		on_research_complete = {
@@ -620,15 +1122,53 @@ technologies = {
 		}
 	}
 	
+#-> 1945 Special Forces <><>
+	r56_tech_infantry_specialforces_04 = {
+
+		start_year = 1945
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 15 }
+		}	
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_gearadapt_03
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		special_forces_training_time_factor = 0.1
+		special_forces_cap = 0.05
+		special_forces_no_supply_grace = 24
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+###---> Infantry Mission Specific Gear <><> <><> <><>
+	
 #-> 1939 Special Forces <><>
-	r56_tech_infantry_gearadapt_02 = {
+	r56_tech_infantry_gearadapt_01 = {
 
 		start_year = 1939
 		research_cost = 1.5
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 6 y = 7 }
+			position = { x = 7 y = 7 }
 		}
 		
 		path = {
@@ -643,6 +1183,59 @@ technologies = {
 		
 		path = {
 			leads_to_tech = r56_tech_infantry_mountain_02
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_urban_01
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		category_light_infantry = {
+			acclimatization_cold_climate_gain_factor = 0.05
+			acclimatization_hot_climate_gain_factor = 0.05
+			default_morale = 0.1
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1942 Special Forces <><>
+	r56_tech_infantry_gearadapt_02 = {
+
+		start_year = 1942
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 11 }
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_marines_03
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_paratrooper_03
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_mountain_03
 			research_cost_coeff = 1
 		}
 		
@@ -673,6 +1266,59 @@ technologies = {
 		}
 	}
 	
+#-> 1945 Special Forces <><>
+	r56_tech_infantry_gearadapt_03 = {
+
+		start_year = 1945
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 15 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_marines_04
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_paratrooper_04
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_mountain_04
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_urban_03
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		category_light_infantry = {
+			acclimatization_cold_climate_gain_factor = 0.05
+			acclimatization_hot_climate_gain_factor = 0.05
+			default_morale = 0.1
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
 ###---> Infantry - Marine Specialization <><> <><> <><>
 	
 #-> 1938 Marine Infantry <><>
@@ -683,12 +1329,12 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = 5 }
+			position = { x = 4 y = 5 }
 		}
 		
 		dependencies = {
-			r56_tech_infantry_guns_root = 1
-			r56_tech_infantry_gearadapt_01 = 1
+			r56_tech_infantry_guns_01 = 1
+			r56_tech_infantry_specialforces_01 = 1
 		}
 
 		path = {
@@ -740,12 +1386,96 @@ technologies = {
 		}
 		
 		dependencies = {
-			r56_tech_infantry_guns_01 = 1
-			r56_tech_infantry_gearadapt_02 = 1
+			r56_tech_infantry_guns_02 = 1
+			r56_tech_infantry_gearadapt_01 = 1
 		}
 
 		path = {
 			leads_to_tech = r56_tech_infantry_specialforces_03
+			research_cost_coeff = 1
+		}		
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		marine = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1944 Marine Infantry <><>
+	r56_tech_infantry_marines_03 = {
+
+		start_year = 1944
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 3 y = 13 }
+		}
+		
+		dependencies = {
+			r56_tech_infantry_guns_03 = 1
+			r56_tech_infantry_gearadapt_02 = 1
+		}
+
+		path = {
+			leads_to_tech = r56_tech_infantry_specialforces_04
+			research_cost_coeff = 1
+		}		
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		marine = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1947 Marine Infantry <><>
+	r56_tech_infantry_marines_04 = {
+
+		start_year = 1947
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 3 y = 17 }
+		}
+		
+		dependencies = {
+			r56_tech_infantry_guns_04 = 1
+			r56_tech_infantry_gearadapt_03 = 1
+		}
+
+		path = {
+			leads_to_tech = r56_tech_infantry_specialforces_05
 			research_cost_coeff = 1
 		}		
 		
@@ -780,12 +1510,12 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = 5 }
+			position = { x = 6 y = 5 }
 		}	
 
 		dependencies = {
-			r56_tech_infantry_guns_root = 1
-			r56_tech_infantry_gearadapt_01 = 1
+			r56_tech_infantry_guns_01 = 1
+			r56_tech_infantry_specialforces_01 = 1
 		}
 		
 		path = {
@@ -837,12 +1567,96 @@ technologies = {
 		}	
 		
 		dependencies = {
-			r56_tech_infantry_guns_01 = 1
-			r56_tech_infantry_gearadapt_02 = 1
+			r56_tech_infantry_guns_02 = 1
+			r56_tech_infantry_gearadapt_01 = 1
 		}
 		
 		path = {
 			leads_to_tech = r56_tech_infantry_specialforces_03
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		paratrooper = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1944 Paratrooper Infantry <><>
+	r56_tech_infantry_paratrooper_03 = {
+
+		start_year = 1944
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = 13 }
+		}	
+		
+		dependencies = {
+			r56_tech_infantry_guns_03 = 1
+			r56_tech_infantry_gearadapt_02 = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_specialforces_04
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		paratrooper = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1947 Paratrooper Infantry <><>
+	r56_tech_infantry_paratrooper_04 = {
+
+		start_year = 1947
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = 17 }
+		}	
+		
+		dependencies = {
+			r56_tech_infantry_guns_04 = 1
+			r56_tech_infantry_gearadapt_03 = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_specialforces_05
 			research_cost_coeff = 1
 		}
 		
@@ -877,12 +1691,12 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 7 y = 5 }
+			position = { x = 8 y = 5 }
 		}	
 		
 		dependencies = {
-			r56_tech_infantry_guns_root = 1
-			r56_tech_infantry_gearadapt_01 = 1
+			r56_tech_infantry_guns_01 = 1
+			r56_tech_infantry_specialforces_01 = 1
 		}
 		
 		path = {
@@ -939,8 +1753,92 @@ technologies = {
 		}
 		
 		dependencies = {
-			r56_tech_infantry_guns_01 = 1
+			r56_tech_infantry_guns_02 = 1
+			r56_tech_infantry_gearadapt_01 = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		mountaineers = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1944 Mountain Infantry <><>
+	r56_tech_infantry_mountain_03 = {
+
+		start_year = 1944
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = 13 }
+		}	
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_specialforces_04
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			r56_tech_infantry_guns_03 = 1
 			r56_tech_infantry_gearadapt_02 = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		mountaineers = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1947 Mountain Infantry <><>
+	r56_tech_infantry_mountain_04 = {
+
+		start_year = 1947
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = 17 }
+		}	
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_specialforces_05
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			r56_tech_infantry_guns_04 = 1
+			r56_tech_infantry_gearadapt_03 = 1
 		}
 		
 		categories = {
@@ -966,24 +1864,24 @@ technologies = {
 	
 ###---> Infantry - Urban Specialization <><> <><> <><>
 	
-#-> 1938 Urban Infantry <><>
+#-> 1941 Urban Infantry <><>
 	r56_tech_infantry_urban_01 = {
 
-		start_year = 1938
+		start_year = 1941
 		research_cost = 1.5
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 9 y = 5 }
+			position = { x = 9 y = 9 }
 		}	
 		
 		dependencies = {
-			r56_tech_infantry_guns_root = 1
+			r56_tech_infantry_guns_02 = 1
 			r56_tech_infantry_gearadapt_01 = 1
 		}
 		
 		path = {
-			leads_to_tech = r56_tech_infantry_specialforces_02
+			leads_to_tech = r56_tech_infantry_specialforces_03
 			research_cost_coeff = 1
 		}
 		
@@ -994,7 +1892,12 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-	
+		
+		shocktroop = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		
 		enable_subunits = {
 			shocktroop
 		}
@@ -1006,8 +1909,8 @@ technologies = {
 				}
 			}
 			hidden_effect = {
-				load_oob = "unlock_urbantroop"
-			}			
+				load_oob = "unlock_urbantrooper"
+			}
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 		
@@ -1019,24 +1922,66 @@ technologies = {
 		}
 	}
 	
-#-> 1941 Urban Infantry <><>
+#-> 1944 Urban Infantry <><>
 	r56_tech_infantry_urban_02 = {
 
-		start_year = 1941
+		start_year = 1944
 		research_cost = 1.5
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 9 y = 9 }
+			position = { x = 9 y = 13 }
 		}	
 		
 		dependencies = {
-			r56_tech_infantry_guns_01 = 1
+			r56_tech_infantry_guns_03 = 1
 			r56_tech_infantry_gearadapt_02 = 1
 		}
 		
 		path = {
-			leads_to_tech = r56_tech_infantry_specialforces_03
+			leads_to_tech = r56_tech_infantry_specialforces_04
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		shocktroop = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1947 Urban Infantry <><>
+	r56_tech_infantry_urban_03 = {
+
+		start_year = 1947
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 9 y = 17 }
+		}	
+		
+		dependencies = {
+			r56_tech_infantry_guns_04 = 1
+			r56_tech_infantry_gearadapt_03 = 1
+		}
+		
+		path = {
+			leads_to_tech = r56_tech_infantry_specialforces_05
 			research_cost_coeff = 1
 		}
 		
