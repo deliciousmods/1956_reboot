@@ -62,7 +62,7 @@ technologies = {
 		}
 
 		enable_equipments = {
-			r56_equip_infantry_guns_01
+			r56_equip_infantry_guns_00
 		}
 		
 		enable_subunits = {
