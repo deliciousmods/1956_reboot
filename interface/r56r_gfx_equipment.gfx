@@ -8,39 +8,38 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_r56_equip_infantry_guns_00_medium"
-		texturefile = "gfx/interface/technologies/infantry/guns/placeholder_long.dds"
+		texturefile = "gfx/interface/technologies/infantry/equipment/r56_tech_infantry_guns_00.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_r56_equip_infantry_guns_01_medium"
-		texturefile = "gfx/interface/technologies/infantry/guns/placeholder_long.dds"
+		texturefile = "gfx/interface/technologies/infantry/equipment/r56_tech_infantry_guns_01.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_r56_equip_infantry_guns_02_medium"
-		texturefile = "gfx/interface/technologies/infantry/guns/placeholder_long.dds"
+		texturefile = "gfx/interface/technologies/infantry/equipment/r56_tech_infantry_guns_02.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_r56_equip_infantry_guns_03_medium"
-		texturefile = "gfx/interface/technologies/infantry/guns/placeholder_long.dds"
+		texturefile = "gfx/interface/technologies/infantry/equipment/r56_tech_infantry_guns_03.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_r56_equip_infantry_guns_04_medium"
-		texturefile = "gfx/interface/technologies/infantry/guns/placeholder_long.dds"
+		texturefile = "gfx/interface/technologies/infantry/equipment/r56_tech_infantry_guns_04.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_r56_equip_infantry_guns_05_medium"
-		texturefile = "gfx/interface/technologies/infantry/guns/placeholder_long.dds"
+		texturefile = "gfx/interface/technologies/infantry/equipment/r56_tech_infantry_guns_05.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_r56_equip_infantry_guns_06_medium"
-		texturefile = "gfx/interface/technologies/infantry/guns/placeholder_long.dds"
+		texturefile = "gfx/interface/technologies/infantry/equipment/r56_tech_infantry_guns_06.dds"
 	}
-	
 }
 
 #####-----> End of File <><> <><> <><> <><> <><>

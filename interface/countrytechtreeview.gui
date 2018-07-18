@@ -84,8 +84,8 @@ guiTypes = {
 			}
 			
 			margin = { 
-				top = 1%% 
-				bottom = 1%%
+				top = 1%%  
+				bottom = 5%%
 				left = 1%%
 				right = 1%%
 			}
@@ -132,7 +132,7 @@ guiTypes = {
 				}				
 			}
 			
-#-> Year Text for Infantry Techs <><>
+#-> Left Year Text for Infantry Techs <><>
 			
 			instantTextBoxType = {
 				name = "r56_datetext_left_infantry_year_0"
@@ -156,7 +156,7 @@ guiTypes = {
 				}
 					
 				font = "hoi_36header"
-				text = "1936"
+				text = "1935"
 				format = left
 			}
 			
@@ -195,7 +195,7 @@ guiTypes = {
 				}
 					
 				font = "hoi_36header"
-				text = "1939"
+				text = "1940"
 				format = left
 			}
 			
@@ -208,7 +208,7 @@ guiTypes = {
 				}
 					
 				font = "hoi_36header"
-				text = "1940"
+				text = "1941"
 				format = left
 			}
 			
@@ -221,7 +221,7 @@ guiTypes = {
 				}
 					
 				font = "hoi_36header"
-				text = "1941"
+				text = "1943"
 				format = left
 			}
 			
@@ -234,7 +234,7 @@ guiTypes = {
 				}
 					
 				font = "hoi_36header"
-				text = "1942"
+				text = "1944"
 				format = left
 			}
 			
@@ -247,7 +247,7 @@ guiTypes = {
 				}
 					
 				font = "hoi_36header"
-				text = "1943"
+				text = "1946"
 				format = left
 			}
 			
@@ -260,7 +260,7 @@ guiTypes = {
 				}
 					
 				font = "hoi_36header"
-				text = "1944"
+				text = "1947"
 				format = left
 			}
 			
@@ -273,7 +273,7 @@ guiTypes = {
 				}
 					
 				font = "hoi_36header"
-				text = "1945"
+				text = "1949"
 				format = left
 			}
 			
@@ -286,7 +286,7 @@ guiTypes = {
 				}
 					
 				font = "hoi_36header"
-				text = "1946"
+				text = "1950"
 				format = left
 			}
 			
@@ -299,7 +299,7 @@ guiTypes = {
 				}
 					
 				font = "hoi_36header"
-				text = "1947"
+				text = "1952"
 				format = left
 			}
 			
@@ -312,7 +312,7 @@ guiTypes = {
 				}
 					
 				font = "hoi_36header"
-				text = "1949"
+				text = "1953"
 				format = left
 			}
 			
@@ -325,21 +325,285 @@ guiTypes = {
 				}
 					
 				font = "hoi_36header"
-				text = "1950"
+				text = "1955"
 				format = left
 			}
 
-#-> Label Text for Infantry Guns <><>
+			instantTextBoxType = {
+				name = "r56_datetext_left_infantry_year_15"
+					
+				position = {
+					x = 25
+					y = 2220
+				}
+					
+				font = "hoi_36header"
+				text = "1956"
+				format = left
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_left_infantry_year_16"
+					
+				position = {
+					x = 25
+					y = 2360
+				}
+					
+				font = "hoi_36header"
+				text = "1958"
+				format = left
+			}
+			
+#-> Right Year Text for Infantry Techs <><>	
+			
+			instantTextBoxType = {
+				name = "r56_datetext_right_infantry_year_1"
+					
+				position = {
+					x = 1650
+					y = 330
+				}
+					
+				font = "hoi_36header"
+				text = "1936"
+				format = right
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_right_infantry_year_2"
+					
+				position = {
+					x = 1650
+					y = 470
+				}
+					
+				font = "hoi_36header"
+				text = "1938"
+				format = right
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_right_infantry_year_3"
+					
+				position = {
+					x = 1650
+					y = 610
+				}
+					
+				font = "hoi_36header"
+				text = "1939"
+				format = right
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_right_infantry_year_4"
+					
+				position = {
+					x = 1650
+					y = 750
+				}
+					
+				font = "hoi_36header"
+				text = "1941"
+				format = right
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_right_infantry_year_5"
+					
+				position = {
+					x = 1650
+					y = 890
+				}
+					
+				font = "hoi_36header"
+				text = "1942"
+				format = right
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_right_infantry_year_6"
+					
+				position = {
+					x = 1650
+					y = 1030
+				}
+					
+				font = "hoi_36header"
+				text = "1944"
+				format = right
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_right_infantry_year_7"
+					
+				position = {
+					x = 1650
+					y = 1170
+				}
+					
+				font = "hoi_36header"
+				text = "1945"
+				format = right
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_right_infantry_year_8"
+					
+				position = {
+					x = 1650
+					y = 1310
+				}
+					
+				font = "hoi_36header"
+				text = "1947"
+				format = right
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_right_infantry_year_9"
+					
+				position = {
+					x = 1650
+					y = 1450
+				}
+					
+				font = "hoi_36header"
+				text = "1948"
+				format = right
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_right_infantry_year_10"
+					
+				position = {
+					x = 1650
+					y = 1590
+				}
+					
+				font = "hoi_36header"
+				text = "1950"
+				format = right
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_right_infantry_year_11"
+					
+				position = {
+					x = 1650
+					y = 1730
+				}
+					
+				font = "hoi_36header"
+				text = "1951"
+				format = right
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_right_infantry_year_12"
+					
+				position = {
+					x = 1650
+					y = 1870
+				}
+					
+				font = "hoi_36header"
+				text = "1953"
+				format = right
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_right_infantry_year_13"
+					
+				position = {
+					x = 1650
+					y = 2010
+				}
+					
+				font = "hoi_36header"
+				text = "1954"
+				format = right
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_right_infantry_year_14"
+					
+				position = {
+					x = 1650
+					y = 2150
+				}
+					
+				font = "hoi_36header"
+				text = "1956"
+				format = right
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_right_infantry_year_15"
+					
+				position = {
+					x = 1650
+					y = 2290
+				}
+					
+				font = "hoi_36header"
+				text = "1957"
+				format = right
+			}
+			
+			instantTextBoxType = {
+				name = "r56_datetext_right_infantry_year_16"
+					
+				position = {
+					x = 1650
+					y = 2430
+				}
+					
+				font = "hoi_36header"
+				text = "1959"
+				format = right
+			}
+
+#-> Label Text for Infantry <><>
 			instantTextBoxType = {
 				name = "r56_techtreetext_infantry_guns"
 					
 				position = {
-					x = 770
+					x = 825
 					y = 25
 				}
 				
 				font = "hoi_33"
 				text = "r56_techtreetext_subtitle_infantry_guns"
+				maxWidth = 500
+				format = left
+			}
+			
+			instantTextBoxType = {
+				name = "r56_techtreetext_infantry_specialforces"
+					
+				position = {
+					x = 1210
+					y = 75
+				}
+				
+				font = "hoi_33"
+				text = "r56_techtreetext_subtitle_infantry_specialforces"
+				maxWidth = 500
+				format = left
+			}
+			
+			instantTextBoxType = {
+				name = "r56_techtreetext_infantry_weapons"
+					
+				position = {
+					x = 250
+					y = 75
+				}
+				
+				font = "hoi_33"
+				text = "r56_techtreetext_subtitle_infantry_weapons"
 				maxWidth = 500
 				format = left
 			}
@@ -358,6 +622,19 @@ guiTypes = {
 					height = 70 
 				}
 			}					
+		
+			iconType = {
+				name = "highlight_infantry_1"
+				spriteType = "GFX_tutorial_research_small_item_icon_glow"
+				
+				position = { 
+					x = 135 
+					y = 170
+				}
+				
+				hide = yes
+				alwaystransparent = yes
+			}
 		}
 
 		containerWindowType = {

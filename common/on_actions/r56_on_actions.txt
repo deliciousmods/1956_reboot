@@ -1,0 +1,18 @@
+#####-----> On Actions by Greatexperiment <><> <><> <><> <><> <><>
+#####-----> Guide File - This is intended to be a reference for files of this type <><> <><> <><> <><> <><>
+
+on_actions = {
+
+#-> Event for Assigning Tech Variables at Startup <><>
+	on_startup = {
+		effect = {
+			every_country = {
+				country_event = {
+					id = r56.techevents.01
+				}
+			}
+		}
+	}
+}
+
+#####-----> End of File <><> <><> <><> <><> <><>

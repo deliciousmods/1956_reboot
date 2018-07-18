@@ -75,12 +75,6 @@ l_english:
    r56_tech_infantry_antitank_06: "1955 Infantry Anti-Tank"
    r56_tech_infantry_antitank_06_desc: "1955 Infantry Anti-Tank Desc"
    
-   r56_tech_infantry_antitank_07: "1958 Infantry Anti-Tank"
-   r56_tech_infantry_antitank_07_desc: "1958 Infantry Anti-Tank Desc"
-   
-   r56_tech_infantry_antitank_08: "1961 Infantry Anti-Tank"
-   r56_tech_infantry_antitank_08_desc: "1961 Infantry Anti-Tank Desc"
-   
 #-> Infantry Night Visions <><>
   r56_tech_infantry_nightvision_01: "1944 Infantry Night Vision Name"
   r56_tech_infantry_nightvision_01_desc: "1944 Infantry Night Vision Desc"
@@ -127,8 +121,8 @@ l_english:
    
 #-> Infantry Gear Adaptations <><>
   
-   r56_tech_infantry_gearadapt_01: "1939 Infantry Mission Specific Gear"
-   r56_tech_infantry_gearadapt_01_desc: "1939 Infantry Mission Specific Gear Desc"
+  r56_tech_infantry_gearadapt_01: "1939 Infantry Mission Specific Gear"
+  r56_tech_infantry_gearadapt_01_desc: "1939 Infantry Mission Specific Gear Desc"
 
    r56_tech_infantry_gearadapt_02: "1942 Infantry Mission Specific Gear"
    r56_tech_infantry_gearadapt_02_desc: "1942 Infantry Mission Specific Gear Desc"
@@ -176,81 +170,83 @@ l_english:
    r56_tech_infantry_marines_08: "1959 Infantry Marines"
    r56_tech_infantry_marines_08_desc: "1959 Infantry Marines Desc"
    
-#-> Infantry Paratrooper <><>
-  r56_tech_infantry_paratrooper_01: "1938 Infantry Paratrooper Name"
-  r56_tech_infantry_paratrooper_01_desc: "1938 Infantry Paratrooper Desc"
+#-> Infantry Paratroops <><>
+  r56_tech_infantry_paratroops_01: "1938 Infantry Paratroops Name"
+  r56_tech_infantry_paratroops_01_desc: "1938 Infantry Paratroops Desc"
   
-   r56_tech_infantry_paratrooper_02: "1941 Infantry Paratrooper"
-   r56_tech_infantry_paratrooper_02_desc: "1941 Infantry Paratrooper Desc"
+   r56_tech_infantry_paratroops_02: "1941 Infantry Paratroops"
+   r56_tech_infantry_paratroops_02_desc: "1941 Infantry Paratroops Desc"
 
-   r56_tech_infantry_paratrooper_03: "1944 Infantry Paratrooper"
-   r56_tech_infantry_paratrooper_03_desc: "1944 Infantry Paratrooper Desc"
+   r56_tech_infantry_paratroops_03: "1944 Infantry Paratroops"
+   r56_tech_infantry_paratroops_03_desc: "1944 Infantry paratroops Desc"
    
-   r56_tech_infantry_paratrooper_04: "1947 Infantry Paratrooper"
-   r56_tech_infantry_paratrooper_04_desc: "1947 Infantry Paratrooper Desc"
+   r56_tech_infantry_paratroops_04: "1947 Infantry Paratroops"
+   r56_tech_infantry_paratroops_04_desc: "1947 Infantry Paratroops Desc"
    
-   r56_tech_infantry_paratrooper_05: "1950 Infantry Paratrooper"
-   r56_tech_infantry_paratrooper_05_desc: "1950 Infantry Paratrooper Desc"
+   r56_tech_infantry_paratroops_05: "1950 Infantry Paratroops"
+   r56_tech_infantry_paratroops_05_desc: "1950 Infantry Paratroops Desc"
    
-   r56_tech_infantry_paratrooper_06: "1953 Infantry Paratrooper"
-   r56_tech_infantry_paratrooper_06_desc: "1953 Infantry Paratrooper Desc"
+   r56_tech_infantry_paratroops_06: "1953 Infantry Paratroops"
+   r56_tech_infantry_paratroops_06_desc: "1953 Infantry Paratroops Desc"
    
-   r56_tech_infantry_paratrooper_07: "1956 Infantry Paratrooper"
-   r56_tech_infantry_paratrooper_07_desc: "1956 Infantry Paratrooper Desc"
+   r56_tech_infantry_paratroops_07: "1956 Infantry Paratroops"
+   r56_tech_infantry_paratroops_07_desc: "1956 Infantry Paratroops Desc"
    
-   r56_tech_infantry_paratrooper_08: "1959 Infantry Paratrooper"
-   r56_tech_infantry_paratrooper_08_desc: "1959 Infantry Paratrooper Desc"
+   r56_tech_infantry_paratroops_08: "1959 Infantry Paratroops"
+   r56_tech_infantry_paratroops_08_desc: "1959 Infantry Paratroops Desc"
    
-#-> Infantry Mountain <><>
-  r56_tech_infantry_mountain_01: "1938 Infantry Mountain Name"
-  r56_tech_infantry_mountain_01_desc: "1938 Infantry Mountain Desc"
+#-> Infantry Mountaineers <><>
+  r56_tech_infantry_mountaineers_01: "1938 Infantry Mountaineers Name"
+  r56_tech_infantry_mountaineers_01_desc: "1938 Infantry Mountaineers Desc"
   
-   r56_tech_infantry_mountain_02: "1941 Infantry Mountain"
-   r56_tech_infantry_mountain_02_desc: "1941 Infantry Mountain Desc"
+   r56_tech_infantry_mountaineers_02: "1941 Infantry Mountaineers"
+   r56_tech_infantry_mountaineers_02_desc: "1941 Infantry Mountaineers Desc"
 
-   r56_tech_infantry_mountain_03: "1944 Infantry Mountain"
-   r56_tech_infantry_mountain_03_desc: "1944 Infantry Mountain Desc"
+   r56_tech_infantry_mountaineers_03: "1944 Infantry Mountaineers"
+   r56_tech_infantry_mountaineers_03_desc: "1944 Infantry Mountaineers Desc"
    
-   r56_tech_infantry_mountain_04: "1947 Infantry Mountain"
-   r56_tech_infantry_mountain_04_desc: "1947 Infantry Mountain Desc"
+   r56_tech_infantry_mountaineers_04: "1947 Infantry Mountaineers"
+   r56_tech_infantry_mountaineers_04_desc: "1947 Infantry Mountaineers Desc"
    
-   r56_tech_infantry_mountain_05: "1950 Infantry Mountain"
-   r56_tech_infantry_mountain_05_desc: "1950 Infantry Mountain Desc"
+   r56_tech_infantry_mountaineers_05: "1950 Infantry Mountaineers"
+   r56_tech_infantry_mountaineers_05_desc: "1950 Infantry Mountaineers Desc"
    
-   r56_tech_infantry_mountain_06: "1953 Infantry Mountain"
-   r56_tech_infantry_mountain_06_desc: "1953 Infantry Mountain Desc"
+   r56_tech_infantry_mountaineers_06: "1953 Infantry Mountaineers"
+   r56_tech_infantry_mountaineers_06_desc: "1953 Infantry Mountaineers Desc"
    
-   r56_tech_infantry_mountain_07: "1956 Infantry Mountain"
-   r56_tech_infantry_mountain_07_desc: "1956 Infantry Mountain Desc"
+   r56_tech_infantry_mountaineers_07: "1956 Infantry Mountain"
+   r56_tech_infantry_mountaineers_07_desc: "1956 Infantry Mountaineers Desc"
    
-   r56_tech_infantry_mountain_08: "1959 Infantry Mountain"
-   r56_tech_infantry_mountain_08_desc: "1959 Infantry Mountain Desc"
+   r56_tech_infantry_mountaineers_08: "1959 Infantry Mountaineers"
+   r56_tech_infantry_mountaineers_08_desc: "1959 Infantry Mountaineers Desc"
    
-#-> Infantry Urban <><>
+#-> Infantry Urbantroops <><>
   
-   r56_tech_infantry_urban_01: "1941 Infantry Urban"
-   r56_tech_infantry_urban_01_desc: "1941 Infantry Urban Desc"
+  r56_tech_infantry_urbantroops_01: "1941 Infantry Urbantroops"
+  r56_tech_infantry_urbantroops_01_desc: "1941 Infantry Urbantroops Desc"
 
-   r56_tech_infantry_urban_02: "1944 Infantry Urban"
-   r56_tech_infantry_urban_02_desc: "1944 Infantry Urban Desc"
+   r56_tech_infantry_urbantroops_02: "1944 Infantry Urbantroops"
+   r56_tech_infantry_urbantroops_02_desc: "1944 Infantry Urbantroops Desc"
    
-   r56_tech_infantry_urban_03: "1947 Infantry Urban"
-   r56_tech_infantry_urban_03_desc: "1947 Infantry Urban Desc"
+   r56_tech_infantry_urbantroops_03: "1947 Infantry Urbantroops"
+   r56_tech_infantry_urbantroops_03_desc: "1947 Infantry Urbantroops Desc"
    
-   r56_tech_infantry_urban_04: "1950 Infantry Urban"
-   r56_tech_infantry_urban_04_desc: "1950Infantry Urban Desc"
+   r56_tech_infantry_urbantroops_04: "1950 Infantry Urbantroops"
+   r56_tech_infantry_urbantroops_04_desc: "1950Infantry Urbantroops Desc"
    
-   r56_tech_infantry_urban_05: "1953 Infantry Urban"
-   r56_tech_infantry_urban_05_desc: "1953 Infantry Urban Desc"
+   r56_tech_infantry_urbantroops_05: "1953 Infantry Urbantroops"
+   r56_tech_infantry_urbantroops_05_desc: "1953 Infantry Urbantroops Desc"
    
-   r56_tech_infantry_urban_06: "1956 Infantry Urban"
-   r56_tech_infantry_urban_06_desc: "1956 Infantry Urban Desc"
+   r56_tech_infantry_urbantroops_06: "1956 Infantry Urbantroops"
+   r56_tech_infantry_urbantroops_06_desc: "1956 Infantry Urbantroops Desc"
    
-   r56_tech_infantry_urban_07: "1959 Infantry Urban"
-   r56_tech_infantry_urban_07_desc: "1959 Infantry Urban Desc"
+   r56_tech_infantry_urbantroops_07: "1959 Infantry Urbantroops"
+   r56_tech_infantry_urbantroops_07_desc: "1959 Infantry UrbantroopsDesc"
    
 ###---> Technology Tree Labels <><> <><> <><>
- r56_techtreetext_subtitle_infantry_guns: "Infantry Weapons"
+ r56_techtreetext_subtitle_infantry_guns: "Infantry"
+ r56_techtreetext_subtitle_infantry_weapons: "Weapons Development"
+ r56_techtreetext_subtitle_infantry_specialforces: "Special Forces"
  
  
 #####-----> End of File <><> <><> <><> <><> <><>
