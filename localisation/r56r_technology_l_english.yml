@@ -75,7 +75,7 @@ l_english:
    r56_tech_infantry_antitank_06: "1955 Infantry Anti-Tank"
    r56_tech_infantry_antitank_06_desc: "1955 Infantry Anti-Tank Desc"
    
-#-> Infantry Night Visions <><>
+#-> Infantry Night Vision <><>
   r56_tech_infantry_nightvision_01: "1944 Infantry Night Vision Name"
   r56_tech_infantry_nightvision_01_desc: "1944 Infantry Night Vision Desc"
   
@@ -93,6 +93,28 @@ l_english:
    
    r56_tech_infantry_nightvision_06: "1959 Infantry Night Vision"
    r56_tech_infantry_nightvision_06_desc: "1959 Infantry Night Vision Desc"
+   
+#-> Precision Gear <><>
+  r56_tech_infantry_precisiongear_01: "1938 Infantry Scopes and Precision Gear Name"
+  r56_tech_infantry_precisiongear_01_desc: "1938 Infantry Scopes and Precision Gear Desc"
+  
+   r56_tech_infantry_precisiongear_02: "1941 Infantry Scopes and Precision Gear"
+   r56_tech_infantry_precisiongear_02_desc: "1941 Infantry Scopes and Precision Gear Desc"
+
+   r56_tech_infantry_precisiongear_03: "1944 Infantry Scopes and Precision Gear"
+   r56_tech_infantry_precisiongear_03_desc: "1944 Infantry Scopes and Precision Gear Desc"
+   
+   r56_tech_infantry_precisiongear_04: "1947 Infantry Scopes and Precision Gear"
+   r56_tech_infantry_precisiongear_04_desc: "1947 Infantry Scopes and Precision Gear Desc"
+   
+   r56_tech_infantry_precisiongear_05: "1950 Infantry Scopes and Precision Gear"
+   r56_tech_infantry_precisiongear_05_desc: "1950 Infantry Scopes and Precision Gear Desc"
+   
+   r56_tech_infantry_precisiongear_06: "1953 Infantry Scopes and Precision Gear"
+   r56_tech_infantry_precisiongear_06_desc: "1953 Infantry Scopes and Precision Gear Desc"
+   
+   r56_tech_infantry_precisiongear_07: "1956 Infantry Scopes and Precision Gear"
+   r56_tech_infantry_precisiongear_07_desc: "1956 Infantry Scopes and Precision Gear Desc"
    
 #-> Infantry Special Forces <><>
   r56_tech_infantry_specialforces_01: "1936 Infantry Special Forces Name"

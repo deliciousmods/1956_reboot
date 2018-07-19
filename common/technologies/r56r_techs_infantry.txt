@@ -111,6 +111,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		path = {
+			leads_to_tech = r56_tech_infantry_precisiongear_01
+			research_cost_coeff = 1
+		}
+		
 		categories = {
 			infantry_weapons
 		}
@@ -164,6 +169,11 @@ technologies = {
 		
 		path = {
 			leads_to_tech = r56_tech_infantry_urbantroops_01
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = r56_tech_infantry_precisiongear_02
 			research_cost_coeff = 1
 		}		
 		
@@ -220,6 +230,11 @@ technologies = {
 		path = {
 			leads_to_tech = r56_tech_infantry_urbantroops_02
 			research_cost_coeff = 1
+		}	
+
+		path = {
+			leads_to_tech = r56_tech_infantry_precisiongear_03
+			research_cost_coeff = 1
 		}		
 		
 		categories = {
@@ -274,6 +289,11 @@ technologies = {
 		
 		path = {
 			leads_to_tech = r56_tech_infantry_urbantroops_03
+			research_cost_coeff = 1
+		}	
+
+		path = {
+			leads_to_tech = r56_tech_infantry_precisiongear_04
 			research_cost_coeff = 1
 		}		
 		
@@ -332,6 +352,11 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 		
+		path = {
+			leads_to_tech = r56_tech_infantry_precisiongear_05
+			research_cost_coeff = 1
+		}
+		
 		categories = {
 			infantry_weapons
 		}
@@ -387,6 +412,11 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 		
+		path = {
+			leads_to_tech = r56_tech_infantry_precisiongear_06
+			research_cost_coeff = 1
+		}
+		
 		categories = {
 			infantry_weapons
 		}
@@ -439,6 +469,11 @@ technologies = {
 		
 		path = {
 			leads_to_tech = r56_tech_infantry_urbantroops_06
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = r56_tech_infantry_precisiongear_07
 			research_cost_coeff = 1
 		}		
 		
@@ -507,6 +542,232 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+###---> Precision Gear <><> <><> <><>
+	
+#-> 1938 Infantry Precision Gear <><>
+	r56_tech_infantry_precisiongear_01 = {
+
+		start_year = 1938
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = 5 }
+		}		
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		category_light_infantry = {
+			soft_attack = 0.05
+			recon = 0.50
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1941 Infantry Precision Gear <><>
+	r56_tech_infantry_precisiongear_02 = {
+
+		start_year = 1941
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = 9 }
+		}		
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		category_light_infantry = {
+			soft_attack = 0.05
+			recon = 0.50
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1944 Infantry Precision Gear <><>
+	r56_tech_infantry_precisiongear_03 = {
+
+		start_year = 1944
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = 13 }
+		}		
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		category_light_infantry = {
+			soft_attack = 0.05
+			recon = 0.50
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1947 Infantry Precision Gear <><>
+	r56_tech_infantry_precisiongear_04 = {
+
+		start_year = 1947
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = 17 }
+		}		
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		category_light_infantry = {
+			soft_attack = 0.05
+			recon = 0.50
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1950 Infantry Precision Gear <><>
+	r56_tech_infantry_precisiongear_05 = {
+
+		start_year = 1950
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = 21 }
+		}		
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		category_light_infantry = {
+			soft_attack = 0.05
+			recon = 0.50
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1953 Infantry Precision Gear <><>
+	r56_tech_infantry_precisiongear_06 = {
+
+		start_year = 1953
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = 25 }
+		}		
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		category_light_infantry = {
+			soft_attack = 0.05
+			recon = 0.50
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
+		}
+	}
+	
+#-> 1953 Infantry Precision Gear <><>
+	r56_tech_infantry_precisiongear_07 = {
+
+		start_year = 1956
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = -1 y = 29 }
+		}		
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		category_light_infantry = {
+			soft_attack = 0.05
+			recon = 0.50
 		}
 		
 		on_research_complete = {

@@ -5,6 +5,7 @@ spriteTypes = {
 
 ###---> Infantry Technologies <><> <><> <><>
 
+
 #-> Infantry Guns <><>
 
 	SpriteType = {
@@ -52,8 +53,52 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/infantry/equipment/r56_equip_infantry_guns_08.dds"
 	}
 	
-#-> Infantry Experiments <><>
 	
+#-> Infantry Precision Gear <><>
+	
+	SpriteType = {
+		name = "GFX_r56_tech_infantry_precisiongear_01_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_precisiongear_01.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_r56_tech_infantry_precisiongear_02_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_precisiongear_02.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_r56_tech_infantry_precisiongear_03_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_precisiongear_03.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_r56_tech_infantry_precisiongear_04_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_precisiongear_04.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_r56_tech_infantry_precisiongear_05_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_precisiongear_05.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_r56_tech_infantry_precisiongear_06_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_precisiongear_06.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_r56_tech_infantry_precisiongear_07_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_precisiongear_07.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_r56_tech_infantry_precisiongear_08_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_precisiongear_08.dds"
+	}
+	
+	
+#-> Infantry Experiments <><>
+
 	SpriteType = {
 		name = "GFX_r56_tech_infantry_experiments_01_medium"
 		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_experiments_01.dds"
@@ -94,6 +139,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_experiments_08.dds"
 	}
 	
+	
 #-> Infantry Support Weapons <><>
 	
 	SpriteType = {
@@ -131,6 +177,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_supportwp_07.dds"
 	}
 	
+	
 #-> Infantry Anti-Tank <><>
 	
 	SpriteType = {
@@ -167,6 +214,7 @@ spriteTypes = {
 		name = "GFX_r56_tech_infantry_antitank_07_medium"
 		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_antitank_07.dds"
 	}
+	
 	
 #-> Infantry Special Forces <><>
 	
@@ -210,6 +258,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_specialforces_08.dds"
 	}
 	
+	
 #-> Infantry Gear Adaptations <><>
 	
 	SpriteType = {
@@ -246,6 +295,7 @@ spriteTypes = {
 		name = "GFX_r56_tech_infantry_gearadapt_07_medium"
 		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_gearadapt_07.dds"
 	}
+	
 	
 #-> Infantry Marines <><>
 	
@@ -284,6 +334,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_marines_07.dds"
 	}
 	
+	
 #-> Infantry Paratroops <><>
 	
 	SpriteType = {
@@ -320,6 +371,7 @@ spriteTypes = {
 		name = "GFX_r56_tech_infantry_paratroops_07_medium"
 		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_paratroops_07.dds"
 	}
+	
 	
 #-> Infantry Mountaineers <><>
 	
@@ -358,6 +410,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_mountaineers_07.dds"
 	}
 	
+	
 #-> Infantry Urban Troops <><>
 	
 	SpriteType = {
@@ -394,6 +447,7 @@ spriteTypes = {
 		name = "GFX_r56_tech_infantry_urbantroops_07_medium"
 		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_urbantroops_07.dds"
 	}
+	
 	
 #-> Infantry Night Vision <><>
 	
