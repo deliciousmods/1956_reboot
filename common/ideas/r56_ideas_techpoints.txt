@@ -1,0 +1,63 @@
+#####-----> Techpoint Ideas by Greatexperiment <><> <><> <><> <><> <><>
+#####-----> Guide File - This is intended to be a reference for files of this type <><> <><> <><> <><> <><>
+
+ideas = {
+	country = {
+	
+		r56_idea_techpoint_infantry_01 = {
+			
+			modifier = {
+			}		
+		}
+
+		r56_idea_techpoint_infantry_02 = {
+			
+			modifier = {
+			}		
+		}
+		
+		r56_idea_techpoint_infantry_03 = {
+			
+			modifier = {
+			}		
+		}
+		
+		r56_idea_techpoint_infantry_04 = {
+			
+			modifier = {
+			}		
+		}
+		
+		r56_idea_techpoint_infantry_05 = {
+			
+			modifier = {
+			}		
+		}
+		
+		r56_idea_techpoint_infantry_06 = {
+			
+			modifier = {
+			}		
+		}
+		
+		r56_idea_techpoint_infantry_07 = {
+			
+			modifier = {
+			}		
+		}
+		
+		r56_idea_techpoint_infantry_08 = {
+			
+			modifier = {
+			}		
+		}
+		
+		r56_idea_techpoint_infantry_09 = {
+			
+			modifier = {
+			}		
+		}
+	}
+}
+
+#####---------------------------------------------------------------------> End

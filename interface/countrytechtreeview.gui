@@ -132,97 +132,6 @@ guiTypes = {
 				}				
 			}
 			
-#-> TechPoints Infantry Window (Still figuring this out - will probably change a lot <><>
-			containerWindowType = {
-				name = "techpoints_infantry_window"
-				
-				position = { 
-					x = 1450 
-					y = 25 
-				}
-					
-				size = { 
-					width = 400 
-					height = 250 
-				}
-				
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_window_thin_border2"
-				}
-				
-				drag_scroll = { left middle }
-				
-				gridBoxType = {
-					name = "techpoints_infantry_window_01"
-				
-					position = { 
-						x = 0 
-						y = 25 
-					}
-					
-					size = { 
-						width = 400 
-						height = 50 
-					}
-				
-					background = {
-						name = "Background"
-						quadTextureSprite ="GFX_tiled_window_thin_border2"
-					}
-				}
-				
-				gridBoxType = {
-					name = "techpoints_infantry_window_02"
-					
-					position = {
-						x = 325 
-						y = 0
-					}
-						
-					size = { 
-						width = 75 
-						height = 75 
-					}
-						
-					background = {
-						name = "Background"
-						quadTextureSprite ="GFX_tiled_window_thin_border2"
-					}
-				}
-			}
-			
-#-> Techpoint Text <><>		
-		instantTextBoxType = {
-				name = "r56_techpointtext_label"
-					
-				position = {
-					x = 1490
-					y = 45
-				}
-					
-				font = "hoi_33"
-				text = "Infantry Tech Points"
-				format = left
-						
-				maxWidth = 500
-			}
-					
-		instantTextBoxType = {
-				name = "r56_techpointtext_label_num"
-					
-				position = {
-					x = 1797
-					y = 45
-				}
-					
-				font = "hoi_33"
-				text = "00"
-				format = left
-						
-				maxWidth = 500
-			}
-			
 #-> Left Year Text for Infantry Techs <><>
 			
 			instantTextBoxType = {
@@ -705,7 +614,7 @@ guiTypes = {
 				
 				position = {
 					x = 950
-					y = 100 
+					y = 100
 				}
 				
 				slotsize = { 
@@ -909,8 +818,6 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
-
 		}
 
 		containerWindowType = {
