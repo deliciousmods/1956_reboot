@@ -14,78 +14,77 @@ scripted_gui = {
 		}
 		
 		effects = {
-		
 			r56_button_techpoints_infantry_01_click = {
-                add_ideas = r56_idea_techpoint_infantry_01 
-                subtract_from_variable = { r56_var_techpoints_infantry = 10 }
+                		add_ideas = r56_idea_techpoint_infantry_01 
+               			subtract_from_variable = { r56_var_techpoints_infantry = 10 }
 				set_variable = { r56_var_techpoints_infantry_set = 1 }	
 			}
 			
 			r56_button_techpoints_infantry_02_click = {
-                swap_ideas = {
+               			swap_ideas = {
 					remove_idea = r56_idea_techpoint_infantry_01
 					add_idea = r56_idea_techpoint_infantry_02
 				}
 				
-                subtract_from_variable = { r56_var_techpoints_infantry = 10 }
+                		subtract_from_variable = { r56_var_techpoints_infantry = 10 }
 			}
 			
 			r56_button_techpoints_infantry_03_click = {
-                swap_ideas = {
+                		swap_ideas = {
 					remove_idea = r56_idea_techpoint_infantry_02
 					add_idea = r56_idea_techpoint_infantry_03
 				}
 				
-                subtract_from_variable = { r56_var_techpoints_infantry = 10 }
+                		subtract_from_variable = { r56_var_techpoints_infantry = 10 }
 			}
 			
 			r56_button_techpoints_infantry_04_click = {
-                add_ideas = r56_idea_techpoint_infantry_04
-                subtract_from_variable = { r56_var_techpoints_infantry = 10 }
+                		add_ideas = r56_idea_techpoint_infantry_04
+                		subtract_from_variable = { r56_var_techpoints_infantry = 10 }
 				set_variable = { r56_var_techpoints_infantry_set = 2 }
 			}
 
 			r56_button_techpoints_infantry_05_click = {
-                swap_ideas = {
+                		swap_ideas = {
 					remove_idea = r56_idea_techpoint_infantry_04
 					add_idea = r56_idea_techpoint_infantry_05
 				}
 				
-                subtract_from_variable = { r56_var_techpoints_infantry = 10 }
+                		subtract_from_variable = { r56_var_techpoints_infantry = 10 }
 			}
 			
 			r56_button_techpoints_infantry_06_click = {
-                swap_ideas = {
+                		swap_ideas = {
 					remove_idea = r56_idea_techpoint_infantry_05
 					add_idea = r56_idea_techpoint_infantry_06
 				}
 				
-                subtract_from_variable = { r56_var_techpoints_infantry = 10 }
+                		subtract_from_variable = { r56_var_techpoints_infantry = 10 }
 			}
 			
 			r56_button_techpoints_infantry_07_click = {
-                add_ideas = r56_idea_techpoint_infantry_07
-                subtract_from_variable = { r56_var_techpoints_infantry = 10 }
+                		add_ideas = r56_idea_techpoint_infantry_07
+                		subtract_from_variable = { r56_var_techpoints_infantry = 10 }
 				set_variable = { r56_var_techpoints_infantry_set = 3 }
 				
 			}
 			
 			r56_button_techpoints_infantry_08_click = {
-                swap_ideas = {
+                		swap_ideas = {
 					remove_idea = r56_idea_techpoint_infantry_07
 					add_idea = r56_idea_techpoint_infantry_08
 				}
 				
-                subtract_from_variable = { r56_var_techpoints_infantry = 10 }
+                		subtract_from_variable = { r56_var_techpoints_infantry = 10 }
 			}
 			
 			r56_button_techpoints_infantry_09_click = {
-                swap_ideas = {
+                		swap_ideas = {
 					remove_idea = r56_idea_techpoint_infantry_08
 					add_idea = r56_idea_techpoint_infantry_09
 				}
 				
-                subtract_from_variable = { r56_var_techpoints_infantry = 10 }
+                		subtract_from_variable = { r56_var_techpoints_infantry = 10 }
 			}
 		}
 		
@@ -149,7 +148,7 @@ scripted_gui = {
 		ai_max_weight_taken_per_test = 2
 		
 		ai_enabled = {
-            always = yes
+            		always = yes
 		}
 		
 		ai_check = {
