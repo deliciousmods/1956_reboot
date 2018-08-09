@@ -1,16 +1,16 @@
-#####-----> Tech Interface GFX by Greatexperiment <><> <><> <><> <><> <><>
-#####-----> Guide File - This is intended to be a reference for files of this type <><> <><> <><> <><> <><>
+#####-----> Tech Interface GFX <><> <><> <><> <><> <><>
+#####-----> Guide File - This is intended to be a reference for files of this type. <><> <><> <><> <><> <><>
 
 spriteTypes = {
 
 ###---> Infantry Technologies <><> <><> <><>
 
 
-#-> Infantry Guns <><>
-
+	#-> Infantry Guns <><>
+	
 	SpriteType = {
 		name = "GFX_r56_tech_infantry_guns_root_medium"
-		texturefile = "gfx/interface/technologies/infantry/equipment/r56_equip_infantry_guns_00.dds"
+		texturefile = "gfx/interface/technologies/infantry/equipment/r56_equip_infantry_guns_root.dds"
 	}
 	
 	SpriteType = {
@@ -53,8 +53,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/infantry/equipment/r56_equip_infantry_guns_08.dds"
 	}
 	
-	
-#-> Infantry Precision Gear <><>
+	#-> Infantry Precision Gear <><>
 	
 	SpriteType = {
 		name = "GFX_r56_tech_infantry_precisiongear_01_medium"
@@ -96,9 +95,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_precisiongear_08.dds"
 	}
 	
+	#-> Infantry Experiments <><>
 	
-#-> Infantry Experiments <><>
-
 	SpriteType = {
 		name = "GFX_r56_tech_infantry_experiments_01_medium"
 		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_experiments_01.dds"
