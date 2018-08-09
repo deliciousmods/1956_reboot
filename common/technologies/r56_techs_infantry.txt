@@ -149,7 +149,7 @@ technologies = {
 		}
 		
 		dependencies = {
-			r56_tech_infantry_guns_03 = 1
+			r56_tech_infantry_guns_01 = 1
 		}
 		
 		path = {
@@ -209,7 +209,7 @@ technologies = {
 		}
 		
 		dependencies = {
-			r56_tech_infantry_guns_04 = 1
+			r56_tech_infantry_guns_02 = 1
 		}
 		
 		path = {
