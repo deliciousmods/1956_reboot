@@ -788,7 +788,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -8 y = 2 }
+			position = { x = -9 y = 2 }
 		}
 		
 		path = {
@@ -846,7 +846,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -8 y = 6 }
+			position = { x = -9 y = 6 }
 		}
 		
 		path = {
@@ -909,7 +909,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -8 y = 10 }
+			position = { x = -9 y = 10 }
 		}
 		
 		path = {
@@ -972,7 +972,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -8 y = 14 }
+			position = { x = -9 y = 14 }
 		}
 		
 		path = {
@@ -1040,7 +1040,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -8 y = 18 }
+			position = { x = -9 y = 18 }
 		}
 		
 		path = {
@@ -1108,7 +1108,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -8 y = 22 }
+			position = { x = -9 y = 22 }
 		}
 		
 		path = {
@@ -1176,7 +1176,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -8 y = 26 }
+			position = { x = -9 y = 26 }
 		}
 		
 		path = {
@@ -1244,7 +1244,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -8 y = 30 }
+			position = { x = -9 y = 30 }
 		}
 		
 		path = {
@@ -1314,7 +1314,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -5 y = 4 }
+			position = { x = -6 y = 4 }
 		}		
 		
 		categories = {
@@ -1366,7 +1366,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -6 y = 8 }
+			position = { x = -7 y = 8 }
 		}	
 		
 		categories = {
@@ -1418,7 +1418,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -6 y = 12 }
+			position = { x = -7 y = 12 }
 		}	
 		
 		categories = {
@@ -1470,7 +1470,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -6 y = 16 }
+			position = { x = -7 y = 16 }
 		}	
 		
 		categories = {
@@ -1522,7 +1522,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -6 y = 20 }
+			position = { x = -7 y = 20 }
 		}	
 		
 		categories = {
@@ -1574,7 +1574,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -6 y = 24 }
+			position = { x = -7 y = 24 }
 		}	
 		
 		categories = {
@@ -1626,7 +1626,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -6 y = 28 }
+			position = { x = -7 y = 28 }
 		}	
 		
 		categories = {
@@ -1680,7 +1680,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -4 y = 8 }
+			position = { x = -5 y = 8 }
 		}	
 		
 		categories = {
@@ -1712,7 +1712,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -4 y = 12 }
+			position = { x = -5 y = 12 }
 		}		
 		
 		categories = {
@@ -1744,7 +1744,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -4 y = 16 }
+			position = { x = -5 y = 16 }
 		}	
 		
 		categories = {
@@ -1776,7 +1776,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -4 y = 20 }
+			position = { x = -5 y = 20 }
 		}	
 		
 		categories = {
@@ -1808,7 +1808,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -4 y = 24 }
+			position = { x = -5 y = 24 }
 		}	
 		
 		categories = {
@@ -1840,7 +1840,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -4 y = 28 }
+			position = { x = -5 y = 28 }
 		}	
 		
 		categories = {
@@ -1874,7 +1874,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -5 y = 14 }
+			position = { x = -6 y = 14 }
 		}	
 		
 		categories = {
@@ -1908,7 +1908,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -5 y = 18 }
+			position = { x = -6 y = 18 }
 		}	
 		
 		categories = {
@@ -1942,7 +1942,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -5 y = 22 }
+			position = { x = -6 y = 22 }
 		}	
 		
 		categories = {
@@ -1976,7 +1976,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -5 y = 26 }
+			position = { x = -6 y = 26 }
 		}	
 		
 		categories = {
@@ -2010,7 +2010,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -5 y = 30 }
+			position = { x = -6 y = 30 }
 		}	
 		
 		categories = {
@@ -2046,7 +2046,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = 3 }
+			position = { x = 6 y = 3 }
 		}	
 		
 		path = {
@@ -2094,7 +2094,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = 7 }
+			position = { x = 5 y = 7 }
 		}	
 		
 		path = {
@@ -2130,7 +2130,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = 11 }
+			position = { x = 4 y = 11 }
 		}	
 		
 		path = {
@@ -2168,7 +2168,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = 15 }
+			position = { x = 4 y = 15 }
 		}	
 		
 		path = {
@@ -2204,7 +2204,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = 19 }
+			position = { x = 4 y = 19 }
 		}	
 		
 		path = {
@@ -2242,7 +2242,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = 23 }
+			position = { x = 4 y = 23 }
 		}	
 		
 		path = {
@@ -2278,7 +2278,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = 27 }
+			position = { x = 4 y = 27 }
 		}	
 		
 		path = {
@@ -2316,7 +2316,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = 31 }
+			position = { x = 4 y = 31 }
 		}	
 		
 		path = {
@@ -2354,7 +2354,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 6 y = 7 }
+			position = { x = 7 y = 7 }
 		}
 		
 		path = {
@@ -2407,7 +2407,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 7 y = 11 }
+			position = { x = 8 y = 11 }
 		}
 		
 		path = {
@@ -2460,7 +2460,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 7 y = 15 }
+			position = { x = 8 y = 15 }
 		}
 		
 		categories = {
@@ -2513,7 +2513,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 7 y = 19 }
+			position = { x = 8 y = 19 }
 		}
 		
 		categories = {
@@ -2566,7 +2566,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 7 y = 23 }
+			position = { x = 8 y = 23 }
 		}
 		
 		categories = {
@@ -2619,7 +2619,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 7 y = 27 }
+			position = { x = 8 y = 27 }
 		}
 		
 		categories = {
@@ -2672,7 +2672,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 7 y = 31 }
+			position = { x = 8 y = 31 }
 		}
 		
 		categories = {
@@ -2727,7 +2727,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = 5 }
+			position = { x = 4 y = 5 }
 		}
 		
 		dependencies = {
@@ -2780,7 +2780,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = 9 }
+			position = { x = 3 y = 9 }
 		}
 		
 		dependencies = {
@@ -2822,7 +2822,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = 13 }
+			position = { x = 3 y = 13 }
 		}
 		
 		dependencies = {
@@ -2864,7 +2864,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = 17 }
+			position = { x = 3 y = 17 }
 		}
 		
 		dependencies = {
@@ -2906,7 +2906,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = 21 }
+			position = { x = 3 y = 21 }
 		}
 		
 		dependencies = {
@@ -2948,7 +2948,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = 25 }
+			position = { x = 3 y = 25 }
 		}
 		
 		dependencies = {
@@ -2990,7 +2990,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = 29 }
+			position = { x = 3 y = 29 }
 		}
 		
 		dependencies = {
@@ -3034,7 +3034,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 5 y = 5 }
+			position = { x = 6 y = 5 }
 		}	
 
 		dependencies = {
@@ -3087,7 +3087,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = 9 }
+			position = { x = 5 y = 9 }
 		}	
 		
 		dependencies = {
@@ -3129,7 +3129,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = 13 }
+			position = { x = 5 y = 13 }
 		}	
 		
 		dependencies = {
@@ -3171,7 +3171,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = 17 }
+			position = { x = 5 y = 17 }
 		}	
 		
 		dependencies = {
@@ -3213,7 +3213,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = 21 }
+			position = { x = 5 y = 21 }
 		}	
 		
 		dependencies = {
@@ -3255,7 +3255,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = 25 }
+			position = { x = 5 y = 25 }
 		}	
 		
 		dependencies = {
@@ -3297,7 +3297,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = 29 }
+			position = { x = 5 y = 29 }
 		}	
 		
 		dependencies = {
@@ -3341,7 +3341,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 7 y = 5 }
+			position = { x = 8 y = 5 }
 		}	
 		
 		dependencies = {
@@ -3394,7 +3394,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 6 y = 9 }
+			position = { x = 7 y = 9 }
 		}	
 		
 		path = {
@@ -3436,7 +3436,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 6 y = 13 }
+			position = { x = 7 y = 13 }
 		}	
 		
 		path = {
@@ -3478,7 +3478,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 6 y = 17 }
+			position = { x = 7 y = 17 }
 		}	
 		
 		path = {
@@ -3520,7 +3520,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 6 y = 21 }
+			position = { x = 7 y = 21 }
 		}	
 		
 		path = {
@@ -3562,7 +3562,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 6 y = 25 }
+			position = { x = 7 y = 25 }
 		}	
 		
 		path = {
@@ -3604,7 +3604,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 6 y = 29 }
+			position = { x = 7 y = 29 }
 		}	
 		
 		path = {
@@ -3648,7 +3648,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = 9 }
+			position = { x = 9 y = 9 }
 		}	
 		
 		dependencies = {
@@ -3706,7 +3706,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = 13 }
+			position = { x = 9 y = 13 }
 		}	
 		
 		dependencies = {
@@ -3790,7 +3790,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = 21 }
+			position = { x = 9 y = 21 }
 		}	
 		
 		dependencies = {
@@ -3832,7 +3832,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = 25 }
+			position = { x = 9 y = 25 }
 		}	
 		
 		dependencies = {
@@ -3874,7 +3874,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = 29 }
+			position = { x = 9 y = 29 }
 		}	
 		
 		dependencies = {

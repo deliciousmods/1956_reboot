@@ -1,0 +1,151 @@
+#####-----> Interface Graphics GFX by Greatexperiment <><> <><> <><> <><> <><>
+
+spriteTypes = {
+
+###---> Interface Graphics <><> <><> <><>
+
+
+#-> Misc. Window <><>
+	corneredTileSpriteType = {
+		name = "r56_GFX_tiled_window_thin_border"
+		
+		size= { 
+			x = 192 
+			y = 192 
+		}
+		
+		borderSize = { 
+			x = 64 
+			y = 64 
+		}
+		
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		textureFile = "gfx//interface//tiles//tiled_window_thin_border2.dds"
+	}
+	
+#-> Transparent Window <><>
+	corneredTileSpriteType = {
+		name = "r56_GFX_tiled_window_transparent"
+		
+		size= { 
+			x = 3 y = 3 
+		}
+
+		borderSize = { 
+			x = 1 
+			y = 1 
+		}
+		
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		textureFile = "gfx//interface//tiles//tiled_window_transparent.dds"
+	}
+	
+#-> Standard Thin Window <><>
+	corneredTileSpriteType = {
+		name = "r56_GFX_mini_tooltip"
+		
+		size= {
+			x = 32 
+			y = 32 
+		}
+
+		borderSize = { 
+			x = 12 
+			y = 12 
+		}
+		
+		texturefile = "gfx//interface//tiles//tiled_mini_dialog.dds"
+	}
+	
+#-> Paper Window <><>	
+	corneredTileSpriteType = {
+		name = "r56_GFX_tiled_paper_bg_lite"
+		
+		size= { 
+			x = 192 
+			y = 192 
+		}
+
+		borderSize = { 
+			x = 64 
+			y = 64 
+		}
+		
+		tilingCenter = yes
+		
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		textureFile = "gfx//interface//tiles//tiled_paper_bg.dds"		
+	}
+	
+#-> Dark Paper Window <><>
+	corneredTileSpriteType = {
+		name = "r56_GFX_tiled_paper_bg_dark"
+		
+		size= { 
+			x = 192 
+			y = 192 
+		}
+		
+		borderSize = { 
+			x = 64 
+			y = 64 
+		}
+		
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		textureFile = "gfx//interface//tiles//tiled_paper_bg2.dds"		
+	}
+	
+#-> Plate Window <><>
+	corneredTileSpriteType = {
+		name = "r56_GFX_tiled_plain_bg"
+		
+		size= { 
+			x = 192 
+			y = 192 
+		}
+		
+		borderSize = { 
+			x = 64 
+			y = 64 
+		}
+		
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		textureFile = "gfx//interface//tiles//tiled_plain_bg.dds"
+	}
+	
+#-> Anim Arrow Down <><>
+	frameAnimatedSpriteType = {
+		name = "r56_GFX_line_down_arrow"
+		
+		noOfFrames = 12
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 12
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		texturefile = "gfx//interface//techtree//techtree_line_down_strip.dds"
+	}
+	
+#-> Standard Arrow Down <><>
+	spriteType = {
+		name = "r56_GFX_line_down_generic"
+		
+		noOfFrames = 4
+		textureFile = "gfx//interface//techtree//techtree_line_vertical.dds"
+	}
+
+#-> Dotted Arrow Down <><>	
+	spriteType = {
+		name = "r56_GFX_line_down_dots"
+		
+		noOfFrames = 4	
+		textureFile = "gfx//interface//techtree/techtree_dotline_vertical.dds"		
+	}
+}
+
+#####-----> End File <><> <><> <><> <><> <><>
