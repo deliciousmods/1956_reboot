@@ -75,7 +75,7 @@ guiTypes = {
 			name = "infantry_folder"
 
 			position = {
-				x = 0
+				x = 3
 				y = 47
 			}
 
@@ -83,12 +83,12 @@ guiTypes = {
 				width = 100%%
 				height = 100%%
 			}
-
+			##remember to resolve bottom blackbar later - GXP
 			margin = { 
-				top = 1%%
-				bottom = 3%%
-				left = 1%%
-				right = 1%%
+				top = 13
+				bottom = 25
+				left = 13
+				right = 0
 			}
 
 			drag_scroll = { left middle }
@@ -99,1882 +99,2563 @@ guiTypes = {
 				name = "Background"
 				quadTextureSprite = "GFX_tiled_window_2b_border"
 			}
-
+			
 			containerWindowType = {
-				name = "r56_techtree_infantry_bg"
-
-				clipping = no
+				name = "r56_grid_background"
+				
+				size = {
+					width = 1900
+					height = 2375
+				}
 
 				position = {
 					x = 0
 					y = 0
 				}
-
-				size = {
-					width = 100%%
-					height = 100%%
-				}
-
+				
 				background = {
 					name = "Background"
-					quadTextureSprite ="GFX_tiled_window_transparent"
+					quadTextureSprite = "r56_GFX_tiled_blueprint_06"
 				}
-			}
-
-			containerWindowType = {
-				name = "r56_infantry_box_01"
-
-				clipping = no
-
-				position = {
-					x = 1080
-					y = 220
+				
+				iconType = {
+					name ="infantry_techtree_bg"
+					spriteType = "GFX_infantry_techtree_bg"
+					position = { x=0 y=0 }
+					allwaystransparent = yes
 				}
-
-				size = {
-					width = 550
-					height = 2155
-				}
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_window_transparent"
-				}
-
+				
+		
 				containerWindowType = {
-					name = "r56_infantry_box_01_01"
-
-					clipping = no
-
+					name = "r56_textbox_left"
+					
 					position = {
-						x = 75
-						y = 70
+						x = 20
+						y = 55
 					}
 
 					size = {
-						width = 430
-						height = 250
+						width = 200
+						height = 2100
 					}
-
-					background = {
-						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
-					}
-
+			
 					containerWindowType = {
-						name = "r56_infantry_box_01_x01"
+						name = "r56_textbox_left_01"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 0
+							y = 41
 						}
 
 						size = {
-							width = 400
-							height = 240
+							width = 101
+							height = 55
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
 						}
-
-						containerWindowType = {
-							name = "r56_infantry_box_01_xx01"
-
-							clipping = no
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_01"
 
 							position = {
-								x = 60
-								y = 50
+								x = 19
+								y = 9
 							}
 
-							size = {
-								width = 280
-								height = 145
-							}
-
-							background = {
-								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
-							}
+							font = "hoi_36header"
+							text = "1918"
+							format = left
 						}
 					}
-				}
-
-				containerWindowType = {
-					name = "r56_infantry_box_01_02"
-
-					clipping = no
-
-					position = {
-						x = 5
-						y = 350
-					}
-
-					size = {
-						width = 570
-						height = 250
-					}
-
-					background = {
-						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
-					}
-
+					
 					containerWindowType = {
-						name = "r56_infantry_box_01_x02"
+						name = "r56_textbox_left_02"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 0
+							y = 191
 						}
 
 						size = {
-							width = 540
-							height = 240
+							width = 101
+							height = 55
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
 						}
-
-						containerWindowType = {
-							name = "r56_infantry_box_01_xx02"
-
-							clipping = no
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_02"
 
 							position = {
-								x = 60
-								y = 50
+								x = 19
+								y = 9
 							}
 
-							size = {
-								width = 420
-								height = 145
-							}
-
-							background = {
-								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
-							}
+							font = "hoi_36header"
+							text = "1935"
+							format = left
 						}
 					}
-				}
-
-				containerWindowType = {
-					name = "r56_infantry_box_01_03"
-
-					clipping = no
-
-					position = {
-						x = 5
-						y = 630
-					}
-
-					size = {
-						width = 570
-						height = 250
-					}
-
-					background = {
-						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
-					}
-
+					
 					containerWindowType = {
-						name = "r56_infantry_box_01_x03"
+						name = "r56_textbox_left_03"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 0
+							y = 331
 						}
 
 						size = {
-							width = 540
-							height = 240
+							width = 101
+							height = 55
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
 						}
-
-						containerWindowType = {
-							name = "r56_infantry_box_01_xx03"
-
-							clipping = no
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_03"
 
 							position = {
-								x = 60
-								y = 50
+								x = 19
+								y = 9
 							}
 
-							size = {
-								width = 420
-								height = 145
-							}
-
-							background = {
-								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
-							}
+							font = "hoi_36header"
+							text = "1937"
+							format = left
 						}
 					}
-				}
-
-				containerWindowType = {
-					name = "r56_infantry_box_01_04"
-
-					clipping = no
-
-					position = {
-						x = 5
-						y = 910
-					}
-
-					size = {
-						width = 570
-						height = 250
-					}
-
-					background = {
-						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
-					}
-
+					
 					containerWindowType = {
-						name = "r56_infantry_box_01_x04"
+						name = "r56_textbox_left_04"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 0
+							y = 471
 						}
 
 						size = {
-							width = 540
-							height = 240
+							width = 101
+							height = 55
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
 						}
-
-						containerWindowType = {
-							name = "r56_infantry_box_01_xx04"
-
-							clipping = no
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_04"
 
 							position = {
-								x = 60
-								y = 50
+								x = 19
+								y = 9
 							}
 
-							size = {
-								width = 420
-								height = 145
-							}
-
-							background = {
-								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
-							}
+							font = "hoi_36header"
+							text = "1938"
+							format = left
 						}
 					}
-				}
-
-				containerWindowType = {
-					name = "r56_infantry_box_01_05"
-
-					clipping = no
-
-					position = {
-						x = 5
-						y = 1190
-					}
-
-					size = {
-						width = 570
-						height = 250
-					}
-
-					background = {
-						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
-					}
-
+					
 					containerWindowType = {
-						name = "r56_infantry_box_01_x05"
+						name = "r56_textbox_left_05"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 0
+							y = 611
 						}
 
 						size = {
-							width = 540
-							height = 240
+							width = 101
+							height = 55
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
 						}
-
-						containerWindowType = {
-							name = "r56_infantry_box_01_xx05"
-
-							clipping = no
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_05"
 
 							position = {
-								x = 60
-								y = 50
+								x = 19
+								y = 9
 							}
 
-							size = {
-								width = 420
-								height = 145
-							}
-
-							background = {
-								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
-							}
+							font = "hoi_36header"
+							text = "1940"
+							format = left
 						}
 					}
-				}
-
-				containerWindowType = {
-					name = "r56_infantry_box_01_06"
-
-					clipping = no
-
-					position = {
-						x = 5
-						y = 1470
-					}
-
-					size = {
-						width = 570
-						height = 250
-					}
-
-					background = {
-						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
-					}
-
+					
 					containerWindowType = {
-						name = "r56_infantry_box_01_x06"
+						name = "r56_textbox_left_06"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 0
+							y = 751
 						}
 
 						size = {
-							width = 540
-							height = 240
+							width = 101
+							height = 55
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
 						}
-
-						containerWindowType = {
-							name = "r56_infantry_box_01_xx06"
-
-							clipping = no
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_06"
 
 							position = {
-								x = 60
-								y = 50
+								x = 19
+								y = 9
 							}
 
-							size = {
-								width = 420
-								height = 145
-							}
-
-							background = {
-								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
-							}
+							font = "hoi_36header"
+							text = "1941"
+							format = left
 						}
 					}
-				}
-
-				containerWindowType = {
-					name = "r56_infantry_box_01_07"
-
-					clipping = no
-
-					position = {
-						x = 5
-						y = 1750
-					}
-
-					size = {
-						width = 570
-						height = 250
-					}
-
-					background = {
-						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
-					}
-
+					
 					containerWindowType = {
-						name = "r56_infantry_box_01_x07"
+						name = "r56_textbox_left_07"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 0
+							y = 891
 						}
 
 						size = {
-							width = 540
-							height = 240
+							width = 101
+							height = 55
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
 						}
-
-						containerWindowType = {
-							name = "r56_infantry_box_01_xx07"
-
-							clipping = no
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_07"
 
 							position = {
-								x = 60
-								y = 50
+								x = 19
+								y = 9
 							}
 
-							size = {
-								width = 420
-								height = 145
-							}
-
-							background = {
-								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
-							}
+							font = "hoi_36header"
+							text = "1943"
+							format = left
 						}
 					}
-				}
-			}
-
-			containerWindowType = {
-				name = "r56_infantry_box_02"
-
-				clipping = no
-
-				position = {
-					x = 180
-					y = 150
-				}
-
-				size = {
-					width = 385
-					height = 2155
-				}
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_window_transparent"
-				}
-
-				containerWindowType = {
-					name = "r56_infantry_box_02_01"
-
-					clipping = no
-
-					position = {
-						x = 65
-						y = 70
-					}
-
-					size = {
-						width = 360
-						height = 250
-					}
-
-					background = {
-						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
-					}
-
+					
 					containerWindowType = {
-						name = "r56_infantry_box_02_x01"
+						name = "r56_textbox_left_08"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 0
+							y = 1031
 						}
 
 						size = {
-							width = 330
-							height = 240
+							width = 101
+							height = 55
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
 						}
-
-						containerWindowType = {
-							name = "r56_infantry_box_02_xx01"
-
-							clipping = no
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_08"
 
 							position = {
-								x = 55
-								y = 50
+								x = 19
+								y = 9
 							}
 
-							size = {
-								width = 215
-								height = 145
-							}
-
-							background = {
-								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
-							}
+							font = "hoi_36header"
+							text = "1944"
+							format = left
 						}
 					}
-				}
-
-				containerWindowType = {
-					name = "r56_infantry_box_02_02"
-
-					clipping = no
-
-					position = {
-						x = 65
-						y = 350
-					}
-
-					size = {
-						width = 430
-						height = 250
-					}
-
-					background = {
-						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
-					}
-
+					
 					containerWindowType = {
-						name = "r56_infantry_box_02_x02"
+						name = "r56_textbox_left_09"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 0
+							y = 1171
 						}
 
 						size = {
-							width = 400
-							height = 240
+							width = 101
+							height = 55
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
 						}
-
-						containerWindowType = {
-							name = "r56_infantry_box_02_xx02"
-
-							clipping = no
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_09"
 
 							position = {
-								x = 55
-								y = 50
+								x = 19
+								y = 9
 							}
 
-							size = {
-								width = 285
-								height = 145
-							}
-
-							background = {
-								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
-							}
+							font = "hoi_36header"
+							text = "1946"
+							format = left
 						}
 					}
-				}
-
-				containerWindowType = {
-					name = "r56_infantry_box_02_03"
-
-					clipping = no
-
-					position = {
-						x = 65
-						y = 630
-					}
-
-					size = {
-						width = 430
-						height = 250
-					}
-
-					background = {
-						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
-					}
-
+					
 					containerWindowType = {
-						name = "r56_infantry_box_02_x03"
+						name = "r56_textbox_left_10"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 0
+							y = 1311
 						}
 
 						size = {
-							width = 400
-							height = 240
+							width = 101
+							height = 55
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
 						}
-
-						containerWindowType = {
-							name = "r56_infantry_box_02_xx03"
-
-							clipping = no
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_10"
 
 							position = {
-								x = 55
-								y = 50
+								x = 19
+								y = 9
 							}
 
-							size = {
-								width = 285
-								height = 145
-							}
-
-							background = {
-								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
-							}
+							font = "hoi_36header"
+							text = "1947"
+							format = left
 						}
 					}
-				}
-
-				containerWindowType = {
-					name = "r56_infantry_box_02_04"
-
-					clipping = no
-
-					position = {
-						x = 65
-						y = 910
-					}
-
-					size = {
-						width = 430
-						height = 250
-					}
-
-					background = {
-						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
-					}
-
+					
 					containerWindowType = {
-						name = "r56_infantry_box_02_x04"
+						name = "r56_textbox_left_11"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 0
+							y = 1451
 						}
 
 						size = {
-							width = 400
-							height = 240
+							width = 101
+							height = 55
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
 						}
-
-						containerWindowType = {
-							name = "r56_infantry_box_02_xx04"
-
-							clipping = no
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_11"
 
 							position = {
-								x = 55
-								y = 50
+								x = 19
+								y = 9
 							}
 
-							size = {
-								width = 285
-								height = 145
-							}
-
-							background = {
-								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
-							}
+							font = "hoi_36header"
+							text = "1949"
+							format = left
 						}
 					}
-				}
-
-				containerWindowType = {
-					name = "r56_infantry_box_02_05"
-
-					clipping = no
-
-					position = {
-						x = 65
-						y = 1190
-					}
-
-					size = {
-						width = 430
-						height = 250
-					}
-
-					background = {
-						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
-					}
-
+					
 					containerWindowType = {
-						name = "r56_infantry_box_02_x05"
+						name = "r56_textbox_left_12"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 0
+							y = 1591
 						}
 
 						size = {
-							width = 400
-							height = 240
+							width = 101
+							height = 55
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
 						}
-
-						containerWindowType = {
-							name = "r56_infantry_box_02_xx05"
-
-							clipping = no
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_12"
 
 							position = {
-								x = 55
-								y = 50
+								x = 19
+								y = 9
 							}
 
-							size = {
-								width = 285
-								height = 145
-							}
-
-							background = {
-								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
-							}
+							font = "hoi_36header"
+							text = "1950"
+							format = left
 						}
 					}
-				}
-
-				containerWindowType = {
-					name = "r56_infantry_box_02_06"
-
-					clipping = no
-
-					position = {
-						x = 65
-						y = 1470
-					}
-
-					size = {
-						width = 430
-						height = 250
-					}
-
-					background = {
-						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
-					}
-
+					
 					containerWindowType = {
-						name = "r56_infantry_box_02_x06"
+						name = "r56_textbox_left_13"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 0
+							y = 1731
 						}
 
 						size = {
-							width = 400
-							height = 240
+							width = 101
+							height = 55
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
 						}
-
-						containerWindowType = {
-							name = "r56_infantry_box_02_xx06"
-
-							clipping = no
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_13"
 
 							position = {
-								x = 55
-								y = 50
+								x = 19
+								y = 9
 							}
 
-							size = {
-								width = 285
-								height = 145
-							}
-
-							background = {
-								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
-							}
+							font = "hoi_36header"
+							text = "1952"
+							format = left
 						}
 					}
-				}
-
-				containerWindowType = {
-					name = "r56_infantry_box_02_07"
-
-					clipping = no
-
-					position = {
-						x = 65
-						y = 1750
-					}
-
-					size = {
-						width = 430
-						height = 250
-					}
-
-					background = {
-						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
-					}
-
+					
 					containerWindowType = {
-						name = "r56_infantry_box_02_x07"
+						name = "r56_textbox_left_14"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 0
+							y = 1871
 						}
 
 						size = {
-							width = 400
-							height = 240
+							width = 101
+							height = 55
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
 						}
-
-						containerWindowType = {
-							name = "r56_infantry_box_02_xx07"
-
-							clipping = no
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_14"
 
 							position = {
-								x = 55
-								y = 50
+								x = 19
+								y = 9
 							}
 
-							size = {
-								width = 285
-								height = 145
-							}
-
-							background = {
-								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
-							}
+							font = "hoi_36header"
+							text = "1953"
+							format = left
 						}
 					}
-				}
-			}
-
-			containerWindowType = {
-				name = "r56_infantry_box_03"
-
-				clipping = no
-
-				position = {
-					x = 600
-					y = 10
-				}
-
-				size = {
-					width = 400
-					height = 2300
-				}
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_window_transparent"
-				}
-
-				containerWindowType = {
-					name = "r56_infantry_box_03_01"
-
-					clipping = no
-
-					position = {
-						x = 145
-						y = 63
-					}
-
-					size = {
-						width = 270
-						height = 157
-					}
-
-					background = {
-						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
-					}
-
+					
 					containerWindowType = {
-						name = "r56_infantry_box_03_x01"
+						name = "r56_textbox_left_15"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 0
+							y = 2011
 						}
 
 						size = {
-							width = 240
-							height = 147
+							width = 101
+							height = 55
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
 						}
-
-						containerWindowType = {
-							name = "r56_infantry_box_03_xx01"
-
-							clipping = no
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_15"
 
 							position = {
-								x = 55
-								y = 55
+								x = 19
+								y = 9
 							}
 
-							size = {
-								width = 130
-								height = 70
-							}
-
-							background = {
-								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
-							}
+							font = "hoi_36header"
+							text = "1955"
+							format = left
 						}
 					}
-				}
-
-				containerWindowType = {
-					name = "r56_infantry_box_03_02"
-
-					clipping = no
-
-					position = {
-						x = 145
-						y = 273
-					}
-
-					size = {
-						width = 270
-						height = 257
-					}
-
-					background = {
-						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
-					}
-
+					
 					containerWindowType = {
-						name = "r56_infantry_box_03_x02"
+						name = "r56_textbox_left_16"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 0
+							y = 2151
 						}
 
 						size = {
-							width = 240
-							height = 247
+							width = 101
+							height = 55
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
 						}
-
-						containerWindowType = {
-							name = "r56_infantry_box_03_xx02"
-
-							clipping = no
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_16"
 
 							position = {
-								x = 55
-								y = 55
+								x = 19
+								y = 9
 							}
 
-							size = {
-								width = 130
-								height = 145
-							}
-
-							background = {
-								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
-							}
+							font = "hoi_36header"
+							text = "1956"
+							format = left
 						}
 					}
 				}
-
+				
 				containerWindowType = {
-					name = "r56_infantry_box_03_03"
-
-					clipping = no
-
+					name = "r56_textbox_right"
+					
 					position = {
-						x = 145
-						y = 553
+						x = 1765
+						y = 130
 					}
 
 					size = {
-						width = 270
-						height = 257
+						width = 200
+						height = 2100
 					}
-
-					background = {
-						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
-					}
-
+					
 					containerWindowType = {
-						name = "r56_infantry_box_03_x03"
+						name = "r56_textbox_left_02"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 0
+							y = 191
 						}
 
 						size = {
-							width = 240
-							height = 247
+							width = 101
+							height = 55
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
 						}
-
-						containerWindowType = {
-							name = "r56_infantry_box_03_xx03"
-
-							clipping = no
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_02"
 
 							position = {
-								x = 55
-								y = 55
+								x = 19
+								y = 9
 							}
 
-							size = {
-								width = 130
-								height = 145
+							font = "hoi_36header"
+							text = "1936"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_03"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 331
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_03"
+
+							position = {
+								x = 19
+								y = 9
 							}
 
-							background = {
-								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
+							font = "hoi_36header"
+							text = "1938"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_04"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 471
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_04"
+
+							position = {
+								x = 19
+								y = 9
 							}
+
+							font = "hoi_36header"
+							text = "1939"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_05"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 611
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_05"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1941"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_06"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 751
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_06"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1942"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_07"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 891
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_07"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1944"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_08"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 1031
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_08"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1945"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_09"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 1171
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_09"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1947"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_10"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 1311
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_10"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1948"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_11"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 1451
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_11"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1950"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_12"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 1591
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_12"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1951"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_13"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 1731
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_13"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1953"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_14"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 1871
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_14"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1954"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_15"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 2011
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_15"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1956"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_16"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 2151
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_infantry_year_16"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1957"
+							format = left
 						}
 					}
 				}
 
 				containerWindowType = {
-					name = "r56_infantry_box_03_04"
+					name = "r56_infantry_box_01"
 
 					clipping = no
 
 					position = {
-						x = 145
-						y = 833
+						x = 1080
+						y = 220
 					}
 
 					size = {
-						width = 270
-						height = 257
+						width = 550
+						height = 2155
 					}
 
 					background = {
 						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						quadTextureSprite ="GFX_tiled_window_transparent"
 					}
 
 					containerWindowType = {
-						name = "r56_infantry_box_03_x04"
+						name = "r56_infantry_box_01_01"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 75
+							y = 70
 						}
 
 						size = {
-							width = 240
-							height = 247
+							width = 430
+							height = 250
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
 						}
 
 						containerWindowType = {
-							name = "r56_infantry_box_03_xx04"
+							name = "r56_infantry_box_01_x01"
 
 							clipping = no
 
 							position = {
-								x = 55
-								y = 55
+								x = 15
+								y = 5
 							}
 
 							size = {
-								width = 130
-								height = 145
+								width = 400
+								height = 240
 							}
 
 							background = {
 								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_01_xx01"
+
+								clipping = no
+
+								position = {
+									x = 60
+									y = 50
+								}
+
+								size = {
+									width = 280
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
+							}
+						}
+					}
+
+					containerWindowType = {
+						name = "r56_infantry_box_01_02"
+
+						clipping = no
+
+						position = {
+							x = 5
+							y = 350
+						}
+
+						size = {
+							width = 570
+							height = 250
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						}
+
+						containerWindowType = {
+							name = "r56_infantry_box_01_x02"
+
+							clipping = no
+
+							position = {
+								x = 15
+								y = 5
+							}
+
+							size = {
+								width = 540
+								height = 240
+							}
+
+							background = {
+								name = "Background"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_01_xx02"
+
+								clipping = no
+
+								position = {
+									x = 60
+									y = 50
+								}
+
+								size = {
+									width = 420
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
+							}
+						}
+					}
+
+					containerWindowType = {
+						name = "r56_infantry_box_01_03"
+
+						clipping = no
+
+						position = {
+							x = 5
+							y = 630
+						}
+
+						size = {
+							width = 570
+							height = 250
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						}
+
+						containerWindowType = {
+							name = "r56_infantry_box_01_x03"
+
+							clipping = no
+
+							position = {
+								x = 15
+								y = 5
+							}
+
+							size = {
+								width = 540
+								height = 240
+							}
+
+							background = {
+								name = "Background"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_01_xx03"
+
+								clipping = no
+
+								position = {
+									x = 60
+									y = 50
+								}
+
+								size = {
+									width = 420
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
+							}
+						}
+					}
+
+					containerWindowType = {
+						name = "r56_infantry_box_01_04"
+
+						clipping = no
+
+						position = {
+							x = 5
+							y = 910
+						}
+
+						size = {
+							width = 570
+							height = 250
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						}
+
+						containerWindowType = {
+							name = "r56_infantry_box_01_x04"
+
+							clipping = no
+
+							position = {
+								x = 15
+								y = 5
+							}
+
+							size = {
+								width = 540
+								height = 240
+							}
+
+							background = {
+								name = "Background"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_01_xx04"
+
+								clipping = no
+
+								position = {
+									x = 60
+									y = 50
+								}
+
+								size = {
+									width = 420
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
+							}
+						}
+					}
+
+					containerWindowType = {
+						name = "r56_infantry_box_01_05"
+
+						clipping = no
+
+						position = {
+							x = 5
+							y = 1190
+						}
+
+						size = {
+							width = 570
+							height = 250
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						}
+
+						containerWindowType = {
+							name = "r56_infantry_box_01_x05"
+
+							clipping = no
+
+							position = {
+								x = 15
+								y = 5
+							}
+
+							size = {
+								width = 540
+								height = 240
+							}
+
+							background = {
+								name = "Background"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_01_xx05"
+
+								clipping = no
+
+								position = {
+									x = 60
+									y = 50
+								}
+
+								size = {
+									width = 420
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
+							}
+						}
+					}
+
+					containerWindowType = {
+						name = "r56_infantry_box_01_06"
+
+						clipping = no
+
+						position = {
+							x = 5
+							y = 1470
+						}
+
+						size = {
+							width = 570
+							height = 250
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						}
+
+						containerWindowType = {
+							name = "r56_infantry_box_01_x06"
+
+							clipping = no
+
+							position = {
+								x = 15
+								y = 5
+							}
+
+							size = {
+								width = 540
+								height = 240
+							}
+
+							background = {
+								name = "Background"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_01_xx06"
+
+								clipping = no
+
+								position = {
+									x = 60
+									y = 50
+								}
+
+								size = {
+									width = 420
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
+							}
+						}
+					}
+
+					containerWindowType = {
+						name = "r56_infantry_box_01_07"
+
+						clipping = no
+
+						position = {
+							x = 5
+							y = 1750
+						}
+
+						size = {
+							width = 570
+							height = 250
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						}
+
+						containerWindowType = {
+							name = "r56_infantry_box_01_x07"
+
+							clipping = no
+
+							position = {
+								x = 15
+								y = 5
+							}
+
+							size = {
+								width = 540
+								height = 240
+							}
+
+							background = {
+								name = "Background"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_01_xx07"
+
+								clipping = no
+
+								position = {
+									x = 60
+									y = 50
+								}
+
+								size = {
+									width = 420
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
 							}
 						}
 					}
 				}
 
 				containerWindowType = {
-					name = "r56_infantry_box_03_05"
+					name = "r56_infantry_box_02"
 
 					clipping = no
 
 					position = {
-						x = 145
-						y = 1113
+						x = 180
+						y = 150
 					}
 
 					size = {
-						width = 270
-						height = 257
+						width = 385
+						height = 2155
 					}
 
 					background = {
 						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						quadTextureSprite ="GFX_tiled_window_transparent"
 					}
 
 					containerWindowType = {
-						name = "r56_infantry_box_03_x05"
+						name = "r56_infantry_box_02_01"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 65
+							y = 70
 						}
 
 						size = {
-							width = 240
-							height = 247
+							width = 360
+							height = 250
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
 						}
 
 						containerWindowType = {
-							name = "r56_infantry_box_03_xx05"
+							name = "r56_infantry_box_02_x01"
 
 							clipping = no
 
 							position = {
-								x = 55
-								y = 55
+								x = 15
+								y = 5
 							}
 
 							size = {
-								width = 130
-								height = 145
+								width = 330
+								height = 240
 							}
 
 							background = {
 								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_02_xx01"
+
+								clipping = no
+
+								position = {
+									x = 55
+									y = 50
+								}
+
+								size = {
+									width = 215
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
+							}
+						}
+					}
+
+					containerWindowType = {
+						name = "r56_infantry_box_02_02"
+
+						clipping = no
+
+						position = {
+							x = 65
+							y = 350
+						}
+
+						size = {
+							width = 430
+							height = 250
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						}
+
+						containerWindowType = {
+							name = "r56_infantry_box_02_x02"
+
+							clipping = no
+
+							position = {
+								x = 15
+								y = 5
+							}
+
+							size = {
+								width = 400
+								height = 240
+							}
+
+							background = {
+								name = "Background"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_02_xx02"
+
+								clipping = no
+
+								position = {
+									x = 55
+									y = 50
+								}
+
+								size = {
+									width = 285
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
+							}
+						}
+					}
+
+					containerWindowType = {
+						name = "r56_infantry_box_02_03"
+
+						clipping = no
+
+						position = {
+							x = 65
+							y = 630
+						}
+
+						size = {
+							width = 430
+							height = 250
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						}
+
+						containerWindowType = {
+							name = "r56_infantry_box_02_x03"
+
+							clipping = no
+
+							position = {
+								x = 15
+								y = 5
+							}
+
+							size = {
+								width = 400
+								height = 240
+							}
+
+							background = {
+								name = "Background"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_02_xx03"
+
+								clipping = no
+
+								position = {
+									x = 55
+									y = 50
+								}
+
+								size = {
+									width = 285
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
+							}
+						}
+					}
+
+					containerWindowType = {
+						name = "r56_infantry_box_02_04"
+
+						clipping = no
+
+						position = {
+							x = 65
+							y = 910
+						}
+
+						size = {
+							width = 430
+							height = 250
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						}
+
+						containerWindowType = {
+							name = "r56_infantry_box_02_x04"
+
+							clipping = no
+
+							position = {
+								x = 15
+								y = 5
+							}
+
+							size = {
+								width = 400
+								height = 240
+							}
+
+							background = {
+								name = "Background"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_02_xx04"
+
+								clipping = no
+
+								position = {
+									x = 55
+									y = 50
+								}
+
+								size = {
+									width = 285
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
+							}
+						}
+					}
+
+					containerWindowType = {
+						name = "r56_infantry_box_02_05"
+
+						clipping = no
+
+						position = {
+							x = 65
+							y = 1190
+						}
+
+						size = {
+							width = 430
+							height = 250
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						}
+
+						containerWindowType = {
+							name = "r56_infantry_box_02_x05"
+
+							clipping = no
+
+							position = {
+								x = 15
+								y = 5
+							}
+
+							size = {
+								width = 400
+								height = 240
+							}
+
+							background = {
+								name = "Background"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_02_xx05"
+
+								clipping = no
+
+								position = {
+									x = 55
+									y = 50
+								}
+
+								size = {
+									width = 285
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
+							}
+						}
+					}
+
+					containerWindowType = {
+						name = "r56_infantry_box_02_06"
+
+						clipping = no
+
+						position = {
+							x = 65
+							y = 1470
+						}
+
+						size = {
+							width = 430
+							height = 250
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						}
+
+						containerWindowType = {
+							name = "r56_infantry_box_02_x06"
+
+							clipping = no
+
+							position = {
+								x = 15
+								y = 5
+							}
+
+							size = {
+								width = 400
+								height = 240
+							}
+
+							background = {
+								name = "Background"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_02_xx06"
+
+								clipping = no
+
+								position = {
+									x = 55
+									y = 50
+								}
+
+								size = {
+									width = 285
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
+							}
+						}
+					}
+
+					containerWindowType = {
+						name = "r56_infantry_box_02_07"
+
+						clipping = no
+
+						position = {
+							x = 65
+							y = 1750
+						}
+
+						size = {
+							width = 430
+							height = 250
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						}
+
+						containerWindowType = {
+							name = "r56_infantry_box_02_x07"
+
+							clipping = no
+
+							position = {
+								x = 15
+								y = 5
+							}
+
+							size = {
+								width = 400
+								height = 240
+							}
+
+							background = {
+								name = "Background"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_02_xx07"
+
+								clipping = no
+
+								position = {
+									x = 55
+									y = 50
+								}
+
+								size = {
+									width = 285
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
 							}
 						}
 					}
 				}
 
 				containerWindowType = {
-					name = "r56_infantry_box_03_06"
+					name = "r56_infantry_box_03"
 
 					clipping = no
 
 					position = {
-						x = 145
-						y = 1393
+						x = 600
+						y = 10
 					}
 
 					size = {
-						width = 270
-						height = 257
+						width = 400
+						height = 2300
 					}
 
 					background = {
 						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						quadTextureSprite ="GFX_tiled_window_transparent"
 					}
 
 					containerWindowType = {
-						name = "r56_infantry_box_03_x06"
+						name = "r56_infantry_box_03_01"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 145
+							y = 63
 						}
 
 						size = {
-							width = 240
-							height = 247
+							width = 270
+							height = 157
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
 						}
 
 						containerWindowType = {
-							name = "r56_infantry_box_03_xx06"
+							name = "r56_infantry_box_03_x01"
 
 							clipping = no
 
 							position = {
-								x = 55
-								y = 55
+								x = 15
+								y = 5
 							}
 
 							size = {
-								width = 130
-								height = 145
+								width = 240
+								height = 147
 							}
 
 							background = {
 								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_03_xx01"
+
+								clipping = no
+
+								position = {
+									x = 55
+									y = 55
+								}
+
+								size = {
+									width = 130
+									height = 70
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
 							}
 						}
 					}
-				}
-
-				containerWindowType = {
-					name = "r56_infantry_box_03_07"
-
-					clipping = no
-
-					position = {
-						x = 145
-						y = 1673
-					}
-
-					size = {
-						width = 270
-						height = 257
-					}
-
-					background = {
-						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
-					}
 
 					containerWindowType = {
-						name = "r56_infantry_box_03_x07"
+						name = "r56_infantry_box_03_02"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 145
+							y = 273
 						}
 
 						size = {
-							width = 240
-							height = 247
+							width = 270
+							height = 257
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
 						}
 
 						containerWindowType = {
-							name = "r56_infantry_box_03_xx07"
+							name = "r56_infantry_box_03_x02"
 
 							clipping = no
 
 							position = {
-								x = 55
-								y = 55
+								x = 15
+								y = 5
 							}
 
 							size = {
-								width = 130
-								height = 145
+								width = 240
+								height = 247
 							}
 
 							background = {
 								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_03_xx02"
+
+								clipping = no
+
+								position = {
+									x = 55
+									y = 55
+								}
+
+								size = {
+									width = 130
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
 							}
 						}
 					}
-				}
-
-				containerWindowType = {
-					name = "r56_infantry_box_03_08"
-
-					clipping = no
-
-					position = {
-						x = 145
-						y = 1953
-					}
-
-					size = {
-						width = 270
-						height = 257
-					}
-
-					background = {
-						name = "Background"
-						quadTextureSprite ="r56_GFX_tiled_plain_bg"
-					}
 
 					containerWindowType = {
-						name = "r56_infantry_box_03_x08"
+						name = "r56_infantry_box_03_03"
 
 						clipping = no
 
 						position = {
-							x = 15
-							y = 5
+							x = 145
+							y = 553
 						}
 
 						size = {
-							width = 240
-							height = 247
+							width = 270
+							height = 257
 						}
 
 						background = {
 							name = "Background"
-							quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
 						}
 
 						containerWindowType = {
-							name = "r56_infantry_box_03_xx08"
+							name = "r56_infantry_box_03_x03"
 
 							clipping = no
 
 							position = {
-								x = 55
-								y = 55
+								x = 15
+								y = 5
 							}
 
 							size = {
-								width = 135
-								height = 145
+								width = 240
+								height = 247
 							}
 
 							background = {
 								name = "Background"
-								quadTextureSprite ="r56_GFX_tiled_paper_bg_lite"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_03_xx03"
+
+								clipping = no
+
+								position = {
+									x = 55
+									y = 55
+								}
+
+								size = {
+									width = 130
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
+							}
+						}
+					}
+
+					containerWindowType = {
+						name = "r56_infantry_box_03_04"
+
+						clipping = no
+
+						position = {
+							x = 145
+							y = 833
+						}
+
+						size = {
+							width = 270
+							height = 257
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						}
+
+						containerWindowType = {
+							name = "r56_infantry_box_03_x04"
+
+							clipping = no
+
+							position = {
+								x = 15
+								y = 5
+							}
+
+							size = {
+								width = 240
+								height = 247
+							}
+
+							background = {
+								name = "Background"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_03_xx04"
+
+								clipping = no
+
+								position = {
+									x = 55
+									y = 55
+								}
+
+								size = {
+									width = 130
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
+							}
+						}
+					}
+
+					containerWindowType = {
+						name = "r56_infantry_box_03_05"
+
+						clipping = no
+
+						position = {
+							x = 145
+							y = 1113
+						}
+
+						size = {
+							width = 270
+							height = 257
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						}
+
+						containerWindowType = {
+							name = "r56_infantry_box_03_x05"
+
+							clipping = no
+
+							position = {
+								x = 15
+								y = 5
+							}
+
+							size = {
+								width = 240
+								height = 247
+							}
+
+							background = {
+								name = "Background"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_03_xx05"
+
+								clipping = no
+
+								position = {
+									x = 55
+									y = 55
+								}
+
+								size = {
+									width = 130
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
+							}
+						}
+					}
+
+					containerWindowType = {
+						name = "r56_infantry_box_03_06"
+
+						clipping = no
+
+						position = {
+							x = 145
+							y = 1393
+						}
+
+						size = {
+							width = 270
+							height = 257
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						}
+
+						containerWindowType = {
+							name = "r56_infantry_box_03_x06"
+
+							clipping = no
+
+							position = {
+								x = 15
+								y = 5
+							}
+
+							size = {
+								width = 240
+								height = 247
+							}
+
+							background = {
+								name = "Background"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_03_xx06"
+
+								clipping = no
+
+								position = {
+									x = 55
+									y = 55
+								}
+
+								size = {
+									width = 130
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
+							}
+						}
+					}
+
+					containerWindowType = {
+						name = "r56_infantry_box_03_07"
+
+						clipping = no
+
+						position = {
+							x = 145
+							y = 1673
+						}
+
+						size = {
+							width = 270
+							height = 257
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						}
+
+						containerWindowType = {
+							name = "r56_infantry_box_03_x07"
+
+							clipping = no
+
+							position = {
+								x = 15
+								y = 5
+							}
+
+							size = {
+								width = 240
+								height = 247
+							}
+
+							background = {
+								name = "Background"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_03_xx07"
+
+								clipping = no
+
+								position = {
+									x = 55
+									y = 55
+								}
+
+								size = {
+									width = 130
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
+							}
+						}
+					}
+
+					containerWindowType = {
+						name = "r56_infantry_box_03_08"
+
+						clipping = no
+
+						position = {
+							x = 145
+							y = 1953
+						}
+
+						size = {
+							width = 270
+							height = 257
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_tiled_plain_bg"
+						}
+
+						containerWindowType = {
+							name = "r56_infantry_box_03_x08"
+
+							clipping = no
+
+							position = {
+								x = 15
+								y = 5
+							}
+
+							size = {
+								width = 240
+								height = 247
+							}
+
+							background = {
+								name = "Background"
+								quadTextureSprite ="r56_GFX_tiled_paper_bg_dark"
+							}
+
+							containerWindowType = {
+								name = "r56_infantry_box_03_xx08"
+
+								clipping = no
+
+								position = {
+									x = 55
+									y = 55
+								}
+
+								size = {
+									width = 135
+									height = 145
+								}
+
+								background = {
+									name = "Background"
+									quadTextureSprite ="r56_GFX_mini_tooltip"
+								}
 							}
 						}
 					}
 				}
-			}
-
-			#-> Left Year Text for Infantry Techs <><>
-
-			instantTextBoxType = {
-				name = "r56_datetext_left_infantry_year_0"
-
-				position = {
-					x = 25
-					y = 110
-				}
-
-				font = "hoi_36header"
-				text = "1918"
-				format = left
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_left_infantry_year_1"
-
-				position = {
-					x = 25
-					y = 260
-				}
-
-				font = "hoi_36header"
-				text = "1935"
-				format = left
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_left_infantry_year_2"
-
-				position = {
-					x = 25
-					y = 400
-				}
-
-				font = "hoi_36header"
-				text = "1937"
-				format = left
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_left_infantry_year_3"
-
-				position = {
-					x = 25
-					y = 540
-				}
-
-				font = "hoi_36header"
-				text = "1938"
-				format = left
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_left_infantry_year_4"
-
-				position = {
-					x = 25
-					y = 680
-				}
-
-				font = "hoi_36header"
-				text = "1940"
-				format = left
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_left_infantry_year_5"
-
-				position = {
-					x = 25
-					y = 820
-				}
-
-				font = "hoi_36header"
-				text = "1941"
-				format = left
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_left_infantry_year_6"
-
-				position = {
-					x = 25
-					y = 960
-				}
-
-				font = "hoi_36header"
-				text = "1943"
-				format = left
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_left_infantry_year_7"
-
-				position = {
-					x = 25
-					y = 1100
-				}
-
-				font = "hoi_36header"
-				text = "1944"
-				format = left
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_left_infantry_year_8"
-
-				position = {
-					x = 25
-					y = 1240
-				}
-
-				font = "hoi_36header"
-				text = "1946"
-				format = left
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_left_infantry_year_9"
-
-				position = {
-					x = 25
-					y = 1380
-				}
-
-				font = "hoi_36header"
-				text = "1947"
-				format = left
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_left_infantry_year_10"
-
-				position = {
-					x = 25
-					y = 1520
-				}
-
-				font = "hoi_36header"
-				text = "1949"
-				format = left
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_left_infantry_year_11"
-
-				position = {
-					x = 25
-					y = 1660
-				}
-
-				font = "hoi_36header"
-				text = "1950"
-				format = left
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_left_infantry_year_12"
-
-				position = {
-					x = 25
-					y = 1800
-				}
-
-				font = "hoi_36header"
-				text = "1952"
-				format = left
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_left_infantry_year_13"
-
-				position = {
-					x = 25
-					y = 1940
-				}
-
-				font = "hoi_36header"
-				text = "1953"
-				format = left
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_left_infantry_year_14"
-
-				position = {
-					x = 25
-					y = 2080
-				}
-
-				font = "hoi_36header"
-				text = "1955"
-				format = left
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_left_infantry_year_15"
-
-				position = {
-					x = 25
-					y = 2220
-				}
-
-				font = "hoi_36header"
-				text = "1956"
-				format = left
-			}
-
-			#-> Right Year Text for Infantry Techs <><>
-
-			instantTextBoxType = {
-				name = "r56_datetext_right_infantry_year_1"
-
-				position = {
-					x = 1650
-					y = 330
-				}
-
-				font = "hoi_36header"
-				text = "1936"
-				format = right
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_right_infantry_year_2"
-
-				position = {
-					x = 1650
-					y = 470
-				}
-
-				font = "hoi_36header"
-				text = "1938"
-				format = right
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_right_infantry_year_3"
-
-				position = {
-					x = 1650
-					y = 610
-				}
-
-				font = "hoi_36header"
-				text = "1939"
-				format = right
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_right_infantry_year_4"
-
-				position = {
-					x = 1650
-					y = 750
-				}
-
-				font = "hoi_36header"
-				text = "1941"
-				format = right
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_right_infantry_year_5"
-
-				position = {
-					x = 1650
-					y = 890
-				}
-
-				font = "hoi_36header"
-				text = "1942"
-				format = right
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_right_infantry_year_6"
-
-				position = {
-					x = 1650
-					y = 1030
-				}
-
-				font = "hoi_36header"
-				text = "1944"
-				format = right
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_right_infantry_year_7"
-
-				position = {
-					x = 1650
-					y = 1170
-				}
-
-				font = "hoi_36header"
-				text = "1945"
-				format = right
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_right_infantry_year_8"
-
-				position = {
-					x = 1650
-					y = 1310
-				}
-
-				font = "hoi_36header"
-				text = "1947"
-				format = right
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_right_infantry_year_9"
-
-				position = {
-					x = 1650
-					y = 1450
-				}
-
-				font = "hoi_36header"
-				text = "1948"
-				format = right
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_right_infantry_year_10"
-
-				position = {
-					x = 1650
-					y = 1590
-				}
-
-				font = "hoi_36header"
-				text = "1950"
-				format = right
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_right_infantry_year_11"
-
-				position = {
-					x = 1650
-					y = 1730
-				}
-
-				font = "hoi_36header"
-				text = "1951"
-				format = right
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_right_infantry_year_12"
-
-				position = {
-					x = 1650
-					y = 1870
-				}
-
-				font = "hoi_36header"
-				text = "1953"
-				format = right
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_right_infantry_year_13"
-
-				position = {
-					x = 1650
-					y = 2010
-				}
-
-				font = "hoi_36header"
-				text = "1954"
-				format = right
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_right_infantry_year_14"
-
-				position = {
-					x = 1650
-					y = 2150
-				}
-
-				font = "hoi_36header"
-				text = "1956"
-				format = right
-			}
-
-			instantTextBoxType = {
-				name = "r56_datetext_right_infantry_year_15"
-
-				position = {
-					x = 1650
-					y = 2290
-				}
-
-				font = "hoi_36header"
-				text = "1957"
-				format = right
 			}
 
 			#-> Label Text for Infantry <><>
@@ -1997,7 +2678,7 @@ guiTypes = {
 				name = "r56_techtreetext_infantry_specialforces"
 
 				position = {
-					x = 1210
+					x = 1280
 					y = 75
 				}
 
@@ -2011,7 +2692,7 @@ guiTypes = {
 				name = "r56_techtreetext_infantry_weapons"
 
 				position = {
-					x = 250
+					x = 280
 					y = 75
 				}
 

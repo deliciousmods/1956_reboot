@@ -22,7 +22,7 @@ guiTypes = {
 		
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_tiled_window_thin_border2"
+			quadTextureSprite ="r56_GFX_tiled_plain_bg"
 		}
 		
 		instantTextBoxType = {
@@ -55,7 +55,7 @@ guiTypes = {
 		
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_paper_bg"
+				quadTextureSprite ="GFX_mini_tooltip"
 			}
 			
 			containerWindowType = {

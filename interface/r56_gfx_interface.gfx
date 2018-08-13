@@ -117,6 +117,122 @@ spriteTypes = {
 		textureFile = "gfx//interface//tiles//tiled_plain_bg.dds"
 	}
 	
+#-> Small Plate Window <><>
+	corneredTileSpriteType = {
+		name = "r56_GFX_tiled_plate_small"
+		
+		size= { 
+			x = 52 
+			y = 52
+		}
+		
+		borderSize = { 
+			x = 16 
+			y = 16
+		}
+		
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		textureFile = "gfx//interface//tiles//r56_tiled_plate_small.dds"
+	}
+	
+	
+#-> Blueprint Paper <><>	
+	corneredTileSpriteType = {
+		name = "r56_GFX_tiled_blueprint"
+		
+		size= {
+			x = 192 
+			y = 192 
+		}
+
+		borderSize = { 
+			x = 64 
+			y = 64 
+		}
+		
+		tilingCenter = yes
+		
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		textureFile = "gfx//interface//tiles//r56_GFX_tile_blueprint_03.dds"		
+	}
+	
+	corneredTileSpriteType = {
+		name = "r56_GFX_tiled_blueprint_04"
+		
+		size= {
+			x = 192 
+			y = 192 
+		}
+
+		borderSize = { 
+			x = 64 
+			y = 64 
+		}
+		
+		tilingCenter = yes
+		
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		textureFile = "gfx//interface//tiles//r56_GFX_tile_blueprint_04.dds"		
+	}
+	
+	corneredTileSpriteType = {
+		name = "r56_GFX_tiled_blueprint_07"
+		
+		size= {
+			x = 192 
+			y = 192 
+		}
+
+		borderSize = { 
+			x = 64 
+			y = 64 
+		}
+		
+		tilingCenter = yes
+		
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		textureFile = "gfx//interface//tiles//r56_GFX_tile_blueprint_07.dds"		
+	}
+	
+	corneredTileSpriteType = {
+		name = "r56_GFX_tiled_blueprint_08"
+		
+		size= {
+			x = 192 
+			y = 192 
+		}
+
+		borderSize = { 
+			x = 64 
+			y = 64 
+		}
+		
+		tilingCenter = yes
+		
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		textureFile = "gfx//interface//tiles//r56_GFX_tile_blueprint_08.dds"		
+	}
+	
+	corneredTileSpriteType = {
+		name = "r56_GFX_tiled_blueprint_06"
+		
+		size= {
+			x = 192 
+			y = 192 
+		}
+
+		borderSize = { 
+			x = 64 
+			y = 64 
+		}
+		
+		tilingCenter = yes
+		
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		textureFile = "gfx//interface//tiles//r56_GFX_tile_blueprint_06.dds"		
+	}
+	
 #-> Anim Arrow Down <><>
 	frameAnimatedSpriteType = {
 		name = "r56_GFX_line_down_arrow"
