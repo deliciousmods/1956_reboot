@@ -6,7 +6,7 @@ guiTypes = {
 		name = "techpoints_infantry_window"
 		
 		position = { 
-			x = 1600 
+			x = 1610 
 			y = 7 
 		}
 			

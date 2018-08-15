@@ -3748,7 +3748,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = 17 }
+			position = { x = 9 y = 17 }
 		}	
 		
 		dependencies = {
