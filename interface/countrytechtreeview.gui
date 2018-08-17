@@ -70,7 +70,6 @@ guiTypes = {
 		}
 
 ###---> Infantry Folder <><> <><> <><>
-
 		containerWindowType = {
 			name = "infantry_folder"
 
@@ -125,7 +124,7 @@ guiTypes = {
 					allwaystransparent = yes
 				}
 				
-		
+#-> Date Text - Left Side <><>
 				containerWindowType = {
 					name = "r56_textbox_left"
 					
@@ -684,6 +683,7 @@ guiTypes = {
 					}
 				}
 				
+#-> Date Text - Right Side <><>
 				containerWindowType = {
 					name = "r56_textbox_right"
 					
@@ -1274,7 +1274,6 @@ guiTypes = {
 			}
 
 #-> Label Text for Infantry <><>
-
 			instantTextBoxType = {
 				name = "r56_techtreetext_infantry_guns"
 
@@ -1395,7 +1394,6 @@ guiTypes = {
 			}
 
 #-> Infantry Tech Root Placement <><>
-
 			gridboxtype = {
 				name = "r56_tech_infantry_guns_root_tree"
 

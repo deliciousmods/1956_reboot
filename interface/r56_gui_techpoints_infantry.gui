@@ -84,6 +84,7 @@ guiTypes = {
 						height = 100%%
 					}
 					
+#-> SRD idea - Support Weapon Specialization Rank I <><>
 					buttonType = {
 						name = "r56_button_techpoints_infantry_01" 
 						
@@ -94,8 +95,11 @@ guiTypes = {
 						
 						spriteType = "GFX_goal_generic_axis_build_infantry"
 						scale = 0.5
+						
+						pdx_tooltip = "r56_tooltip_srd_infantry_01"	
 					}
 				
+#-> SRD idea - Support Weapon Specialization Rank II <><>
 					buttonType = {
 						name = "r56_button_techpoints_infantry_02" 
 						
@@ -106,8 +110,11 @@ guiTypes = {
 						
 						spriteType = "GFX_goal_generic_axis_build_infantry"
 						scale = 0.5
+						
+						pdx_tooltip = "r56_tooltip_srd_infantry_02"	
 					}
 					
+#-> SRD idea - Support Weapon Specialization Rank III <><>
 					buttonType = {
 						name = "r56_button_techpoints_infantry_03" 
 						
@@ -118,9 +125,12 @@ guiTypes = {
 						
 						spriteType = "GFX_goal_generic_axis_build_infantry"
 						scale = 0.5
+						
+						pdx_tooltip = "r56_tooltip_srd_infantry_03"	
 					}
 				}
 				
+#-> SRD idea - Infantry Specialization Rank I <><>
 				containerWindowType = {
 					name = "techpoints_infantry_window_fillstrip_02"
 				
@@ -144,8 +154,11 @@ guiTypes = {
 						
 						spriteType = "GFX_goal_generic_military_sphere"
 						scale = 0.5
+						
+						pdx_tooltip = "r56_tooltip_srd_infantry_04"	
 					}
 					
+#-> SRD idea - Infantry Specialization Rank II <><>
 					buttonType = {
 						name = "r56_button_techpoints_infantry_05" 
 						
@@ -156,8 +169,11 @@ guiTypes = {
 						
 						spriteType = "GFX_goal_generic_military_sphere"
 						scale = 0.5
+						
+						pdx_tooltip = "r56_tooltip_srd_infantry_05"	
 					}
 					
+#-> SRD idea - Infantry Specialization Rank III <><>
 					buttonType = {
 						name = "r56_button_techpoints_infantry_06" 
 						
@@ -168,9 +184,12 @@ guiTypes = {
 						
 						spriteType = "GFX_goal_generic_military_sphere"
 						scale = 0.5
+						
+						pdx_tooltip = "r56_tooltip_srd_infantry_06"	
 					}
 				}
 				
+#-> SRD idea - Special Forces Specialization Rank I <><>
 				containerWindowType = {
 					name = "techpoints_infantry_window_fillstrip_03"
 				
@@ -184,6 +203,7 @@ guiTypes = {
 						height = 100%%
 					}
 					
+#-> SRD idea - Special Forces Specialization Rank II <><>
 					buttonType = {
 						name = "r56_button_techpoints_infantry_07" 
 						
@@ -194,8 +214,11 @@ guiTypes = {
 						
 						spriteType = "GFX_goal_generic_CAS"
 						scale = 0.5
+						
+						pdx_tooltip = "r56_tooltip_srd_infantry_07"	
 					}
 					
+#-> SRD idea - Special Forces Specialization Rank III <><>
 					buttonType = {
 						name = "r56_button_techpoints_infantry_08" 
 						
@@ -206,6 +229,8 @@ guiTypes = {
 						
 						spriteType = "GFX_goal_generic_CAS"
 						scale = 0.5
+						
+						pdx_tooltip = "r56_tooltip_srd_infantry_08"	
 					}
 					
 					buttonType = {
@@ -218,6 +243,8 @@ guiTypes = {
 						
 						spriteType = "GFX_goal_generic_CAS"
 						scale = 0.5
+						
+						pdx_tooltip = "r56_tooltip_srd_infantry_09"	
 					}
 				}
 			}

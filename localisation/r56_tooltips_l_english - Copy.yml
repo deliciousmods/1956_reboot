@@ -1,0 +1,18 @@
+﻿#####-----> Tooltip Localization <><> <><> <><> <><> <><>
+
+l_english:
+ 
+###---> SRD Tooltips <><> <><> <><>
+
+ #-> Infantry SRD Tooltips <><>
+ r56_tooltip_srd_infantry_01: "01 01"
+  r56_tooltip_srd_infantry_02: "01 02"
+  r56_tooltip_srd_infantry_03: "01 03"
+  r56_tooltip_srd_infantry_04: "02 01"
+  r56_tooltip_srd_infantry_05: "02 02"
+  r56_tooltip_srd_infantry_06: "02 03"
+  r56_tooltip_srd_infantry_07: "03 01"
+  r56_tooltip_srd_infantry_08: "03 02"
+  r56_tooltip_srd_infantry_09: "03 03"
+
+#####-----> End of File <><> <><> <><> <><> <><>
