@@ -1,4 +1,4 @@
-﻿#####-----> Technology Localization <><> <><> <><> <><> <><>
+﻿#####-----> Technology Localization by Greatexperiment <><> <><> <><> <><> <><>
 #####-----> Guide File - This is intended to be a reference for files of this type. <><> <><> <><> <><> <><>
 
 l_english:
@@ -30,6 +30,50 @@ l_english:
    
    r56_tech_infantry_experiments_08: "1956 Infantry Experiments"
    r56_tech_infantry_experiments_08_desc: "1956 Infantry Experiments Desc"
+   
+#-> Infantry Recon <><>
+  r56_tech_infantry_recon_01: "01 Recon Infantry"
+  r56_tech_infantry_recon_01_desc: "01 Recon Infantry Desc"
+  
+   r56_tech_infantry_recon_02: "02 Recon Infantry"
+   r56_tech_infantry_recon_02_desc: "02 Recon Infantry Desc"
+
+   r56_tech_infantry_recon_03: "03 Recon Infantry"
+   r56_tech_infantry_recon_03_desc: "03 Recon Infantry Desc"
+   
+   r56_tech_infantry_recon_04: "04 Recon Infantry"
+   r56_tech_infantry_recon_04_desc: "04 Recon Infantry Desc"
+   
+   r56_tech_infantry_recon_05: "05 Recon Infantry"
+   r56_tech_infantry_recon_05_desc: "05 Recon Infantry Desc"
+   
+   r56_tech_infantry_recon_06: "06 Recon Infantry"
+   r56_tech_infantry_recon_06_desc: "06 Recon Infantry Desc"
+   
+   r56_tech_infantry_recon_07: "07 Recon Infantry"
+   r56_tech_infantry_recon_07_desc: "07 Recon Infantry Desc"
+   
+#-> Infantry Police <><>
+  r56_tech_infantry_police_01: "01 Infantry Police"
+  r56_tech_infantry_police_01_desc: "01 Infantry Police Desc"
+  
+   r56_tech_infantry_police_02: "02 Infantry Police"
+   r56_tech_infantry_police_02_desc: "02 Infantry Police Desc"
+
+   r56_tech_infantry_police_03: "03 Infantry Police"
+   r56_tech_infantry_police_03_desc: "03 Infantry Police Desc"
+   
+   r56_tech_infantry_police_04: "04 Infantry Police"
+   r56_tech_infantry_police_04_desc: "04 Infantry Police"
+   
+   r56_tech_infantry_police_05: "05 Infantry Police"
+   r56_tech_infantry_police_05_desc: "05 Infantry Police"
+   
+   r56_tech_infantry_police_06: "06 Infantry Police"
+   r56_tech_infantry_police_06_desc: "06 Infantry Police"
+   
+   r56_tech_infantry_police_07: "07 Infantry Police"
+   r56_tech_infantry_police_07_desc: "07 Infantry Polices Desc"
    
 #-> Infantry Support Weapons <><>
   r56_tech_infantry_supportwp_01: "Support Weapons"

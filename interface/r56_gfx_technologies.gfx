@@ -1,4 +1,4 @@
-#####-----> Tech Interface GFX <><> <><> <><> <><> <><>
+#####-----> Tech Interface GFX by Greatexperiment <><> <><> <><> <><> <><>
 #####-----> Guide File - This is intended to be a reference for files of this type. <><> <><> <><> <><> <><>
 
 spriteTypes = {
@@ -6,7 +6,7 @@ spriteTypes = {
 ###---> Infantry Technologies <><> <><> <><>
 
 
-	#-> Infantry Guns <><>
+#-> Infantry Guns <><>
 	
 	SpriteType = {
 		name = "GFX_r56_tech_infantry_guns_root_medium"
@@ -53,7 +53,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/infantry/equipment/r56_equip_infantry_guns_08.dds"
 	}
 	
-	#-> Infantry Precision Gear <><>
+#-> Infantry Precision Gear <><>
 	
 	SpriteType = {
 		name = "GFX_r56_tech_infantry_precisiongear_01_medium"
@@ -95,7 +95,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_precisiongear_08.dds"
 	}
 	
-	#-> Infantry Experiments <><>
+#-> Infantry Experiments <><>
 	
 	SpriteType = {
 		name = "GFX_r56_tech_infantry_experiments_01_medium"
@@ -482,6 +482,81 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_r56_tech_infantry_nightvision_07_medium"
 		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_nightvision_07.dds"
+	}
+	
+	
+#-> Infantry Police <><>	
+
+	SpriteType = {
+		name = "GFX_r56_tech_infantry_police_01_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_police_01.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_r56_tech_infantry_police_02_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_police_02.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_r56_tech_infantry_police_03_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_police_03.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_r56_tech_infantry_police_04_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_police_04.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_r56_tech_infantry_police_05_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_police_05.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_r56_tech_infantry_police_06_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_police_06.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_r56_tech_infantry_police_07_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_police_07.dds"
+	}
+	
+#-> Infantry Recon <><>
+
+	SpriteType = {
+		name = "GFX_r56_tech_infantry_recon_01_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_recon_01.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_r56_tech_infantry_recon_02_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_recon_02.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_r56_tech_infantry_recon_03_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_recon_03.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_r56_tech_infantry_recon_04_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_recon_04.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_r56_tech_infantry_recon_05_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_recon_05.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_r56_tech_infantry_recon_06_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_recon_06.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_r56_tech_infantry_police_07_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_police_07.dds"
 	}
 }
 

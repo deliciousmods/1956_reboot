@@ -42,7 +42,7 @@ spriteTypes = {
 		textureFile = "gfx//interface//tiles//tiled_window_transparent.dds"
 	}
 	
-#-> Standard Thin Window <><>
+#-> Standard Window Thin <><>
 	corneredTileSpriteType = {
 		name = "r56_GFX_mini_tooltip"
 		
@@ -60,7 +60,7 @@ spriteTypes = {
 	}
 	
 	
-#-> Standard Window Thin <><>
+#-> Standard Window Thin 02 <><>
 	corneredTileSpriteType = {
 		name = "r56_GFX_mini_02"
 		
@@ -271,7 +271,7 @@ spriteTypes = {
 		textureFile = "gfx//interface//tiles//r56_GFX_tile_blueprint_06.dds"		
 	}
 	
-#-> Anim Arrow Down <><>
+#-> Animated Arrow Down <><>
 	frameAnimatedSpriteType = {
 		name = "r56_GFX_line_down_arrow"
 		
@@ -300,6 +300,51 @@ spriteTypes = {
 		noOfFrames = 4	
 		textureFile = "gfx//interface//techtree/techtree_dotline_vertical.dds"		
 	}
+	
+#-> SRD Techpoints Blank Box for Positioning <><>	
+	SpriteType = {
+		name = "r56_GFX_blankbox"
+		
+		texturefile = "gfx/interface/r56_GFX_blankbox.dds"	
+	}
+	
+###---> Backgrounds <><> <><> <><>
+
+#-> Infantry Techscreen Background 01 <><>	
+	SpriteType = {
+		name = "r56_techtree_infantry_bg_01"
+		
+		texturefile = "gfx/interface/techtree/r56_infantry_techtree_bg_01.dds"	
+	}
+	
+#-> Infantry Techscreen Background 02 <><>	
+	SpriteType = {
+		name = "r56_techtree_infantry_bg_02"
+		
+		texturefile = "gfx/interface/techtree/r56_infantry_techtree_bg_02.dds"	
+	}
+	
+#-> Infantry Techscreen Background 03 <><>	
+	SpriteType = {
+		name = "r56_techtree_infantry_bg_03"
+		
+		texturefile = "gfx/interface/techtree/r56_infantry_techtree_bg_03.dds"	
+	}
+	
+#-> Infantry Techscreen Background 04 <><>	
+	SpriteType = {
+		name = "r56_techtree_infantry_bg_04"
+		
+		texturefile = "gfx/interface/techtree/r56_infantry_techtree_bg_04.dds"	
+	}
+	
+#-> Infantry Techscreen Background 05 <><>	
+	SpriteType = {
+		name = "r56_techtree_infantry_bg_05"
+		
+		texturefile = "gfx/interface/techtree/r56_infantry_techtree_bg_05.dds"	
+	}
+
 }
 
 #####-----> End File <><> <><> <><> <><> <><>

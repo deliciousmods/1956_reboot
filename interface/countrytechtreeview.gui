@@ -1,4 +1,4 @@
-#####-----> Country Tech Tree View UI <><> <><> <><> <><> <><>
+#####-----> Country Tech Tree View UI by Greatexperiment <><> <><> <><> <><> <><>
 #####-----> Guide File - This is intended to be a reference for files of this type. <><> <><> <><> <><> <><>
 
 guiTypes = {
@@ -53,7 +53,7 @@ guiTypes = {
 
 		position = {
 			x = -3
-			y = -3
+			y = 70
 		}
 
 		size = {
@@ -118,10 +118,27 @@ guiTypes = {
 				}
 				
 				iconType = {
-					name ="infantry_techtree_bg"
-					spriteType = "GFX_infantry_techtree_bg"
-					position = { x=0 y=0 }
+					name ="infantry_techtree_bg_01"
+					
+					spriteType = "r56_techtree_infantry_bg_01"
 					allwaystransparent = yes
+					
+					position = { 
+						x = 0 
+						y = 0 
+					}
+				}
+				
+				iconType = {
+					name ="infantry_techtree_bg_02"
+					
+					spriteType = "r56_techtree_infantry_bg_05"
+					allwaystransparent = yes
+					
+					position = { 
+						x = 1000 
+						y = 0 
+					}
 				}
 				
 #-> Date Text - Left Side <><>
@@ -1274,19 +1291,6 @@ guiTypes = {
 			}
 
 #-> Label Text for Infantry <><>
-			instantTextBoxType = {
-				name = "r56_techtreetext_infantry_guns"
-
-				position = {
-					x = 825
-					y = 25
-				}
-
-				font = "hoi_33"
-				text = "r56_techtreetext_subtitle_infantry_guns"
-				maxWidth = 500
-				format = left
-			}
 			
 			containerWindowType = {
 				name = "r56_techtreetext_infantry_guns_bg"
@@ -1294,7 +1298,7 @@ guiTypes = {
 				clipping = no
 				
 				position = {
-					x = 796
+					x = 866
 					y = 15
 				}
 				
@@ -1329,8 +1333,8 @@ guiTypes = {
 				clipping = no
 				
 				position = {
-					x = 298
-					y = 75
+					x = 365
+					y = 120
 				}
 				
 				size = {
@@ -1365,7 +1369,7 @@ guiTypes = {
 				
 				position = {
 					x = 1237
-					y = 75
+					y = 120
 				}
 				
 				size = {

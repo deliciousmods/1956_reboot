@@ -1,6 +1,7 @@
 #####-----> Scripted Effects by Greatexperiment <><> <><> <><> <><> <><>
 #####-----> Guide File - This is intended to be a reference for files of this type <><> <><> <><> <><> <><>
 
+###---> Bumps the techpoints +1 per type for each check <><> <><> <><>
 r56_se_techpoints_sort = {
 
 	if = {

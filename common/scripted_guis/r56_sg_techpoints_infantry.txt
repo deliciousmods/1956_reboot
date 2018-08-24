@@ -13,13 +13,17 @@ scripted_gui = {
 			always = yes
 		}
 		
+###---> Things that happen when you click <><> <><> <><>
 		effects = {
+		
+#-> SRD idea - Support Weapon Specialization Rank I - Click Effects <><>
 			r56_button_techpoints_infantry_01_click = {
                 add_ideas = r56_idea_techpoint_infantry_01 
                	subtract_from_variable = { r56_var_techpoints_infantry = 10 }
 				set_variable = { r56_var_techpoints_infantry_set = 1 }	
 			}
 			
+#-> SRD idea - Support Weapon Specialization Rank II - Click Effects <><>
 			r56_button_techpoints_infantry_02_click = {
                	swap_ideas = {
 					remove_idea = r56_idea_techpoint_infantry_01
@@ -29,6 +33,7 @@ scripted_gui = {
                 subtract_from_variable = { r56_var_techpoints_infantry = 10 }
 			}
 			
+#-> SRD idea - Support Weapon Specialization Rank III - Click Effects <><>
 			r56_button_techpoints_infantry_03_click = {
                 swap_ideas = {
 					remove_idea = r56_idea_techpoint_infantry_02
@@ -38,12 +43,14 @@ scripted_gui = {
                 subtract_from_variable = { r56_var_techpoints_infantry = 10 }
 			}
 			
+#-> SRD idea - Offensive Weapon Specialization Rank I - Click Effects <><>
 			r56_button_techpoints_infantry_04_click = {
                 add_ideas = r56_idea_techpoint_infantry_04
                 subtract_from_variable = { r56_var_techpoints_infantry = 10 }
 				set_variable = { r56_var_techpoints_infantry_set = 2 }
 			}
 
+#-> SRD idea - Offensive Weapon Specialization Rank II - Click Effects <><>
 			r56_button_techpoints_infantry_05_click = {
                 swap_ideas = {
 					remove_idea = r56_idea_techpoint_infantry_04
@@ -53,6 +60,7 @@ scripted_gui = {
                 subtract_from_variable = { r56_var_techpoints_infantry = 10 }
 			}
 			
+#-> SRD idea - Offensive Weapon Specialization Rank III - Click Effects <><>
 			r56_button_techpoints_infantry_06_click = {
                 swap_ideas = {
 					remove_idea = r56_idea_techpoint_infantry_05
@@ -62,6 +70,7 @@ scripted_gui = {
                 subtract_from_variable = { r56_var_techpoints_infantry = 10 }
 			}
 			
+#-> SRD idea - Special Forces Focus Rank I - Click Effects <><>
 			r56_button_techpoints_infantry_07_click = {
                 add_ideas = r56_idea_techpoint_infantry_07
                 subtract_from_variable = { r56_var_techpoints_infantry = 10 }
@@ -69,25 +78,28 @@ scripted_gui = {
 				
 			}
 			
+#-> SRD idea - Special Forces Focus Rank II - Click Effects <><>
 			r56_button_techpoints_infantry_08_click = {
                 swap_ideas = {
 					remove_idea = r56_idea_techpoint_infantry_07
 					add_idea = r56_idea_techpoint_infantry_08
 				}
 				
-                		subtract_from_variable = { r56_var_techpoints_infantry = 10 }
+                subtract_from_variable = { r56_var_techpoints_infantry = 10 }
 			}
 			
+#-> SRD idea - Special Forces Focus Rank III - Click Effects <><>
 			r56_button_techpoints_infantry_09_click = {
                 swap_ideas = {
 					remove_idea = r56_idea_techpoint_infantry_08
 					add_idea = r56_idea_techpoint_infantry_09
 				}
 				
-                		subtract_from_variable = { r56_var_techpoints_infantry = 10 }
+                subtract_from_variable = { r56_var_techpoints_infantry = 10 }
 			}
 		}
 		
+###---> Things that enable clicking - See above for individual button comments <><> <><> <><>
 		triggers = {
 			r56_button_techpoints_infantry_01_click_enabled = {
 				check_variable = { r56_var_techpoints_infantry > 9 }
@@ -144,18 +156,21 @@ scripted_gui = {
 			}
 		}
 		
-		ai_test_interval = 48
-		ai_max_weight_taken_per_test = 2
+###---> Things that decide how often AI should check itself / Minimum requirements for action  <><> <><> <><>
 		
 		ai_enabled = {
             always = yes
 		}
+		
+		ai_test_interval = 48
+		ai_max_weight_taken_per_test = 2
 		
 		ai_check = {
 			check_variable = { ROOT.r56_var_techpoints_infantry > 9 }
 			check_variable = { ai_random > 0.5 }
 		}
 		
+###---> Things that weight per-button AI clicking <><> <><> <><>
 		ai_weights = {
 			r56_button_techpoints_infantry_01_click = {
 				weight = 2.0
