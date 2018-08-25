@@ -141,6 +141,30 @@ guiTypes = {
 					}
 				}
 				
+				iconType = {
+					name ="infantry_techtree_bg_03"
+					
+					spriteType = "r56_techtree_infantry_bg_04"
+					allwaystransparent = yes
+					
+					position = { 
+						x = 1000 
+						y = 650
+					}
+				}
+				
+				iconType = {
+					name ="infantry_techtree_bg_04"
+					
+					spriteType = "r56_techtree_infantry_bg_03"
+					allwaystransparent = yes
+					
+					position = { 
+						x = 0 
+						y = 650
+					}
+				}
+				
 #-> Date Text - Left Side <><>
 				containerWindowType = {
 					name = "r56_textbox_left"

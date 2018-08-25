@@ -917,7 +917,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -4 y = 6 }
+			position = { x = -7 y = 4 }
 		}
 		
 		categories = {
@@ -942,7 +942,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -4 y = 10 }
+			position = { x = -7 y = 8 }
 		}
 		
 		categories = {
@@ -967,7 +967,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -4 y = 14 }
+			position = { x = -7 y = 12 }
 		}
 		
 		categories = {
@@ -992,7 +992,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -4 y = 18 }
+			position = { x = -7 y = 16 }
 		}
 		
 		categories = {
@@ -1017,7 +1017,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -4 y = 22 }
+			position = { x = -7 y = 20 }
 		}
 		
 		categories = {
@@ -1042,7 +1042,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -4 y = 26 }
+			position = { x = -7 y = 24 }
 		}
 		
 		categories = {
@@ -1067,7 +1067,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -4 y = 30 }
+			position = { x = -7 y = 28 }
 		}
 		
 		categories = {
@@ -1700,7 +1700,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -7 y = 4 }
+			position = { x = -4 y = 6 }
 		}		
 		
 		categories = {
@@ -1752,7 +1752,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -7 y = 8 }
+			position = { x = -4 y = 10 }
 		}	
 		
 		categories = {
@@ -1804,7 +1804,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -7 y = 12 }
+			position = { x = -4 y = 14 }
 		}	
 		
 		categories = {
@@ -1856,7 +1856,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -7 y = 16 }
+			position = { x = -4 y = 18 }
 		}	
 		
 		categories = {
@@ -1908,7 +1908,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -7 y = 20 }
+			position = { x = -4 y = 22 }
 		}	
 		
 		categories = {
@@ -1960,7 +1960,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -7 y = 24 }
+			position = { x = -4 y = 26 }
 		}	
 		
 		categories = {
@@ -2012,7 +2012,7 @@ technologies = {
 		
 		folder = {
 			name = infantry_folder
-			position = { x = -7 y = 28 }
+			position = { x = -4 y = 30 }
 		}	
 		
 		categories = {
