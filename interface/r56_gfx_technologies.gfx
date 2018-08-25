@@ -555,8 +555,8 @@ spriteTypes = {
 	}
 	
 		SpriteType = {
-		name = "GFX_r56_tech_infantry_police_07_medium"
-		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_police_07.dds"
+		name = "GFX_r56_tech_infantry_recon_07_medium"
+		texturefile = "gfx/interface/technologies/infantry/r56_tech_infantry_recon_07.dds"
 	}
 }
 

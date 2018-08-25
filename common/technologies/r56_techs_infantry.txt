@@ -528,7 +528,7 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = -6 y = 6 }
-		}		
+		}	
 		
 		categories = {
 			infantry_weapons
@@ -560,6 +560,10 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = -6 y = 10 }
+		}	
+
+		dependencies = {
+			r56_tech_infantry_precisiongear_01 = 1
 		}		
 		
 		categories = {
@@ -592,7 +596,11 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = -6 y = 18 }
-		}			
+		}	
+
+		dependencies = {
+			r56_tech_infantry_precisiongear_02 = 1
+		}		
 		
 		categories = {
 			infantry_weapons
@@ -624,7 +632,11 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = -6 y = 26 }
-		}			
+		}
+
+		dependencies = {
+			r56_tech_infantry_precisiongear_03 = 1
+		}	
 		
 		categories = {
 			infantry_weapons
@@ -662,6 +674,7 @@ technologies = {
 		
 		dependencies = {
 			r56_tech_infantry_guns_01 = 1
+			r56_tech_infantry_experiments_01 = 1
 		}
 		
 		categories = {
@@ -699,6 +712,7 @@ technologies = {
 		dependencies = {
 			r56_tech_infantry_police_01 = 1
 			r56_tech_infantry_guns_02 = 1
+			r56_tech_infantry_experiments_02 = 1
 		}
 		
 		categories = {
@@ -736,6 +750,7 @@ technologies = {
 		dependencies = {
 			r56_tech_infantry_police_02 = 1
 			r56_tech_infantry_guns_03 = 1
+			r56_tech_infantry_experiments_03 = 1
 		}
 		
 		categories = {
@@ -773,6 +788,7 @@ technologies = {
 		dependencies = {
 			r56_tech_infantry_police_03 = 1
 			r56_tech_infantry_guns_04 = 1
+			r56_tech_infantry_experiments_04 = 1
 		}
 		
 		categories = {
@@ -810,6 +826,7 @@ technologies = {
 		dependencies = {
 			r56_tech_infantry_police_04 = 1
 			r56_tech_infantry_guns_05 = 1
+			r56_tech_infantry_experiments_05 = 1
 		}
 		
 		categories = {
@@ -847,6 +864,7 @@ technologies = {
 		dependencies = {
 			r56_tech_infantry_police_05 = 1
 			r56_tech_infantry_guns_06 = 1
+			r56_tech_infantry_experiments_06 = 1
 		}
 		
 		categories = {
@@ -884,6 +902,7 @@ technologies = {
 		dependencies = {
 			r56_tech_infantry_police_06 = 1
 			r56_tech_infantry_guns_07 = 1
+			r56_tech_infantry_experiments_07 = 1
 		}
 		
 		categories = {
@@ -920,6 +939,11 @@ technologies = {
 			position = { x = -7 y = 4 }
 		}
 		
+		dependencies = {
+			r56_tech_infantry_guns_01 = 1
+			r56_tech_infantry_experiments_01 = 1
+		}
+		
 		categories = {
 			support_tech
 			recon_tech
@@ -931,6 +955,13 @@ technologies = {
 		
 		enable_subunits = {
 			recon
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
 		}
 	}
 	
@@ -945,6 +976,12 @@ technologies = {
 			position = { x = -7 y = 8 }
 		}
 		
+		dependencies = {
+			r56_tech_infantry_recon_01 = 1
+			r56_tech_infantry_guns_02 = 1
+			r56_tech_infantry_experiments_02 = 1
+		}
+		
 		categories = {
 			support_tech
 			recon_tech
@@ -956,6 +993,13 @@ technologies = {
 		
 		recon = {
 			recon = 2
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
 		}
 	}
 	
@@ -970,6 +1014,12 @@ technologies = {
 			position = { x = -7 y = 12 }
 		}
 		
+		dependencies = {
+			r56_tech_infantry_recon_02 = 1
+			r56_tech_infantry_guns_03 = 1
+			r56_tech_infantry_experiments_03 = 1
+		}
+		
 		categories = {
 			support_tech
 			recon_tech
@@ -981,6 +1031,13 @@ technologies = {
 		
 		recon = {
 			recon = 2
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
 		}
 	}
 	
@@ -995,6 +1052,12 @@ technologies = {
 			position = { x = -7 y = 16 }
 		}
 		
+		dependencies = {
+			r56_tech_infantry_recon_03 = 1
+			r56_tech_infantry_guns_04 = 1
+			r56_tech_infantry_experiments_04 = 1
+		}
+		
 		categories = {
 			support_tech
 			recon_tech
@@ -1006,6 +1069,13 @@ technologies = {
 		
 		recon = {
 			recon = 2
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
 		}
 	}
 	
@@ -1020,6 +1090,12 @@ technologies = {
 			position = { x = -7 y = 20 }
 		}
 		
+		dependencies = {
+			r56_tech_infantry_recon_04 = 1
+			r56_tech_infantry_guns_05 = 1
+			r56_tech_infantry_experiments_05 = 1
+		}
+		
 		categories = {
 			support_tech
 			recon_tech
@@ -1031,6 +1107,13 @@ technologies = {
 		
 		recon = {
 			recon = 2
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
 		}
 	}
 	
@@ -1045,6 +1128,12 @@ technologies = {
 			position = { x = -7 y = 24 }
 		}
 		
+		dependencies = {
+			r56_tech_infantry_recon_05 = 1
+			r56_tech_infantry_guns_06 = 1
+			r56_tech_infantry_experiments_06 = 1
+		}
+		
 		categories = {
 			support_tech
 			recon_tech
@@ -1056,6 +1145,13 @@ technologies = {
 		
 		recon = {
 			recon = 2
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
 		}
 	}
 	
@@ -1070,6 +1166,12 @@ technologies = {
 			position = { x = -7 y = 28 }
 		}
 		
+		dependencies = {
+			r56_tech_infantry_recon_06 = 1
+			r56_tech_infantry_guns_07 = 1
+			r56_tech_infantry_experiments_07 = 1
+		}
+		
 		categories = {
 			support_tech
 			recon_tech
@@ -1081,6 +1183,13 @@ technologies = {
 		
 		recon = {
 			recon = 2
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_techpoints_type = 1 }
+				r56_se_techpoints_sort = yes
+			}
 		}
 	}
 	
@@ -1170,6 +1279,10 @@ technologies = {
 			position = { x = -9 y = 6 }
 		}
 		
+		dependencies = {
+			r56_tech_infantry_guns_01 = 1
+		}
+		
 		path = {
 			leads_to_tech = r56_tech_infantry_guns_02
 			research_cost_coeff = 1
@@ -1246,6 +1359,10 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = -9 y = 10 }
+		}
+		
+		dependencies = {
+			r56_tech_infantry_guns_02 = 1
 		}
 		
 		path = {
@@ -1326,6 +1443,10 @@ technologies = {
 			position = { x = -9 y = 14 }
 		}
 		
+		dependencies = {
+			r56_tech_infantry_guns_03 = 1
+		}
+		
 		path = {
 			leads_to_tech = r56_tech_infantry_guns_04
 			research_cost_coeff = 1
@@ -1402,6 +1523,10 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = -9 y = 18 }
+		}
+		
+		dependencies = {
+			r56_tech_infantry_guns_04 = 1
 		}
 		
 		path = {
@@ -1482,6 +1607,10 @@ technologies = {
 			position = { x = -9 y = 22 }
 		}
 		
+		dependencies = {
+			r56_tech_infantry_guns_05 = 1
+		}
+		
 		path = {
 			leads_to_tech = r56_tech_infantry_guns_06
 			research_cost_coeff = 1
@@ -1560,6 +1689,10 @@ technologies = {
 			position = { x = -9 y = 26 }
 		}
 		
+		dependencies = {
+			r56_tech_infantry_guns_06 = 1
+		}
+		
 		path = {
 			leads_to_tech = r56_tech_infantry_guns_07
 			research_cost_coeff = 1
@@ -1586,7 +1719,7 @@ technologies = {
 		}	
 
 		path = {
-			leads_to_tech = r56_tech_infantry_nightvision_05
+			leads_to_tech = r56_tech_infantry_nightvision_03
 			research_cost_coeff = 1
 		}	
 
@@ -1638,6 +1771,10 @@ technologies = {
 			position = { x = -9 y = 30 }
 		}
 		
+		dependencies = {
+			r56_tech_infantry_guns_07 = 1
+		}
+		
 		path = {
 			leads_to_tech = r56_tech_infantry_guns_08
 			research_cost_coeff = 1
@@ -1650,11 +1787,6 @@ technologies = {
 		
 		path = {
 			leads_to_tech = r56_tech_infantry_antitank_07
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = r56_tech_infantry_nightvision_04
 			research_cost_coeff = 1
 		}		
 		
@@ -1753,7 +1885,11 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = -4 y = 10 }
-		}	
+		}
+
+		dependencies = {
+			r56_tech_infantry_supportwp_01 = 1
+		}		
 		
 		categories = {
 			infantry_weapons
@@ -1807,6 +1943,10 @@ technologies = {
 			position = { x = -4 y = 14 }
 		}	
 		
+		dependencies = {
+			r56_tech_infantry_supportwp_02 = 1
+		}
+		
 		categories = {
 			infantry_weapons
 		}
@@ -1857,7 +1997,11 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = -4 y = 18 }
-		}	
+		}
+
+		dependencies = {
+			r56_tech_infantry_supportwp_03 = 1
+		}		
 		
 		categories = {
 			infantry_weapons
@@ -1911,6 +2055,10 @@ technologies = {
 			position = { x = -4 y = 22 }
 		}	
 		
+		dependencies = {
+			r56_tech_infantry_supportwp_04 = 1
+		}
+		
 		categories = {
 			infantry_weapons
 		}
@@ -1961,7 +2109,11 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = -4 y = 26 }
-		}	
+		}
+
+		dependencies = {
+			r56_tech_infantry_supportwp_05 = 1
+		}		
 		
 		categories = {
 			infantry_weapons
@@ -2014,6 +2166,10 @@ technologies = {
 			name = infantry_folder
 			position = { x = -4 y = 30 }
 		}	
+		
+		dependencies = {
+			r56_tech_infantry_supportwp_06 = 1
+		}
 		
 		categories = {
 			infantry_weapons
@@ -2099,6 +2255,10 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = -5 y = 12 }
+		}	
+
+		dependencies = {
+			r56_tech_infantry_antitank_01 = 1
 		}		
 		
 		categories = {
@@ -2133,6 +2293,10 @@ technologies = {
 			position = { x = -5 y = 16 }
 		}	
 		
+		dependencies = {
+			r56_tech_infantry_antitank_02 = 1
+		}
+		
 		categories = {
 			infantry_weapons
 		}
@@ -2164,6 +2328,10 @@ technologies = {
 			name = infantry_folder
 			position = { x = -5 y = 20 }
 		}	
+		
+		dependencies = {
+			r56_tech_infantry_antitank_03 = 1
+		}
 		
 		categories = {
 			infantry_weapons
@@ -2197,6 +2365,10 @@ technologies = {
 			position = { x = -5 y = 24 }
 		}	
 		
+		dependencies = {
+			r56_tech_infantry_antitank_04 = 1
+		}
+		
 		categories = {
 			infantry_weapons
 		}
@@ -2228,6 +2400,10 @@ technologies = {
 			name = infantry_folder
 			position = { x = -5 y = 28 }
 		}	
+		
+		dependencies = {
+			r56_tech_infantry_antitank_05 = 1
+		}
 		
 		categories = {
 			infantry_weapons
@@ -2295,7 +2471,11 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = -6 y = 22 }
-		}	
+		}
+
+		dependencies = {
+			r56_tech_infantry_nightvision_01 = 1
+		}		
 		
 		categories = {
 			infantry_weapons
@@ -2330,6 +2510,10 @@ technologies = {
 			name = infantry_folder
 			position = { x = -6 y = 30 }
 		}	
+		
+		dependencies = {
+			r56_tech_infantry_nightvision_02 = 1
+		}
 		
 		categories = {
 			infantry_weapons
