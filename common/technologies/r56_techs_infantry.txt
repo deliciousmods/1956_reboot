@@ -4410,6 +4410,8 @@ technologies = {
 		}
 	}
 	
+#####-----> End <><> <><> <><> <><> <><>
+	
 ###------> Old Stuff to Prevent Crashes and errors - remove later <><> <><> <><> <><> <><>
 
 	infantry_weapons = {
@@ -7593,5 +7595,6 @@ jaegers = {
 	}
 }
 
-
 #####-----> End of File <><> <><> <><> <><> <><>
+	
+###------> Old Stuff to Prevent Crashes and errors - remove later <><> <><> <><> <><> <><>

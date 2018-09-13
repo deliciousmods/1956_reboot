@@ -20,6 +20,9 @@ country_event = {
 		
 		set_variable = { r56_var_techpoints_infantry = 0 }
 		set_variable = { r56_var_techpoints_infantry_set = 0 }
+		
+		set_variable = { r56_var_techpoints_support = 0 }
+		set_variable = { r56_var_techpoints_support_set = 0 }
 	}
 }
 

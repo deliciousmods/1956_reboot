@@ -102,14 +102,19 @@ guiTypes = {
 			containerWindowType = {
 				name = "r56_grid_background"
 				
-				size = {
-					width = 1900
-					height = 2375
-				}
-
 				position = {
 					x = 0
 					y = 0
+				}
+				
+				size = {
+					width = 1900
+					height = 2375
+					
+					min = { 
+						width = 100%% 
+						height = 100%% 
+					}
 				}
 				
 				background = {
@@ -1436,6 +1441,8 @@ guiTypes = {
 					width = 70
 					height = 70
 				}
+				
+				format = "UP"
 			}
 
 			iconType = {
@@ -1454,184 +1461,633 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "support_folder"
-			position = { x=0 y=47 }
-			size = { width = 100%% height = 100%% }
-			margin = { top = 13 left = 13 bottom = 24 right = 25}
+			
+			position = { 
+				x = 3 
+				y = 47 
+			}
+			
+			size = { 
+				width = 100%% 
+				height = 100%% 
+			}
+			
+			margin = { 
+				top = 7 
+				left = 6 
+				bottom = 7 
+				right = 0
+			}
+			
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
 
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border"
+				quadTextureSprite ="GFX_tiled_decisions_bg_small"
 			}
 
 			containerWindowType = {
-				name = "techtree_stripes"
-				position = { x= 0 y= 0 }
+				name = "r56_grid_background"
+				
+				position = { 
+					x= 0 
+					y= 0 
+				}
+				
 				size = {
-					width = 2800 height = 1000
-					min = { width = 100%% height = 100%% }
+					width = 1900 
+					height = 1000
+					
+					min = { 
+						width = 100%% 
+						height = 100%% 
+					}
 				}
-				clipping = no
 
 				background = {
 					name = "Background"
-					quadTextureSprite ="GFX_techtree_stripes"
+					quadTextureSprite ="r56_GFX_tiled_blueprint_06"
 				}
-
-				iconType = {
-					name ="infantry_techtree_bg"
-					spriteType = "GFX_support_techtree_bg"
-					position = { x=0 y=0 }
-					allwaystransparent = yes
-				}
-
-				instantTextBoxType = {
-					name = "support_year2"
-					position = { x = 90 y = 50 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1918"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "support_year3"
-					position = { x = 243 y = 50 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1936"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "support_year6"
-					position = { x = 523 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1939"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "support_year9"
-					position = { x = 943 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1942"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "support_year12"
-					position = { x = 1363 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1945"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				###------> Support Date Top  <><> <><> <><> <><> <><>
-
-				instantTextBoxType = {
-					name = "support_year13"
-					position = { x = 1783 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1948"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "support_year14"
-					position = { x = 2203 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1951"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "support_year15"
-					position = { x = 2623 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1954"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-			###------> X  <><> <><> <><> <><> <><>
-
-			}
-
-			containerWindowType = {
-				name = "tiled_research_bg"
-				position = { x=150 y=640 }
-				size = { width = 2600 height = 430 }
+				
 				clipping = no
+			}
+			
+#-> Date Text - Left Side <><>
+				containerWindowType = {
+					name = "r56_textbox_left"
+					
+					position = {
+						x = 20
+						y = 55
+					}
 
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_research_bg"
+					size = {
+						width = 200
+						height = 2100
+					}
+			
+					containerWindowType = {
+						name = "r56_textbox_left_01"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 41
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_support_year_01"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1918"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_02"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 191
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_support_year_02"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1935"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_03"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 331
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_support_year_03"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1937"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_04"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 471
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_support_year_04"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1938"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_05"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 611
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_support_year_05"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1940"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_06"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 751
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_support_year_06"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1941"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_07"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 891
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_support_year_07"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1943"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_08"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 1031
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_support_year_08"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1944"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_09"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 1171
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_support_year_09"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1946"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_10"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 1311
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_support_year_10"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1947"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_11"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 1451
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_support_year_11"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1949"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_12"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 1591
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_support_year_12"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1950"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_13"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 1731
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_support_year_13"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1952"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_14"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 1871
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_support_year_14"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1953"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_15"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 2011
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_support_year_15"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1955"
+							format = left
+						}
+					}
+					
+					containerWindowType = {
+						name = "r56_textbox_left_16"
+
+						clipping = no
+
+						position = {
+							x = 0
+							y = 2151
+						}
+
+						size = {
+							width = 101
+							height = 55
+						}
+
+						background = {
+							name = "Background"
+							quadTextureSprite ="r56_GFX_mini_tooltip"
+						}
+						
+						instantTextBoxType = {
+							name = "r56_datetext_left_support_year_16"
+
+							position = {
+								x = 19
+								y = 9
+							}
+
+							font = "hoi_36header"
+							text = "1956"
+							format = left
+						}
+					}
 				}
-			}
 
-			containerWindowType = {
-				name = "tiled_research_bg_2"
-				position = { x=160 y=920 }
-				size = { width = 2580 height = 140 }
-				clipping = no
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_research_bg"
+#-> Support Tech Root Placement <><>
+			gridboxtype = {
+				name = "r56_tech_support_motorized_root_tree"
+				
+				position = { 
+					x = 300 
+					y = 100 
 				}
-			}
-
-			gridboxtype = {
-				name = "tech_support_tree"
-				position = { x = 100 y = 160 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "electronic_mechanical_engineering_tree"
-				position = { x= 100 y=160 }
-				slotsize = { width=70 height= 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "motorised_infantry_tree"
-				position = { x = 100 y = 160 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
+				
+				slotsize = { 
+					width = 70 
+					height = 70 
+				}
+				
+				format = "UP"
 			}
 		}
 

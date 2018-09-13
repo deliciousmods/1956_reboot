@@ -1,6 +1,7 @@
 #####-----> Scripted Techpoint Infantry GUI by Greatexperiment <><> <><> <><> <><> <><>
 #####-----> Guide File - This is intended to be a reference for files of this type <><> <><> <><> <><> <><>
 
+###---> This positions the GUI in the game <><> <><> <><>
 scripted_gui = {
 
 	r56_sg_techpoints_infantry = {
