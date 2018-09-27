@@ -1,0 +1,16 @@
+#####-----> Event GFX by Greatexperiment <><> <><> <><> <><> <><>
+
+spriteTypes = {
+
+###---> Innovation Events <><> <><> <><>
+
+
+#-> A Discovery is Made! <><>
+
+	SpriteType = {
+		name = "GFX_r56_event_small_breakthrough"
+		texturefile = "gfx/event_pictures/r56_event_small_breakthrough.dds"
+	}
+}
+
+#####-----> End File <><> <><> <><> <><> <><>

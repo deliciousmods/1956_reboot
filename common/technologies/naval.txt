@@ -87,24 +87,6 @@ technologies = {
 		}
 		on_research_complete = { #DNM - basic_destroyer
 			hidden_effect = {
-				country_event = {id = shipvariants.2}
-				country_event = {id = shipvariants.3}
-				country_event = {id = shipvariants.12} #AST J/K/N
-				country_event = {id = shipvariants.13} #AST J/K/N
-				country_event = {id = shipvariants.14 days = 270 random = 30} #AST Tribal
-				country_event = {id = shipvariants.15 days = 270 random = 30} #AST Tribal
-				country_event = {id = shipvariants.44} #CAN Gatineau
-				country_event = {id = shipvariants.45 days = 180 random = 15} #CAN Ottawa
-				country_event = {id = shipvariants.46 days = 270 random = 15} #CAN Iroquois
-				country_event = {id = shipvariants.54} #NZL/SAF/RAJ E/F class
-				country_event = {id = shipvariants.95} #This really is #95 - BRA Marcilio Dias
-				country_event = {id = shipvariants.96 days = 1157 random = 30} #BRA Acre
-				country_event = {id = shipvarb.37} #GRE Vasilefs Georgios
-				country_event = {id = shipvarb.40} #HOL Tjerk Hiddes
-				country_event = {id = shipvarb.53} #ITA Soldati
-				country_event = {id = shipvarb.92} #NOR Ålesund
-				country_event = {id = shipvard.14} #SPR Álava
-				country_event = {id = shipvard.20 days = 180 random = 30} #YUG Beograd
 			}
 		}
 	}
@@ -156,28 +138,6 @@ technologies = {
 		
 		on_research_complete = { #DNM - improved_destroyer
 			hidden_effect = {
-				country_event = {id = shipvariants.16} #AST Q/R
-				country_event = {id = shipvariants.17} #AST Q/R
-				country_event = {id = shipvariants.47} #CAN Algonquin
-				country_event = {id = shipvariants.55} #NZL/SAF/RAJ L/M Class
-				country_event = {id = shipvariants.68} #ENG L/M Class
-				country_event = {id = shipvariants.69 days = 306 random = 5} #ENG O Class
-				country_event = {id = shipvariants.70 days = 337 random = 5} #ENG P Class
-				country_event = {id = shipvariants.71 days = 519 random = 30} #ENG Q/R Class
-				country_event = {id = shipvariants.72 days = 823 random = 30} #ENG S/T/U/V/W Class
-				country_event = {id = shipvariants.73 days = 1157 random = 30} #ENG Z/Ca Class
-				country_event = {id = shipvarb.25} #GER 1936B Type
-				country_event = {id = shipvarb.26 days = 207 random = 30} #GER 1940 Type
-				country_event = {id = shipvarb.27 days = 572 random = 30} #GER 1936C Type
-				country_event = {id = shipvarb.54} #ITA Commandanti Medaglie D'Oro
-				country_event = {id = shipvarb.75} #JAP Yugumo
-				country_event = {id = shipvarb.74 days = 60 random = 15} #JAP Akizuki
-				country_event = {id = shipvard.8} #SOV Project 30
-				country_event = {id = shipvard.9 days = 1739 random = 60} #SOV Project 30K
-				country_event = {id = shipvard.21} #YUG Split
-				country_event = {id = shipvard.30} #USA Sims
-				country_event = {id = shipvard.31 days = 304 random = 60} #USA Benson
-				country_event = {id = shipvard.32 days = 1553 random = 60} #USA Fletcher
 			}
 		}
 	}
@@ -230,21 +190,6 @@ technologies = {
 		}
 		on_research_complete = { #DNM - advanced_destroyer
 			hidden_effect = {
-				country_event = {id = shipvariants.18} #AST Tobruk
-				country_event = {id = shipvariants.19} #AST Tobruk
-				country_event = {id = shipvariants.48} #CAN Crescent
-				country_event = {id = shipvariants.56} #NZL/SAF/RAJ Battle
-				country_event = {id = shipvariants.74} #ENG Battle
-				country_event = {id = shipvariants.75 days = 151 random = 30} #ENG Ch/Co/Cr Class
-				country_event = {id = shipvariants.76 days = 304 random = 30} #ENG Battle (1943)
-				country_event = {id = shipvariants.77 days = 548 random = 30} #ENG Weapon
-				country_event = {id = shipvariants.78 days = 1035 random = 30} #ENG Daring
-				country_event = {id = shipvarb.28} #GER 1942 Type
-				country_event = {id = shipvarb.29 days = 183 random = 30} #GER 1944 Type
-				country_event = {id = shipvarb.76} #JAP Shimakaze
-				country_event = {id = shipvard.17} #SWE Öland
-				country_event = {id = shipvard.33} #USA Allen M Sumner
-				country_event = {id = shipvard.34 days = 397 random = 30} #USA Gearing
 			}
 		}
 	}
@@ -342,9 +287,6 @@ technologies = {
 		
 		on_research_complete = { #basic_light_cruiser
 			hidden_effect = {
-				country_event = {id = shipvariants.4}
-				country_event = {id = shipvariants.5}
-				country_event = {id = shipvariants.49} #CAN/SAF/RAJ Leander
 			}
 		}
 	}
@@ -426,32 +368,6 @@ technologies = {
 		
 		on_research_complete = { #DNM - improved_light_cruiser
 			hidden_effect = {
-				country_event = {id = shipvariants.20} #AST/SAF/RAJ Edinburgh
-				country_event = {id = shipvariants.21} #AST/SAF/RAJ Edinburgh
-				country_event = {id = shipvariants.50} #CAN Uganda
-				country_event = {id = shipvariants.51 days = 210 random = 30} #CAN Ontario
-				country_event = {id = shipvariants.52} #NZL Gambia
-				country_event = {id = shipvariants.53 days = 400 random = 30} #NZL Black Prince
-				country_event = {id = shipvariants.80} #ENG Edinburgh
-				country_event = {id = shipvariants.81 days = 259 random = 30} #ENG Dido
-				country_event = {id = shipvariants.82 days = 425 random = 30} #ENG Fiji
-				country_event = {id = shipvariants.83 days = 1085 random = 30} #ENG Bellona
-				country_event = {id = shipvariants.84 days = 1422 random = 30} #ENG Uganda
-				country_event = {id = shipvariants.85 days = 1806 random = 30} #ENG Swiftsure
-				country_event = {id = shipvarb.3} #FRA De Grasse
-				country_event = {id = shipvarb.30} #GER M Class
-				country_event = {id = shipvarb.31 days = 1033 random = 30} #GER Spahkreuzer
-				country_event = {id = shipvarb.42} #HOL Eendracht
-				country_event = {id = shipvarb.55} #ITA Capitani Romani
-				country_event = {id = shipvarb.57 days = 270 random = 30} #ITA Ciano
-				country_event = {id = shipvarb.77} #JAP Katori
-				country_event = {id = shipvarb.78 days = 664 random = 30} #JAP Agano
-				country_event = {id = shipvarb.78 days = 905 random = 30} #JAP Oyodo
-				country_event = {id = shipvard.10} #SOV Chapayev
-				country_event = {id = shipvard.18} #SWE Tre Kronor
-				country_event = {id = shipvard.36} #USA Cleveland
-				country_event = {id = shipvard.37 days = 45 random = 15} #USA Atlanta
-				country_event = {id = shipvard.38 days = 853 random = 60} #USA Fargo
 			}
 		}
 	}
@@ -516,9 +432,6 @@ technologies = {
 		
 		on_research_complete = { #DNM - advanced_light_cruiser
 			hidden_effect = {
-				country_event = {id = shipvariants.22} #ENG/CAN/NZL/AST/SAF/RAJ Neptune
-				country_event = {id = shipvariants.23} #ENG/CAN/NZL/AST/SAF/RAJ Neptune
-				country_event = {id = shipvard.39} #USA Worcester
 			}
 		}
 	}
@@ -556,7 +469,6 @@ technologies = {
 		
 		on_research_complete = { #DNM - early_heavy_cruiser
 			hidden_effect = {
-				country_event = {id = shipvard.11 days = 354 random = 30} #SOV Project 26-bis Maxim Gorkiy
 			}
 		}
 	}
@@ -610,8 +522,6 @@ technologies = {
 		
 		on_research_complete = { #DNM - basic_heavy_cruiser
 			hidden_effect = {
-				country_event = {id = shipvariants.24} #CAN/NZL/AST/SAF/RAJ Surrey
-				country_event = {id = shipvariants.25} #CAN/NZL/AST/SAF/RAJ Surrey
 			}
 		}
 	}
@@ -664,11 +574,6 @@ technologies = {
 		}
 		on_research_complete = { #DNM - improved_heavy_cruiser
 			hidden_effect = {
-				country_event = {id = shipvariants.26} #ENG/CAN/NZL/AST/SAF/RAJ Admiral
-				country_event = {id = shipvariants.27} #ENG/CAN/NZL/AST/SAF/RAJ Admiral
-				country_event = {id = shipvarb.4} #FRA St Louis
-				country_event = {id = shipvard.40} #USA Baltimore
-				country_event = {id = shipvard.41 days = 1015 random = 60} #USA Oregon City
 			}
 		}
 	}
@@ -729,7 +634,6 @@ technologies = {
 		}
 		on_research_complete = { #DNM - advanced_heavy_cruiser
 			hidden_effect = {
-				country_event = {id = shipvard.42} #USA Des Moines
 			}
 		}
 	}
@@ -766,9 +670,6 @@ technologies = {
 		}
 		on_research_complete = { #DNM - early_battlecruiser
 			hidden_effect = {
-				country_event = {id = shipvariants.28} #ENG/CAN/NZL/AST/SAF/RAJ G3
-				country_event = {id = shipvariants.29} #ENG/CAN/NZL/AST/SAF/RAJ G3
-				country_event = {id = shipvarb.43} #HOL Design 1047
 			}
 		}
 	}
@@ -820,10 +721,6 @@ technologies = {
 		}
 		on_research_complete = { #DNM - basic_battlecruiser
 			hidden_effect = {
-				country_event = {id = shipvarb.33} #GER O Class
-				country_event = {id = shipvarb.81} #JAP Design B-65
-				country_event = {id = shipvard.12} #SOV Project 69 Kronshtadt
-				country_event = {id = shipvard.43} #USA Alaska
 			}
 		}
 	}
@@ -860,8 +757,6 @@ technologies = {
 		}
 		on_research_complete = { #DNM - early_battleship
 			hidden_effect = {
-				country_event = {id = shipvariants.30} #CAN/NZL/AST/SAF/RAJ Nelson
-				country_event = {id = shipvariants.31} #CAN/NZL/AST/SAF/RAJ Nelson
 			}
 		}
 	}
@@ -913,13 +808,6 @@ technologies = {
 		}
 		on_research_complete = { #DNM - basic_battleship
 			hidden_effect = {
-				country_event = {id = shipvariants.32} #CAN/NZL/AST/SAF/RAJ King George V
-				country_event = {id = shipvariants.33} #CAN/NZL/AST/SAF/RAJ King George V
-				country_event = {id = shipvariants.86} #ENG King George V
-				country_event = {id = shipvarb.34} #GER Bismarck
-				country_event = {id = shipvarb.82} #JAP Yamato
-				country_event = {id = shipvard.13} #SOV Project 23 Sovetsky Soyuz
-				country_event = {id = shipvard.44} #USA North Carolina
 			}
 		}
 	}
@@ -971,16 +859,6 @@ technologies = {
 		
 		on_research_complete = { #DNM - improved_battleship
 			hidden_effect = {
-				country_event = {id = shipvariants.34} #CAN/NZL/AST/SAF/RAJ Lion
-				country_event = {id = shipvariants.35} #CAN/NZL/AST/SAF/RAJ Lion
-				country_event = {id = shipvariants.87} #ENG Lion
-				country_event = {id = shipvariants.88 days = 800 random = 60} #ENG Improved Lion
-				country_event = {id = shipvariants.89 days = 500 random = 30} #ENG Vanguard
-				country_event = {id = shipvarb.35} #GER H Class
-				country_event = {id = shipvarb.83} #JAP Design A-150
-				country_event = {id = shipvard.45} #USA South Dakota
-				country_event = {id = shipvard.46 days = 358 random = 30} #USA Iowa
-				country_event = {id = shipvard.47 days = 892 random = 60} #USA Montana
 			}
 		}
 	}
@@ -1363,11 +1241,6 @@ technologies = {
 		}
 		on_research_complete = { #DNM - basic_carrier
 			hidden_effect = {
-				country_event = {id = shipvariants.36} #CAN/NZL/AST/SAF/RAJ Ark Royal
-				country_event = {id = shipvariants.37} #CAN/NZL/AST/SAF/RAJ Ark Royal
-				country_event = {id = shipvarb.5} #FRA Joffre
-				country_event = {id = shipvarb.36} #GER Graf Zeppelin
-				country_event = {id = shipvarb.56} #ITA Aquila
 			}
 		}
 	}
@@ -1422,16 +1295,6 @@ technologies = {
 		}
 		on_research_complete = { #DNM - improved_carrier
 			hidden_effect = {
-				country_event = {id = shipvariants.38} #CAN/NZL/AST/SAF/RAJ Implacable
-				country_event = {id = shipvariants.39} #CAN/NZL/AST/SAF/RAJ Implacable
-				country_event = {id = shipvariants.92} #ENG Implacable
-				country_event = {id = shipvariants.93 days = 1341 random = 60} #ENG Eagle
-				country_event = {id = shipvarb.85} #JAP Shokaku
-				country_event = {id = shipvarb.86 days = 463 random = 30} #JAP Junyo
-				country_event = {id = shipvarb.87 days = 874 random = 30} #JAP Shinano
-				country_event = {id = shipvarb.88 days = 1306 random = 30} #JAP Taiho
-				country_event = {id = shipvarb.89 days = 1693 random = 30} #JAP Unryu
-				country_event = {id = shipvard.49} #USA Essex
 			}
 		}
 	}
@@ -1503,9 +1366,6 @@ technologies = {
 		}
 		on_research_complete = { #DNM - advanced_carrier
 			hidden_effect = {
-				country_event = {id = shipvariants.40} #ENG/CAN/NZL/AST/SAF/RAJ Malta
-				country_event = {id = shipvariants.41} #ENG/CAN/NZL/AST/SAF/RAJ Malta
-				country_event = {id = shipvard.50} #USA Midway
 			}
 		}
 	}
@@ -1593,16 +1453,6 @@ technologies = {
 		}
 		on_research_complete = { #basic_submarine
 			hidden_effect = {
-				country_event = {id = shipvariants.6}
-				country_event = {id = shipvariants.7}
-				country_event = {id = shipvariants.94} #BRA Tupi
-				country_event = {id = shipvariants.97} #DEN Havmanden
-				country_event = {id = shipvarb.95} #POL Orzeł
-				country_event = {id = shipvarb.96 days = 900 random = 30} #POL Orzeł (modified)
-				country_event = {id = shipvarb.97} #ROM Requinul
-				country_event = {id = shipvarb.98 days = 180 random = 30} #ROM Marsuinul
-				country_event = {id = shipvarb.99} #SIA Vilun
-				country_event = {id = shipvard.19} #TUR Saldiray
 			}
 		}
 	}
@@ -1659,50 +1509,6 @@ technologies = {
 		}
 		on_research_complete = { #improved_submarine
 			hidden_effect = {
-				country_event = {id = shipvariants.8}
-				country_event = {id = shipvariants.9}
-				country_event = {id = shipvariants.59} #ENG U Class
-				country_event = {id = shipvariants.60 days = 92 random = 15} #ENG T Class (WEP/1940)
-				country_event = {id = shipvariants.61 days = 244 random = 30} #ENG S Class (WEP/1941)
-				country_event = {id = shipvariants.62 days = 701 random = 30} #ENG T Class (1941/1942)
-				country_event = {id = shipvariants.63 days = 1035 random = 30} #ENG U Class (1941/1942)
-				country_event = {id = shipvariants.64 days = 1188 random = 30} #ENG S Class (1942/1943)
-				country_event = {id = shipvariants.98} #FRA Roland Morillot
-				country_event = {id = shipvarb.11} #GER Type VIIC
-				country_event = {id = shipvarb.12 days = 60 random = 10} #GER Type IID
-				country_event = {id = shipvarb.13 days = 151 random = 30} #GER Type IXC
-				country_event = {id = shipvarb.14 days = 394 random = 30} #GER Type VIID
-				country_event = {id = shipvarb.15 days = 425 random = 30} #GER Type IXD-1
-				country_event = {id = shipvarb.16 days = 519 random = 30} #GER Type IXD-2
-				country_event = {id = shipvarb.17 days = 547 random = 30} #GER Type IXC/40
-				country_event = {id = shipvarb.18 days = 1094 random = 30} #GER Type VIIC/41
-				country_event = {id = shipvarb.19 days = 1336 random = 30} #GER Type VIIC/42
-				country_event = {id = shipvarb.38} #HOL O19 Class
-				country_event = {id = shipvarb.39 days = 487 random = 30} #HOL O21 Class
-				country_event = {id = shipvarb.49} #ITA Marconi
-				country_event = {id = shipvarb.50 days = 212 random = 30} #ITA Cagni
-				country_event = {id = shipvarb.51 days = 608 random = 30} #ITA Acciaio
-				country_event = {id = shipvarb.52 days = 820 random = 30} #ITA Acciaio
-				country_event = {id = shipvarb.59} #JAP A1 Class
-				country_event = {id = shipvarb.60 days = 90 random = 30} #JAP B1 Class
-				country_event = {id = shipvarb.61 days = 882 random = 30} #JAP Kaidai VII
-				country_event = {id = shipvarb.62 days = 1247 random = 30} #JAP Kaisho 
-				country_event = {id = shipvarb.63 days = 1396 random = 30} #JAP Kaichu VI
-				country_event = {id = shipvarb.64 days = 1520 random = 30} #JAP B2 Class
-				country_event = {id = shipvarb.65 days = 1530 random = 30} #JAP C3 Class
-				country_event = {id = shipvarb.66 days = 1642 random = 30} #JAP B3 Class
-				country_event = {id = shipvarb.67 days = 1765 random = 15} #JAP A2 Class
-				country_event = {id = shipvarb.68 days = 1797 random = 15} #JAP C2 Class
-				country_event = {id = shipvarb.69 days = 1857 random = 15} #JAP C2 Class
-				#country_event = {id = shipvarb.90} #NOR Uredd
-				#country_event = {id = shipvarb.91 days = 963 random = 30} #NOR Utsira
-				country_event = {id = shipvard.4} #SOV Series XVI
-				country_event = {id = shipvard.15} #SWE U Class
-				country_event = {id = shipvard.16 days = 731 random = 30} #SWE Neptun Class
-				country_event = {id = shipvard.24} #USA Tambor Class
-				country_event = {id = shipvard.25 days = 273 random = 30} #USA Mackerel Class
-				country_event = {id = shipvard.26 days = 639 random = 30} #USA Gato Class
-				country_event = {id = shipvard.27 days = 1155 random = 60} #USA Balao Class
 			}
 		}
 	}
@@ -1758,16 +1564,6 @@ technologies = {
 		}
 		on_research_complete = { #advanced_submarine
 			hidden_effect = {
-				country_event = {id = shipvariants.10}
-				country_event = {id = shipvariants.11}
-				country_event = {id = shipvariants.65} #ENG A Class
-				country_event = {id = shipvariants.100} #FRA Phénix
-				country_event = {id = shipvarb.20} #GER Type XXI
-				country_event = {id = shipvarb.21 days = 45 random = 15} #GER Type XXIII
-				country_event = {id = shipvarb.70} #JAP Sen-Toku
-				country_event = {id = shipvarb.71 days = 425 random = 30} #JAP Sen-Taka
-				country_event = {id = shipvarb.72 days = 790 random = 30} #JAP Sen-Taka-Sho
-				country_event = {id = shipvard.28} #USA Tench Class
 			}
 		}
 	}

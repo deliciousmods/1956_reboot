@@ -52,6 +52,14 @@ technologies = {
 				date > "1939.1.1"
 			}
 		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 101 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
+			}
+		}
 	}
 	
 	interwar_artillery = {
@@ -99,6 +107,14 @@ technologies = {
 				date > "1939.1.1"
 			}
 		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 108 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
+			}
+		}
 	}
 	
 	artillery1 = {
@@ -141,6 +157,14 @@ technologies = {
 			modifier = {
 				factor = 5
 				date > "1939.1.6"
+			}
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 109 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 			}
 		}
 	}
@@ -195,6 +219,14 @@ technologies = {
 				date > "1942.1.1"
 			}
 		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 110 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
+			}
+		}
 	}
 	
 	artillery3 = {
@@ -235,6 +267,14 @@ technologies = {
 			modifier = {
 				factor = 5
 				date > "1942.1.1"
+			}
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 111 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 			}
 		}
 	}
@@ -279,6 +319,14 @@ technologies = {
 			modifier = {
 				factor = 5
 				date > "1942.1.6"
+			}
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 112 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 			}
 		}
 	}
@@ -329,6 +377,14 @@ technologies = {
 			modifier = {
 				factor = 5
 				date > "1945.1.1"
+			}
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 113 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 			}
 		}
 	}
@@ -389,6 +445,14 @@ technologies = {
 		categories = {
 			rocketry
 		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 114 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
+			}
+		}
 	}
 	
 	rocket_artillery2 = {
@@ -428,6 +492,14 @@ technologies = {
 		
 		categories = {
 			rocketry
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 115 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
+			}
 		}
 	}
 	
@@ -469,6 +541,14 @@ technologies = {
 		categories = {
 			rocketry
 		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 116 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
+			}
+		}
 	}
 	
 ###------> Old Rocket Artillery <><> <><> <><> <><> <><>
@@ -508,6 +588,14 @@ technologies = {
 		
 		categories = {
 			rocketry
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 117 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
+			}
 		}
 	}
 ###------> X <><> <><> <><> <><> <><>
@@ -559,6 +647,14 @@ technologies = {
 		categories = {
 			artillery
 		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 118 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
+			}
+		}
 	}
 	
 	antiair1 = {
@@ -592,6 +688,14 @@ technologies = {
 		categories = {
 			artillery
 		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 119 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
+			}
+		}
 	}
 	
 	antiair2 = {
@@ -620,6 +724,14 @@ technologies = {
 		
 		categories = {
 			artillery
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 120 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
+			}
 		}
 	}
 	
@@ -654,6 +766,14 @@ technologies = {
 		categories = {
 			artillery
 		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 121 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
+			}
+		}
 	}
 	
 	antiair4 = {
@@ -687,6 +807,14 @@ technologies = {
 		categories = {
 			artillery
 		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 122 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
+			}
+		}
 	}
 	
 ###------> Old Anti-Air Artillery <><> <><> <><> <><> <><>
@@ -717,6 +845,14 @@ technologies = {
 		
 		categories = {
 			artillery
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 123 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
+			}
 		}
 	}
 	
@@ -765,6 +901,14 @@ technologies = {
 			artillery
 			cat_anti_tank
 		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 102 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
+			}
+		}
 	}
 	
 	antitank1 = {
@@ -811,6 +955,14 @@ technologies = {
 			artillery
 			cat_anti_tank
 		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 103 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
+			}
+		}
 	}
 	
 	antitank2 = {
@@ -855,6 +1007,14 @@ technologies = {
 		categories = {
 			artillery
 			cat_anti_tank
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 104 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
+			}
 		}
 	}
 	
@@ -907,6 +1067,14 @@ technologies = {
 			artillery
 			cat_anti_tank
 		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 105 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
+			}
+		}
 	}
 	
 	antitank4 = {
@@ -953,6 +1121,14 @@ technologies = {
 			artillery
 			cat_anti_tank
 		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 106 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
+			}
+		}
 	}
 	
 	antitank5 = {
@@ -996,6 +1172,14 @@ technologies = {
 		categories = {
 			artillery
 			cat_anti_tank
+		}
+		
+		on_research_complete = {
+			hidden_effect = {
+				set_variable = { r56_var_research_current = 107 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
+			}
 		}
 	}
 

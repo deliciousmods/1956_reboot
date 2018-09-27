@@ -344,6 +344,14 @@ spriteTypes = {
 		
 		texturefile = "gfx/interface/techtree/r56_infantry_techtree_bg_05.dds"	
 	}
+	
+###---> Icons <><> <><> <><>
+
+#-> Breakthrough / Innovation Icon <><>		
+	spriteType = {
+		name = "GFX_r56_breakthrough_icon"
+		texturefile = "gfx/interface/r56_breakthrough_icon.dds"
+	}
 
 }
 

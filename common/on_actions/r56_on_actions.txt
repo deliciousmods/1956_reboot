@@ -11,6 +11,11 @@ on_actions = {
 					id = r56.techevents.01
 				}
 			}
+			every_country = {
+				country_event = {
+					id = r56_breakthrough.01
+				}
+			}
 		}
 	}
 }

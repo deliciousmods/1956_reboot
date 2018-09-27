@@ -36,7 +36,7 @@ technologies = {
 	
 ###---> Infantry Guns <><> <><> <><>
 
-#-> 1918 Root Infantry Guns <><>
+#-> 1918 Root Infantry Guns : 10000 <><>
 	r56_tech_infantry_guns_root = {
 	
 		start_year = 1918
@@ -76,12 +76,14 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10000 }
+				r56_se_breakthrough_increase = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 
-#-> 1936 Infantry Guns <><>
+#-> 1936 Infantry Guns : 10001 <><>
 	r56_tech_infantry_guns_01 = {
 
 		start_year = 1936
@@ -126,13 +128,16 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10001 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
 
-#-> 1939 Infantry Guns <><>
+#-> 1939 Infantry Guns : 10002 <><>
 	r56_tech_infantry_guns_02 = {
 
 		start_year = 1939
@@ -182,12 +187,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10002 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1942 Infantry Guns <><>
+#-> 1942 Infantry Guns : 10003 <><>
 	r56_tech_infantry_guns_03 = {
 
 		start_year = 1942
@@ -237,12 +245,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10003 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1945 Infantry Guns <><>
+#-> 1945 Infantry Guns : 10004 <><>
 	r56_tech_infantry_guns_04 = {
 
 		start_year = 1945
@@ -292,12 +303,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10004 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1948 Infantry Guns <><>
+#-> 1948 Infantry Guns : 10005 <><>
 	r56_tech_infantry_guns_05 = {
 
 		start_year = 1948
@@ -347,12 +361,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10005 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1951 Infantry Guns <><>
+#-> 1951 Infantry Guns : 10006 <><>
 	r56_tech_infantry_guns_06 = {
 
 		start_year = 1951
@@ -402,12 +419,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10006 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1954 Infantry Guns <><>
+#-> 1954 Infantry Guns : 10007 <><>
 	r56_tech_infantry_guns_07 = {
 
 		start_year = 1954
@@ -457,12 +477,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10007 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1957 Infantry Guns <><>
+#-> 1957 Infantry Guns : 10008 <><>
 	r56_tech_infantry_guns_08 = {
 
 		start_year = 1957
@@ -512,6 +535,9 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10008 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
@@ -519,7 +545,7 @@ technologies = {
 	
 ###---> Precision Gear <><> <><> <><>
 	
-#-> 1938 Infantry Precision Gear <><>
+#-> 1938 Infantry Precision Gear : 10301 <><>
 	r56_tech_infantry_precisiongear_01 = {
 
 		start_year = 1938
@@ -546,12 +572,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10301 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1941 Infantry Precision Gear <><>
+#-> 1941 Infantry Precision Gear : 10302 <><>
 	r56_tech_infantry_precisiongear_02 = {
 
 		start_year = 1941
@@ -582,12 +611,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10302 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1947 Infantry Precision Gear <><>
+#-> 1947 Infantry Precision Gear : 10303 <><>
 	r56_tech_infantry_precisiongear_03 = {
 
 		start_year = 1947
@@ -618,12 +650,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10303 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1953 Infantry Precision Gear <><>
+#-> 1953 Infantry Precision Gear : 10304 <><>
 	r56_tech_infantry_precisiongear_04 = {
 
 		start_year = 1953
@@ -654,6 +689,9 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10304 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
@@ -661,7 +699,7 @@ technologies = {
 	
 ###---> Infantry Military Police Support <><> <><> <><>
 
-#-> 1936 Infantry Police <><>
+#-> 1936 Infantry Police : 10501 <><>
 	r56_tech_infantry_police_01 = {
 	
 		start_year = 1936
@@ -693,12 +731,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10501 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1939 Infantry Police <><>
+#-> 1939 Infantry Police : 10502 <><>
 	r56_tech_infantry_police_02 = {
 	
 		start_year = 1939
@@ -731,12 +772,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10502 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1942 Infantry Police <><>
+#-> 1942 Infantry Police : 10503 <><>
 	r56_tech_infantry_police_03 = {
 	
 		start_year = 1942
@@ -769,12 +813,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10503 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1945 Infantry Police <><>
+#-> 1945 Infantry Police : 10504 <><>
 	r56_tech_infantry_police_04 = {
 	
 		start_year = 1945
@@ -807,12 +854,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10504 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1948 Infantry Police <><>
+#-> 1948 Infantry Police : 10505 <><>
 	r56_tech_infantry_police_05 = {
 	
 		start_year = 1948
@@ -845,12 +895,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10505 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1951 Infantry Police <><>
+#-> 1951 Infantry Police : 10506 <><>
 	r56_tech_infantry_police_06 = {
 	
 		start_year = 1951
@@ -883,12 +936,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10506 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1954 Infantry Police <><>
+#-> 1954 Infantry Police : 10507 <><>
 	r56_tech_infantry_police_07 = {
 	
 		start_year = 1954
@@ -921,6 +977,9 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10507 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
@@ -928,7 +987,7 @@ technologies = {
 	
 ###---> Infantry Recon Support <><> <><> <><>
 
-#-> 1938 Infantry Recon <><>
+#-> 1938 Infantry Recon : 10201 <><>
 	r56_tech_infantry_recon_01 = {
 		
 		start_year = 1938
@@ -960,12 +1019,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10201 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1941 Infantry Recon <><>
+#-> 1941 Infantry Recon : 10202 <><>
 	r56_tech_infantry_recon_02 = {
 		
 		start_year = 1941
@@ -998,12 +1060,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10202 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1944 Infantry Recon <><>
+#-> 1944 Infantry Recon : 10203 <><>
 	r56_tech_infantry_recon_03 = {
 		
 		start_year = 1944
@@ -1036,12 +1101,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10203 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1947 Infantry Recon <><>
+#-> 1947 Infantry Recon : 10204 <><>
 	r56_tech_infantry_recon_04 = {
 		
 		start_year = 1948
@@ -1074,12 +1142,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10204 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1950 Infantry Recon <><>
+#-> 1950 Infantry Recon : 10205 <><>
 	r56_tech_infantry_recon_05 = {
 		
 		start_year = 1950
@@ -1112,12 +1183,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10205 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1953 Infantry Recon <><>
+#-> 1953 Infantry Recon : 10206 <><>
 	r56_tech_infantry_recon_06 = {
 		
 		start_year = 1953
@@ -1150,12 +1224,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10206 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1956 Infantry Recon <><>
+#-> 1956 Infantry Recon : 10207 <><>
 	r56_tech_infantry_recon_07 = {
 		
 		start_year = 1956
@@ -1188,6 +1265,9 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10207 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
@@ -1195,7 +1275,7 @@ technologies = {
 	
 ###---> Infantry Experiments <><> <><> <><>
 	
-#-> 1935 Infantry Experiments <><>
+#-> 1935 Infantry Experiments : 10101 <><>
 	r56_tech_infantry_experiments_01 = {
 
 		start_year = 1935
@@ -1263,12 +1343,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10101 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1938 Infantry Experiments <><>
+#-> 1938 Infantry Experiments : 10102 <><>
 	r56_tech_infantry_experiments_02 = {
 
 		start_year = 1938
@@ -1345,12 +1428,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10102 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1941 Infantry Experiments <><>
+#-> 1941 Infantry Experiments : 10103 <><>
 	r56_tech_infantry_experiments_03 = {
 
 		start_year = 1941
@@ -1427,12 +1513,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10103 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1944 Infantry Experiments <><>
+#-> 1944 Infantry Experiments : 10104 <><>
 	r56_tech_infantry_experiments_04 = {
 
 		start_year = 1944
@@ -1509,12 +1598,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10104 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1947 Infantry Experiments <><>
+#-> 1947 Infantry Experiments : 10105 <><>
 	r56_tech_infantry_experiments_05 = {
 
 		start_year = 1947
@@ -1591,12 +1683,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10105 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1950 Infantry Experiments <><>
+#-> 1950 Infantry Experiments : 10106 <><>
 	r56_tech_infantry_experiments_06 = {
 
 		start_year = 1950
@@ -1673,12 +1768,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10106 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1953 Infantry Experiments <><>
+#-> 1953 Infantry Experiments : 10107 <><>
 	r56_tech_infantry_experiments_07 = {
 
 		start_year = 1953
@@ -1755,12 +1853,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10107 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1956 Infantry Experiments <><>
+#-> 1956 Infantry Experiments : 10108 <><>
 	r56_tech_infantry_experiments_08 = {
 
 		start_year = 1956
@@ -1817,6 +1918,9 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10108 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
@@ -1824,7 +1928,7 @@ technologies = {
 	
 ###---> Infantry Support Weapons <><> <><> <><>
 	
-#-> 1937 Support Weapons <><>
+#-> 1937 Support Weapons : 10401 <><>
 	r56_tech_infantry_supportwp_01 = {
 
 		start_year = 1937
@@ -1871,12 +1975,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10401 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1940 Support Weapons <><>
+#-> 1940 Support Weapons : 10402 <><>
 	r56_tech_infantry_supportwp_02 = {
 
 		start_year = 1940
@@ -1927,12 +2034,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10402 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1943 Support Weapons <><>
+#-> 1943 Support Weapons : 10403 <><>
 	r56_tech_infantry_supportwp_03 = {
 
 		start_year = 1943
@@ -1983,12 +2093,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10403 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1946 Support Weapons <><>
+#-> 1946 Support Weapons : 10404 <><>
 	r56_tech_infantry_supportwp_04 = {
 
 		start_year = 1946
@@ -2039,12 +2152,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10404 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1949 Support Weapons <><>
+#-> 1949 Support Weapons : 10405 <><>
 	r56_tech_infantry_supportwp_05 = {
 
 		start_year = 1949
@@ -2095,12 +2211,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10405 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1952 Support Weapons <><>
+#-> 1952 Support Weapons : 10406 <><>
 	r56_tech_infantry_supportwp_06 = {
 
 		start_year = 1952
@@ -2151,12 +2270,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10406 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1955 Support Weapons <><>
+#-> 1955 Support Weapons : 10407 <><>
 	r56_tech_infantry_supportwp_07 = {
 
 		start_year = 1955
@@ -2207,6 +2329,9 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10407 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
@@ -2214,7 +2339,7 @@ technologies = {
 	
 ###---> Infantry Anti-Tank <><> <><> <><>
 	
-#-> 1940 Anti-Tank <><>
+#-> 1940 Anti-Tank : 10601 <><>
 	r56_tech_infantry_antitank_01 = {
 
 		start_year = 1940
@@ -2241,12 +2366,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10601 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1940 Anti-Tank <><>
+#-> 1940 Anti-Tank : 10602 <><>
 	r56_tech_infantry_antitank_02 = {
 
 		start_year = 1943
@@ -2277,12 +2405,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10602 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1946 Anti-Tank <><>
+#-> 1946 Anti-Tank : 10603 <><>
 	r56_tech_infantry_antitank_03 = {
 
 		start_year = 1946
@@ -2313,12 +2444,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10603 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1949 Anti-Tank <><>
+#-> 1949 Anti-Tank : 10604 <><>
 	r56_tech_infantry_antitank_04 = {
 
 		start_year = 1949
@@ -2349,12 +2483,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10604 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1952 Anti-Tank <><>
+#-> 1952 Anti-Tank : 10605 <><>
 	r56_tech_infantry_antitank_05 = {
 
 		start_year = 1952
@@ -2385,12 +2522,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10605 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1955 Anti-Tank <><>
+#-> 1955 Anti-Tank : 10606 <><>
 	r56_tech_infantry_antitank_06 = {
 
 		start_year = 1955
@@ -2421,6 +2561,9 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10606 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
@@ -2428,7 +2571,7 @@ technologies = {
 	
 ###---> Infantry Nightvision <><> <><> <><>
 
-#-> 1944 Night Vision <><>
+#-> 1944 Night Vision : 10701 <><>
 	r56_tech_infantry_nightvision_01 = {
 
 		start_year = 1944
@@ -2457,12 +2600,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10701 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1950 Night Vision <><>
+#-> 1950 Night Vision : 10702 <><>
 	r56_tech_infantry_nightvision_02 = {
 
 		start_year = 1950
@@ -2495,12 +2641,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10702 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1956 Night Vision <><>
+#-> 1956 Night Vision : 10703 <><>
 	r56_tech_infantry_nightvision_03 = {
 
 		start_year = 1956
@@ -2533,6 +2682,9 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10703 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
@@ -2540,7 +2692,7 @@ technologies = {
 	
 ###---> Infantry Special Forces <><> <><> <><>
 	
-#-> 1936 Special Forces <><>
+#-> 1936 Special Forces : 10801 <><>
 	r56_tech_infantry_specialforces_01 = {
 
 		start_year = 1936
@@ -2583,12 +2735,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10801 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1939 Special Forces <><>
+#-> 1939 Special Forces : 10802 <><>
 	r56_tech_infantry_specialforces_02 = {
 
 		start_year = 1939
@@ -2619,12 +2774,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10802 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1942 Special Forces <><>
+#-> 1942 Special Forces : 10803 <><>
 	r56_tech_infantry_specialforces_03 = {
 
 		start_year = 1942
@@ -2657,12 +2815,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10803 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1945 Special Forces <><>
+#-> 1945 Special Forces : 10804 <><>
 	r56_tech_infantry_specialforces_04 = {
 
 		start_year = 1945
@@ -2693,12 +2854,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10804 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1948 Special Forces <><>
+#-> 1948 Special Forces : 10805 <><>
 	r56_tech_infantry_specialforces_05 = {
 
 		start_year = 1948
@@ -2731,12 +2895,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10805 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1951 Special Forces <><>
+#-> 1951 Special Forces : 10806 <><>
 	r56_tech_infantry_specialforces_06 = {
 
 		start_year = 1951
@@ -2767,12 +2934,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10806 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1954 Special Forces <><>
+#-> 1954 Special Forces : 10807 <><>
 	r56_tech_infantry_specialforces_07 = {
 
 		start_year = 1954
@@ -2805,12 +2975,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10807 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1957 Special Forces <><>
+#-> 1957 Special Forces : 10808 <><>
 	r56_tech_infantry_specialforces_08 = {
 
 		start_year = 1957
@@ -2841,14 +3014,17 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10808 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-###---> Infantry Gear Adaptations <><> <><> <><>
+###---> Infantry Mission Specific Gear <><> <><> <><>
 	
-#-> 1939 Special Forces <><>
+#-> 1939 Mission Specific Gear : 11201 <><>
 	r56_tech_infantry_gearadapt_01 = {
 
 		start_year = 1939
@@ -2896,12 +3072,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11201 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1942 Special Forces <><>
+#-> 1942 Mission Specific Gear : 11202 <><>
 	r56_tech_infantry_gearadapt_02 = {
 
 		start_year = 1942
@@ -2949,12 +3128,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11202 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1945 Special Forces <><>
+#-> 1945 Mission Specific Gear : 11203 <><>
 	r56_tech_infantry_gearadapt_03 = {
 
 		start_year = 1945
@@ -3002,12 +3184,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11203 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1948 Special Forces <><>
+#-> 1948 Mission Specific Gear : 11204 <><>
 	r56_tech_infantry_gearadapt_04 = {
 
 		start_year = 1948
@@ -3055,12 +3240,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11204 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1951 Special Forces <><>
+#-> 1951 Mission Specific Gear : 11205 <><>
 	r56_tech_infantry_gearadapt_05 = {
 
 		start_year = 1951
@@ -3108,12 +3296,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11205 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1954 Special Forces <><>
+#-> 1954 Mission Specific Gear : 11206 <><>
 	r56_tech_infantry_gearadapt_06 = {
 
 		start_year = 1954
@@ -3161,12 +3352,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11206 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1957 Special Forces <><>
+#-> 1957 Mission Specific Gear : 11207 <><>
 	r56_tech_infantry_gearadapt_07 = {
 
 		start_year = 1957
@@ -3214,6 +3408,9 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11207 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
@@ -3221,7 +3418,7 @@ technologies = {
 	
 ###---> Infantry - Marines <><> <><> <><>
 	
-#-> 1938 Marines <><>
+#-> 1938 Marines : 10901 <><>
 	r56_tech_infantry_marines_01 = {
 
 		start_year = 1938
@@ -3269,12 +3466,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10901 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1941 Marines <><>
+#-> 1941 Marines : 10902 <><>
 	r56_tech_infantry_marines_02 = {
 
 		start_year = 1941
@@ -3311,12 +3511,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10902 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1944 Marines <><>
+#-> 1944 Marines : 10903 <><>
 	r56_tech_infantry_marines_03 = {
 
 		start_year = 1944
@@ -3353,12 +3556,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10903 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1947 Marines <><>
+#-> 1947 Marines : 10904 <><>
 	r56_tech_infantry_marines_04 = {
 
 		start_year = 1947
@@ -3395,12 +3601,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10904 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1950 Marines <><>
+#-> 1950 Marines : 10905 <><>
 	r56_tech_infantry_marines_05 = {
 
 		start_year = 1950
@@ -3437,12 +3646,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10905 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1953 Marines <><>
+#-> 1953 Marines : 10906 <><>
 	r56_tech_infantry_marines_06 = {
 
 		start_year = 1953
@@ -3479,12 +3691,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10906 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1956 Marines <><>
+#-> 1956 Marines : 10907 <><>
 	r56_tech_infantry_marines_07 = {
 
 		start_year = 1953
@@ -3521,6 +3736,9 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 10907 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
@@ -3528,7 +3746,7 @@ technologies = {
 	
 ###---> Infantry - Paratroops <><> <><> <><>
 	
-#-> 1938 Paratroops <><>
+#-> 1938 Paratroops : 11001 <><>
 	r56_tech_infantry_paratroops_01 = {
 
 		start_year = 1938
@@ -3576,12 +3794,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11001 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 
-#-> 1941 Paratroops <><>
+#-> 1941 Paratroops : 11002 <><>
 	r56_tech_infantry_paratroops_02 = {
 
 		start_year = 1941
@@ -3618,12 +3839,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11002 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1944 Paratroops <><>
+#-> 1944 Paratroops : 11003 <><>
 	r56_tech_infantry_paratroops_03 = {
 
 		start_year = 1944
@@ -3660,12 +3884,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11003 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1947 Paratroops <><>
+#-> 1947 Paratroops : 11004 <><>
 	r56_tech_infantry_paratroops_04 = {
 
 		start_year = 1947
@@ -3702,12 +3929,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11004 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1950 Paratroops <><>
+#-> 1950 Paratroops : 11005 <><>
 	r56_tech_infantry_paratroops_05 = {
 
 		start_year = 1950
@@ -3744,12 +3974,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11005 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1953 Paratroops <><>
+#-> 1953 Paratroops : 11006 <><>
 	r56_tech_infantry_paratroops_06 = {
 
 		start_year = 1953
@@ -3786,12 +4019,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11006 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1956 Paratroops <><>
+#-> 1956 Paratroops : 11007 <><>
 	r56_tech_infantry_paratroops_07 = {
 
 		start_year = 1956
@@ -3828,6 +4064,9 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11007 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
@@ -3835,7 +4074,7 @@ technologies = {
 	
 ###---> Infantry - Mountaineers <><> <><> <><>
 	
-#-> 1938 Mountaineers <><>
+#-> 1938 Mountaineers : 11101 <><>
 	r56_tech_infantry_mountaineers_01 = {
 
 		start_year = 1938
@@ -3883,12 +4122,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11101 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1941 Mountaineers <><>
+#-> 1941 Mountaineers : 11102 <><>
 	r56_tech_infantry_mountaineers_02 = {
 
 		start_year = 1941
@@ -3925,12 +4167,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11102 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1944 Mountaineers <><>
+#-> 1944 Mountaineers : 11103 <><>
 	r56_tech_infantry_mountaineers_03 = {
 
 		start_year = 1944
@@ -3967,12 +4212,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11103 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1947 Mountaineers <><>
+#-> 1947 Mountaineers : 11104 <><>
 	r56_tech_infantry_mountaineers_04 = {
 
 		start_year = 1947
@@ -4009,12 +4257,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11104 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1950 Mountaineers <><>
+#-> 1950 Mountaineers : 11105 <><>
 	r56_tech_infantry_mountaineers_05 = {
 
 		start_year = 1950
@@ -4051,12 +4302,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11105 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1953 Mountaineers <><>
+#-> 1953 Mountaineers : 11106 <><>
 	r56_tech_infantry_mountaineers_06 = {
 
 		start_year = 1953
@@ -4093,12 +4347,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11106 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1956 Mountaineers <><>
+#-> 1956 Mountaineers : 11107 <><>
 	r56_tech_infantry_mountaineers_07 = {
 
 		start_year = 1956
@@ -4135,6 +4392,9 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11107 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
@@ -4142,7 +4402,7 @@ technologies = {
 	
 ###---> Infantry - Urbantroops <><> <><> <><>
 	
-#-> 1941 Urbantroops <><>
+#-> 1941 Urbantroops : 11301 <><>
 	r56_tech_infantry_urbantroops_01 = {
 
 		start_year = 1941
@@ -4195,12 +4455,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11301 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1944 Urbantroops <><>
+#-> 1944 Urbantroops : 11302 <><>
 	r56_tech_infantry_urbantroops_02 = {
 
 		start_year = 1944
@@ -4237,12 +4500,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11302 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1947 Urbantroops <><>
+#-> 1947 Urbantroops : 11303 <><>
 	r56_tech_infantry_urbantroops_03 = {
 
 		start_year = 1947
@@ -4279,12 +4545,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11303 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1950 Urbantroops <><>
+#-> 1950 Urbantroops : 11304 <><>
 	r56_tech_infantry_urbantroops_04 = {
 
 		start_year = 1950
@@ -4321,12 +4590,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11304 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1953 Urbantroops <><>
+#-> 1953 Urbantroops : 11305 <><>
 	r56_tech_infantry_urbantroops_05 = {
 
 		start_year = 1953
@@ -4363,12 +4635,15 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11305 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
 	}
 	
-#-> 1956 Urbantroops <><>
+#-> 1956 Urbantroops : 11306 <><>
 	r56_tech_infantry_urbantroops_06 = {
 
 		start_year = 1956
@@ -4405,6 +4680,9 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				set_variable = { r56_var_techpoints_type = 1 }
+				set_variable = { r56_var_research_current = 11306 }
+				r56_se_breakthrough_increase = yes
+				r56_se_breakthrough_check = yes
 				r56_se_techpoints_sort = yes
 			}
 		}
